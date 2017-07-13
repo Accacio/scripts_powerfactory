@@ -1,37 +1,37 @@
-function [ R, Nnoeuds, Nbranches ] = Chargement_Reseau_TEST( Scc )
-%   Chargement_Reseau_TEST 
+function [ R, Nnoeuds, Nbranches ] = Chargement_Reseau( Scc )
+%   Chargement_Reseau_TEST
 %       Calculates Grid TEST parameters
-% 
+%
 %   Use:
-% 
-%   [R, Nnoeuds, Nbranches] = Chargement_Reseau_TEST( Scc )
-% 
+%
+%   [R, Nnoeuds, Nbranches] = Chargement_Reseau( Scc )
+%
 %       Where Scc is the Short-Circuit Power.
-% 
+%
 %   R - Structure with elements of the grid:
-% 
+%
 %       topo - Matrix of Topology of Grid
 %           [No of Branch  Initial Node    End Node]
-% 
+%
 %       CaractBranches - Matrix of Branch
 %           [No of Branch   Width   Impedance/km   Admittance/km]
-%           
+%
 %       consoHTA - Matrix of Consummers
 %           [Node of Consummer   Active Power, Reactive Power 0]
-% 
+%
 %       prodHTA - Matrix of Productors
 %           [Generator's node   Active Power    Reactive Power  -Reactive Power  1   0]
-% 
-% 
+%
+%
 %   Nbranches - The number of connections in the grid (cables)
-% 
+%
 %   Nnoeuds - The number of nodes in the grid
-% 
-% 
+%
+%
 Xcc =  (20.4e3)^2 / Scc;
 Lcc = Xcc / (2 * pi * 50);
-%% Topologie d'un départ 
-%Numéro de la branche, noeud amont, noeud aval 
+%% Topologie d'un depart
+%Nombre de la branche, noeud amont, noeud aval
 Topologie = [
     1   0   1;
     2   1   2;
@@ -49,8 +49,8 @@ Topologie = [
     14  13  14];
 
 R.topo = [1 0 1 ; Topologie + 1 ];
-%% Caractéristiques des branches
-%   Numéro du type,     Rl,         Ll,         Gl,             Cl
+%% Caracteristiques des branches
+%   Nombre du type,     Rl,         Ll,         Gl,             Cl
 %                       Resistance, Inductance, Conductance,    Capacitance
 Types_branches = [
     1                   .333        .382e-3     0               .25e-6;     %ARG7H1RX 120 mmq
@@ -60,7 +60,7 @@ Types_branches = [
     5                   .2681       1.286e-3    0               .0090e-6;   %Aerea Cu 70 mmq
     6                   0           Lcc         0               0
     ];
-%numéro de la branche, longueur, type
+%Nombre de la branche, longueur, type
 Branches = [
     1   1       6;
     2   3.600   2;  %ARG7H1RX 185 mmq
@@ -113,10 +113,10 @@ R.consoHTA = [ Conso_HTA(:,1)+1 Conso_HTA(:,2:3) zeros( size( Conso_HTA, 1 ), 1 
 %% Prod HTA
 % Noeud de raccordement, puissance (W), tanphi_max, Q=P*tan cosphi= cos(atan(tanphi_max))
 Prod_HTA = [
-    3   2.06e6  .4;     %DG4 - PV   
+    3   2.06e6  .4;     %DG4 - PV
     5   3.25e6  .4;     %DG5 - TG
     11  4.95e6  .4;     %DG6 - AE
-    ];  
+    ];
 
 % Prod_HTA = [
 %     3       3.2e6     .4;
@@ -133,4 +133,3 @@ Nnoeuds = [ 1 max( max( R.topo( :, 2:3 ) ) )];
 
 
 end
-

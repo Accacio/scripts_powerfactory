@@ -1,19 +1,27 @@
+import sys
 import powerfactory as pf
 
+# Initialize project
 app = pf.GetApplication()
+app.ResetCalculation()
 app.ClearOutputWindow()
 
 ldf = app.GetFromStudyCase('ComLdf')
 
+#   Execute and find for errors
 ierr = ldf.Execute()
 if ierr:
     exit()
 
+#   Initialize buses, lines and loads
 buses = app.GetCalcRelevantObjects('*.ElmTerm')
 lines = app.GetCalcRelevantObjects('*.ElmLne')
 loads = app.GetCalcRelevantObjects('*.ELmLod')
 
+# TODO Initialize loads
+# function to Initialize loads()
 
+# Get name of buses and voltage before change of Reactive Power in Loads
 Ubus_before=[]
 bus_names=[]
 for bus in buses:
@@ -25,13 +33,19 @@ for bus in buses:
 
 
 
+# Uncomment to show name and voltage of buses
+# app.PrintPlain(bus_names)
+# app.PrintPlain(Ubus_before)
 
-#app.PrintPlain(Ubus_before)
-#for i in Ubus_before:
-#    app.PrintPlain(i)
-#app.PrintPlain("Number of loads = " + str(n_loads))
-
-
+#
+# Increases* the reactive power of one load,
+#   measure the voltage of each bus, calculate Gain
+#   and reduces again the reactive power
+# Then repeats to all loads
+#
+#   *Loads are multiplied by 2,
+#       As load C 2-23 MT ill is 0 it is add to it 10
+#
 M_Ubus_after = []
 M_Gain=[]
 for load in loads:
@@ -44,13 +58,14 @@ for load in loads:
         load.qlini=load.qlini*2
         qlini_after=load.qlini*1e6
     if load_name == 'C 2-23 MT ill':
-        load.qlini=load.qlini+2
+        load.qlini=load.qlini+10
         qlini_after = load.qlini * 1e6
     app.PrintPlain(qlini_after)
-    ierr = ldf.Execute();
+    ierr = ldf.Execute()
     if ierr:
         exit()
-    #app.PrintPlain(load.qlini)
+
+    # app.PrintPlain(load.qlini)
 
     Ubus_after = []
     Gain=[]
@@ -82,14 +97,10 @@ for load in loads:
     if load_name != 'C 2-23 MT ill':
         load.qlini = load.qlini / 2
     if load_name == 'C 2-23 MT ill':
-        load.qlini = load.qlini - 2
+        load.qlini = load.qlini - 10
     ierr = ldf.Execute();
     if ierr:
         exit()
-
-
-
-
 
 
 #app.PrintPlain(bus_names)
@@ -101,8 +112,6 @@ for load in loads:
 
 for i in M_Gain:
     app.PrintPlain(i)
-
-
 
 
 #app.PrintPlain('Load' + str(load) + ' ' + str(load.qlini))
