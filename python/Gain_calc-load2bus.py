@@ -7,12 +7,12 @@ app.ResetCalculation()
 app.ClearOutputWindow()
 
 ldf = app.GetFromStudyCase('ComLdf')
-
+app.EchoOff()
 #   Execute and find for errors
 ierr = ldf.Execute()
 if ierr:
     exit()
-
+app.EchoOn()
 #   Initialize buses, lines and loads
 buses = app.GetCalcRelevantObjects('*.ElmTerm')
 lines = app.GetCalcRelevantObjects('*.ElmLne')
@@ -32,7 +32,6 @@ for bus in buses:
         #app.PrintPlain('Voltage on bus ' + str(bus) + ': ' + str(bus_v) + 'kV')
 
 
-
 # Uncomment to show name and voltage of buses
 # app.PrintPlain(bus_names)
 # app.PrintPlain(Ubus_before)
@@ -49,22 +48,23 @@ for bus in buses:
 M_Ubus_after = []
 M_Gain=[]
 for load in loads:
-    app.PrintPlain(load)
+    # app.PrintPlain(load)
     load_name=load.loc_name
-    app.PrintPlain(load.qlini)
+    # app.PrintPlain(load.qlini)
     qlini_before = load.qlini*1e6
-    app.PrintPlain(qlini_before)
+    # app.PrintPlain(qlini_before)
     if load_name != 'C 2-23 MT ill':
         load.qlini=load.qlini*2
         qlini_after=load.qlini*1e6
     if load_name == 'C 2-23 MT ill':
         load.qlini=load.qlini+10
         qlini_after = load.qlini * 1e6
-    app.PrintPlain(qlini_after)
+    # app.PrintPlain(qlini_after)
+    app.EchoOff()
     ierr = ldf.Execute()
     if ierr:
         exit()
-
+    app.EchoOn()
     # app.PrintPlain(load.qlini)
 
     Ubus_after = []
@@ -98,10 +98,11 @@ for load in loads:
         load.qlini = load.qlini / 2
     if load_name == 'C 2-23 MT ill':
         load.qlini = load.qlini - 10
+    app.EchoOff()
     ierr = ldf.Execute();
     if ierr:
         exit()
-
+    app.EchoOn()
 
 #app.PrintPlain(bus_names)
 #app.PrintPlain("Ubus_before")

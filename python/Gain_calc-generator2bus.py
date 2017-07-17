@@ -7,12 +7,12 @@ app.ResetCalculation()
 app.ClearOutputWindow()
 
 ldf = app.GetFromStudyCase('ComLdf')
-
+app.EchoOff()
 #   Execute and find for errors
 ierr = ldf.Execute()
 if ierr:
     exit()
-
+app.EchoOn()
 #   Initialize buses, lines and loads
 buses = app.GetCalcRelevantObjects('*.ElmTerm')
 lines = app.GetCalcRelevantObjects('*.ElmLne')
@@ -36,8 +36,6 @@ for bus in buses:
 # app.PrintPlain(Ubus_before)
 
 
-
-
 # Increases* the reactive power of one generator,
 #   measure the voltage of each bus, calculate Gain
 #   and reduces again the reactive power
@@ -51,10 +49,11 @@ for pv_generator in pv_generators:
     qgini_before=pv_generator.qgini
     qgini_after=pv_generator.qgini*2
     pv_generator.qgini=qgini_after
+    app.EchoOff()
     ierr = ldf.Execute()
     if ierr:
         exit()
-
+    app.EchoOn()
     Ubus_after = []
     Gain=[]
     bus_index=0
@@ -65,10 +64,11 @@ for pv_generator in pv_generators:
         bus_index += 1
     M_Gain=M_Gain+[Gain]
     pv_generator.qgini=qgini_before
+    app.EchoOff()
     ierr = ldf.Execute();
     if ierr:
         exit()
-
+    app.EchoOn()
 app.PrintPlain(pv_generators_busnames)
 for i in pv_generators:
     app.PrintPlain(i)
