@@ -33,7 +33,7 @@ for bus in buses:
     if bus.loc_name in pv_generators_busnames:
         pv_buses=pv_buses+[bus]
         Ubus_before = Ubus_before + [bus.GetAttribute('m:Ul')*1e3]
-# app.PrintPlain(Ubus_before)
+app.PrintPlain(Ubus_before)
 
 
 # Increases* the reactive power of one generator,
@@ -47,7 +47,8 @@ M_Ubus_after = []
 M_Gain=[]
 for pv_generator in pv_generators:
     qgini_before=pv_generator.qgini
-    qgini_after=pv_generator.qgini*2
+    qgini_after=pv_generator.qgini*0.8
+    app.PrintPlain(qgini_before)
     pv_generator.qgini=qgini_after
     app.EchoOff()
     ierr = ldf.Execute()
@@ -60,7 +61,7 @@ for pv_generator in pv_generators:
     for bus in pv_buses:
         Ubus_actual=bus.GetAttribute('m:Ul')*1e3
         Ubus_after = Ubus_after + [Ubus_actual]
-        Gain=Gain+[(Ubus_actual-Ubus_before[bus_index])/(qgini_after-qgini_before)]
+        Gain=Gain+[(Ubus_actual-Ubus_before[bus_index])/(qgini_after-qgini_before)/1e3]
         bus_index += 1
     M_Gain=M_Gain+[Gain]
     pv_generator.qgini=qgini_before

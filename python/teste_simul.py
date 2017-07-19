@@ -83,10 +83,14 @@ oVi.AddVars(load_c, "m:Qsum:bus1")
 viPage.DoAutoScaleX()
 viPage.DoAutoScaleY()
 
+root = tk.Tk()
+root.withdraw()
 file_name_ = filedialog.asksaveasfilename(title='Select a location to save the CSV file',filetypes=[('Semicolon Separated Value file', '*.csv')],defaultextension=".csv")
 comRes = app.GetFromStudyCase("ComRes")
 comRes.pResult = elmRes
 comRes.iopt_exp = 6 # to export as csv
+comRes.ciopt_head = 1
+comRes.iopt_locn = 1
 comRes.f_name = file_name_ # File Name
 comRes.iopt_sep = 0 # to use the system seperator
 comRes.iopt_honly = 0 # to export data and not only the header
