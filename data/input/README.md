@@ -1,4 +1,4 @@
-# data\input
+# data/input
 Data to be loaded in simulations
 ## Folder Tree:
 
@@ -34,7 +34,7 @@ Data to be loaded in simulations
 
 ```
 
-### :file_folder: [csv\generators](data\input\csv\generators) and [excel\generators](data\input\excel\generators)
+### :file_folder: [csv/generators](csv/generators) and [excel/generators](excel/generators)
 ---
 Generators data in table as:
 |Generator Name|Nominal Active Power|Active Power|Reactive Power|
@@ -59,7 +59,7 @@ generators_1pm-Q_-0_2.csv
 **means:**  
 Generators data in 1pm and Initial Q=-0.2.
 
-### :file_folder: [csv\loads](data\input\csv\loads) and [excel\loads](data\input\excel\loads)
+### :file_folder: [csv/loads](csv/loads) and [excel/loads](excel/loads)
 ---
 Loads data in table as:
 |Load Name|Active Power|Reactive Power|
