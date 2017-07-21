@@ -18,6 +18,7 @@ buses = app.GetCalcRelevantObjects('*.ElmTerm')
 lines = app.GetCalcRelevantObjects('*.ElmLne')
 loads = app.GetCalcRelevantObjects('*.ELmLod')
 
+q
 # TODO Initialize loads
 # function to Initialize loads()
 
@@ -91,7 +92,6 @@ for load in loads:
             bus_index += 1
                 # app.PrintPlain('Voltage on bus ' + str(bus) + ': ' + str(bus_v) + 'kV')
 
-
     M_Ubus_after = M_Ubus_after + [Ubus_after]
     M_Gain=M_Gain+[Gain]
     if load_name != 'C 2-23 MT ill':
@@ -113,6 +113,5 @@ for load in loads:
 
 for i in M_Gain:
     app.PrintPlain(i)
-
 
 #app.PrintPlain('Load' + str(load) + ' ' + str(load.qlini))

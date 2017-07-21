@@ -42,6 +42,7 @@ for bus in buses:
         Ubus_before = Ubus_before + [bus.GetAttribute('m:Ul')]
 # app.PrintPlain(Ubus_before)
 
+
 # Increases* the reactive power of one generator,
 #   measure the voltage of each bus, calculate Gain
 #   and reduces again the reactive power
