@@ -63,6 +63,7 @@ and then calculates the gain between the reactive power of the generator and the
 #### load2bus
 Calculate gains between Loads and buses
 - **[gain_calc-load2bus](gain_calc/load2bus/gain_calc-load2bus.py)**:  
+
 Calculates gains between Loads and buses
 
 ### load_data
