@@ -1,4 +1,4 @@
-# data\output
+# data/output
 Output data from scripts
 ## Folder Tree:
 ```
@@ -16,7 +16,7 @@ Output data from scripts
         all_data.mat
 
 ```
-### :file_folder: [csv\gains](data\output\csv\gains)
+### :file_folder: [csv/gains](csv/gains)
 ---
 Gains calculated in [python/gain_calc](python/gain_calc)
 
@@ -52,9 +52,9 @@ Bus Tension over load reactive power in  $^V/_{KVar}$.
 
 -->
 
-### :file_folder: [csv\graphs](data\output\csv\graphs)
+### :file_folder: [csv/graphs](csv/graphs)
 ---
-Data in csv used to create graphs to be ploted, created by scripts in [python\simulation](python\simulation).
-### :file_folder: [matlab](data\output\matlab)
+Data in csv used to create graphs to be ploted, created by scripts in [python/simulation](python/simulation).
+### :file_folder: [matlab](matlab)
 ---
-Data created by scripts in [matlab\conversion](matlab\conversion).
+Data created by scripts in [../matlab/conversion](../matlab/conversion).
