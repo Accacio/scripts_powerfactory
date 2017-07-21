@@ -1,11 +1,11 @@
-Loads;Active Power;Reactive Power
+Load Name;Active Power;Reactive Power
 C 2-19 BT ind;0.1894;0.1265088
 C 2-20 BT agr;0.1147;0.0774413
 C 2-21 BT agr;0.1155 ;0.0782289
 C 2-23 MT ill;0;0
 C 2-24 BT agr;0.1094;0.0741473
 C 2-25 BT ind;0.1450;0.0984401
-C 2-26 MT ter;0.3993;0.2049369 
+C 2-26 MT ter;0.3993;0.2049369
 C 2-27.1 BT res;0.2471;0.1656134
 C 2-27.2 MT agr;0.6083;0.2971269
 C 2-27.3 BT agr;0.2094;0.1407233

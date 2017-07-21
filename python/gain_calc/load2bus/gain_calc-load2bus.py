@@ -13,14 +13,11 @@ ierr = ldf.Execute()
 if ierr:
     exit()
 app.EchoOn()
+
 #   Initialize buses, lines and loads
 buses = app.GetCalcRelevantObjects('*.ElmTerm')
 lines = app.GetCalcRelevantObjects('*.ElmLne')
 loads = app.GetCalcRelevantObjects('*.ELmLod')
-
-q
-# TODO Initialize loads
-# function to Initialize loads()
 
 # Get name of buses and voltage before change of Reactive Power in Loads
 Ubus_before=[]

@@ -1,10 +1,10 @@
 import csv
 import sys
-import math
 import powerfactory as pf
 import tkinter as tk
 from tkinter import filedialog
 
+# Treatment of data to be loaded from csv
 class csv_load():
     def __init__ (self, input):
         self.name = input[0]
@@ -18,6 +18,7 @@ app.ClearOutputWindow()
 
 pv_generators= app.GetCalcRelevantObjects('*.ElmPvsys')
 
+# Open Csv file
 root = tk.Tk()
 root.withdraw()
 file_name_ = filedialog.askopenfilename(title='Select a CSV file with generator data to open',filetypes=[('Semicolon Separated Value file', '*.csv')])
@@ -26,6 +27,9 @@ if not file_name_:
     app.PrintPlain('No file chosen, cancelling...')
     exit()
 
+# Creation of a dictionary where generator name is the key
+#       and content is a list with generator parameters:
+#       [Nominal Active Power, Active Power , Reactive Power]
 csv_data={}
 with open(file_name_, 'r') as csvfile:
     line_file = csv.reader (csvfile, delimiter=";")
@@ -34,6 +38,7 @@ with open(file_name_, 'r') as csvfile:
             data_loaded=csv_load(row)
             csv_data.update({data_loaded.name:(data_loaded.Pn,data_loaded.P,data_loaded.Q)})
 
+# Load of dictionary data into generators in simulator
 for pv_generator in pv_generators:
     if pv_generator.loc_name in csv_data:
         pv_generator.sgn=csv_data[pv_generator.loc_name][0]
