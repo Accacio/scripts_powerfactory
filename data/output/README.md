@@ -57,4 +57,4 @@ Bus Tension over load reactive power in  $^V/_{KVar}$.
 Data in csv used to create graphs to be ploted, created by scripts in [python/simulation](python/simulation).
 ### :file_folder: [matlab](matlab)
 ---
-Data created by scripts in [../matlab/conversion](../matlab/conversion).
+Data created by scripts in [../../matlab/conversion](../../matlab/conversion).
