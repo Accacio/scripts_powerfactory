@@ -1,0 +1,30 @@
+\ifglsentryexists{angelsperarea}{}%
+{%
+\gls@defglossaryentry{angelsperarea}%
+{%
+name={$a$},%
+sort={$a$},%
+type={main},%
+first={$a$},%
+firstplural={$a$s},%
+text={$a$},%
+plural={$a$s},%
+description={The number of angels per unit area},%
+descriptionplural={The number of angels per unit area},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

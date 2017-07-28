@@ -7,12 +7,12 @@ Model {
     NumRootInports	    0
     NumRootOutports	    1
     Outport {
-      Name		      "qgini"
+      Name		      "q"
       BusObject		      ""
       BusOutputAsStruct	      "off"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.4"
+    ComputedModelVersion    "1.7"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -34,7 +34,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [-8.0, -8.0, 1296.0, 1000.0]
+      Location		      [-8.0, 0.0, 1284.0, 1000.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -43,7 +43,7 @@ Model {
 	DockPosition		"Left"
 	Width			[50]
 	Height			[50]
-	Filter			[8]
+	Filter			[9]
       }
       Object {
 	$PropName		"ExplorerBarInfo"
@@ -58,9 +58,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1246.0, 825.0]
-	ZoomFactor		[1.0]
-	Offset			[0.0, 0.0]
+	Extents			[1234.0, 825.0]
+	ZoomFactor		[2.0]
+	Offset			[399.04975124378109, 26.386815920397993]
       }
     }
   }
@@ -70,9 +70,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "nogueira_raf"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Jul 26 17:26:08 2017"
-  RTWModifiedTimeStamp	  422989953
-  ModelVersionFormat	  "1.%<AutoIncrement:4>"
+  LastModifiedDate	  "Thu Jul 27 15:15:08 2017"
+  RTWModifiedTimeStamp	  423065249
+  ModelVersionFormat	  "1.%<AutoIncrement:7>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -116,7 +116,7 @@ Model {
     $ObjectID		    6
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
     model_		    "modeltest"
-    overrideMode_	    [0U]
+    overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
@@ -812,6 +812,41 @@ Model {
       SampleTime	      "-1"
     }
     Block {
+      BlockType		      DiscreteTransferFcn
+      NumeratorSource	      "Dialog"
+      Numerator		      "[1]"
+      DenominatorSource	      "Dialog"
+      Denominator	      "[1 0.5]"
+      InitialStatesSource     "Dialog"
+      InitialStates	      "0"
+      InputProcessing	      "Elements as channels (sample based)"
+      ExternalReset	      "None"
+      InitialDenominatorStates "0"
+      FilterStructure	      "Direct form II"
+      SampleTime	      "-1"
+      a0EqualsOne	      off
+      NumCoefMin	      "[]"
+      NumCoefMax	      "[]"
+      DenCoefMin	      "[]"
+      DenCoefMax	      "[]"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      StateDataTypeStr	      "Inherit: Same as input"
+      MultiplicandDataTypeStr "Inherit: Same as input"
+      NumCoefDataTypeStr      "Inherit: Inherit via internal rule"
+      DenCoefDataTypeStr      "Inherit: Inherit via internal rule"
+      NumProductDataTypeStr   "Inherit: Inherit via internal rule"
+      DenProductDataTypeStr   "Inherit: Inherit via internal rule"
+      NumAccumDataTypeStr     "Inherit: Inherit via internal rule"
+      DenAccumDataTypeStr     "Inherit: Inherit via internal rule"
+      OutDataTypeStr	      "Inherit: Inherit via internal rule"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+      StateMustResolveToSignalObject off
+      RTWStateStorageClass    "Auto"
+    }
+    Block {
       BlockType		      Gain
       Gain		      "1"
       Multiplication	      "Element-wise(K.*u)"
@@ -825,6 +860,24 @@ Model {
       RndMeth		      "Floor"
       SaturateOnIntegerOverflow	on
       SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
     }
     Block {
       BlockType		      Outport
@@ -858,10 +911,42 @@ Model {
       LockScale		      off
       RndMeth		      "Floor"
     }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+    }
   }
   System {
     Name		    "modeltest"
-    Location		    [-8, -8, 1288, 992]
+    Location		    [-8, 0, 1276, 1000]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -873,66 +958,158 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "100"
+    ZoomFactor		    "200"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "7"
+    SIDHighWatermark	    "11"
     Block {
-      BlockType		      DeadZone
-      Name		      "Dead Zone"
-      SID		      "4"
-      Position		      [325, 149, 370, 191]
-      ZOrder		      4
-      LowerValue	      "19250"
-      UpperValue	      "20750"
-    }
-    Block {
-      BlockType		      Gain
-      Name		      "Gain"
-      SID		      "6"
-      Position		      [250, 155, 280, 185]
-      ZOrder		      6
-      Gain		      "-(.4*Pmax)/(250)"
-      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      OutDataTypeStr	      "Inherit: Inherit via internal rule"
-      SaturateOnIntegerOverflow	off
-    }
-    Block {
-      BlockType		      Saturate
-      Name		      "Saturation"
-      SID		      "5"
+      BlockType		      SubSystem
+      Name		      "Control"
+      SID		      "9"
       Ports		      [1, 1]
-      Position		      [415, 150, 455, 190]
-      ZOrder		      5
-      InputPortMap	      "u0"
-      UpperLimit	      "0.4*Pmax"
-      LowerLimit	      "-0.4*Pmax"
+      Position		      [595, 140, 670, 200]
+      ZOrder		      9
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Control"
+	Location		[-8, 0, 1276, 1000]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"298"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "10"
+	  Position		  [185, 38, 215, 52]
+	  ZOrder		  8
+	  NamePlacement		  "alternate"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  DeadZone
+	  Name			  "Dead Zone"
+	  SID			  "4"
+	  Position		  [395, 24, 440, 66]
+	  ZOrder		  4
+	  LowerValue		  "19250"
+	  UpperValue		  "20750"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "6"
+	  Position		  [325, 30, 355, 60]
+	  ZOrder		  6
+	  Gain			  "-(.4*Pmax)/(250)"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation"
+	  SID			  "5"
+	  Ports			  [1, 1]
+	  Position		  [480, 25, 520, 65]
+	  ZOrder		  5
+	  InputPortMap		  "u0"
+	  UpperLimit		  "0.4*Pmax"
+	  LowerLimit		  "-0.4*Pmax"
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation1"
+	  SID			  "7"
+	  Ports			  [1, 1]
+	  Position		  [255, 30, 285, 60]
+	  ZOrder		  7
+	  InputPortMap		  "u0"
+	  UpperLimit		  "21000"
+	  LowerLimit		  "18000"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "11"
+	  Position		  [560, 38, 590, 52]
+	  ZOrder		  9
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  6
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "Dead Zone"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "Saturation"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  5
+	  SrcBlock		  "Dead Zone"
+	  SrcPort		  1
+	  DstBlock		  "Saturation"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  7
+	  SrcBlock		  "Saturation1"
+	  SrcPort		  1
+	  DstBlock		  "Gain"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  9
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Saturation1"
+	  DstPort		  1
+	}
+      }
     }
     Block {
-      BlockType		      Saturate
-      Name		      "Saturation1"
-      SID		      "7"
+      BlockType		      DiscreteTransferFcn
+      Name		      "Discrete\nTransfer Fcn"
+      SID		      "8"
       Ports		      [1, 1]
-      Position		      [170, 155, 200, 185]
-      ZOrder		      7
+      Position		      [605, 262, 665, 298]
+      ZOrder		      8
+      BlockMirror	      on
+      NamePlacement	      "alternate"
       InputPortMap	      "u0"
-      UpperLimit	      "21000"
-      LowerLimit	      "18000"
+      Denominator	      "[1 a]"
     }
     Block {
       BlockType		      Constant
       Name		      "U"
       SID		      "1"
-      Position		      [80, 155, 110, 185]
+      Position		      [800, 265, 830, 295]
       ZOrder		      1
+      BlockMirror	      on
+      NamePlacement	      "alternate"
       ShowName		      off
       FontSize		      12
       Value		      "u"
     }
     Block {
       BlockType		      Outport
-      Name		      "qgini"
+      Name		      "q"
       SID		      "3"
-      Position		      [530, 163, 560, 177]
+      Position		      [800, 163, 830, 177]
       ZOrder		      3
       IconDisplay	      "Port number"
     }
@@ -940,35 +1117,22 @@ Model {
       ZOrder		      1
       SrcBlock		      "U"
       SrcPort		      1
-      DstBlock		      "Saturation1"
+      DstBlock		      "Discrete\nTransfer Fcn"
       DstPort		      1
     }
     Line {
-      ZOrder		      4
-      SrcBlock		      "Saturation"
+      ZOrder		      9
+      SrcBlock		      "Discrete\nTransfer Fcn"
       SrcPort		      1
-      DstBlock		      "qgini"
+      Points		      [-55, 0; 0, -110]
+      DstBlock		      "Control"
       DstPort		      1
     }
     Line {
-      ZOrder		      5
-      SrcBlock		      "Dead Zone"
+      ZOrder		      10
+      SrcBlock		      "Control"
       SrcPort		      1
-      DstBlock		      "Saturation"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      6
-      SrcBlock		      "Gain"
-      SrcPort		      1
-      DstBlock		      "Dead Zone"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      7
-      SrcBlock		      "Saturation1"
-      SrcPort		      1
-      DstBlock		      "Gain"
+      DstBlock		      "q"
       DstPort		      1
     }
   }
