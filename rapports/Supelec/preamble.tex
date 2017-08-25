@@ -35,7 +35,8 @@
 \usepackage[toc,page]{appendix}
 
 \definecolor{darkblue}{rgb}{0,0,0.5}
-\renewcommand{\title}{Etude des régulations en tension des réseaux de distribution}
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\renewcommand{\title}{Étude des régulations en tension des réseaux de distribution}
 \newcommand{\subtitle}{Rapport d'activité de Stage 2A}
 
 \hypersetup{
@@ -45,7 +46,7 @@
     bookmarksopen=true,         
     bookmarksopenlevel=1,       
     colorlinks=true,
-    linkcolor=darkblue,
+    linkcolor=black,
     filecolor=darkblue,  
     urlcolor=darkblue,  
     citecolor=darkblue,              
@@ -57,25 +58,29 @@
 \renewcommand\contentsline[4]{%
     \oldcontentsline{#1}{\smash{\raisebox{1em}{\hypertarget{toc#4}{}}}#2}{#3}{#4}}
 
-\newcommand\mysection[1]{\section[#1]{\protect\hyperlink{tocsection.\thesection}{#1}}}
-\newcommand\mysubsection[1]{\subsection[#1]{\protect\hyperlink{tocsection.\thesection}{#1}}}
-\newcommand\mysubsubsection[1]{\subsubsection[#1]{\protect\hyperlink{tocsection.\thesection}{#1}}}
+\newcommand\mysection[1]{\section[#1]{\protect\hyperlink{tocsection.\thesection}{#1}}\label{#1}}
+\newcommand\mysubsection[1]{\subsection[#1]{\protect\hyperlink{tocsection.\thesection}{#1}}\label{#1}}
+\newcommand\mysubsubsection[1]{\subsubsection[#1]{\protect\hyperlink{tocsection.\thesection}{#1}}\label{#1}}
 
 \newcommand{\conteudo}{\tableofcontents\label{tocsection}}
 
 
 \pagestyle{fancy}
+\newif\ifdebug
+\newcommand\todo[1]{\ifdebug {\color{red}#1}\fi}
+\newcommand\doing[1]{\ifdebug {\color{blue}#1}\fi}
 
 
 \fancyhead[CO]{\title}
 \fancyhead[CE]{\subtitle}
-\fancyhead[R]{}
-\fancyhead[L]{}
+%\fancyhead[RE]{\rightmark}
+\fancyhead[R]{\todo{DEBUG ON}}
+\fancyhead[L]{\todo{DEBUG ON}}
+
+\fancyfoot[R]{\todo{DEBUG ON}}
+\fancyfoot[L]{\todo{DEBUG ON}}
 \fancyfoot[C]{\thepage}
 
 \allowdisplaybreaks
 
-\newif\ifdebug
-\newcommand\todo[1]{\ifdebug {\color{red}#1}\fi}
-\newcommand\doing[1]{\ifdebug {\color{blue}#1}\fi}
 
