@@ -70,7 +70,7 @@ for pv_generator in pv_generators:
     for bus in pv_buses:
         Ubus_actual=bus.GetAttribute('m:Ul')
         Ubus_after = Ubus_after + [Ubus_actual]
-        Gain=Gain+[(Ubus_actual-Ubus_before[bus_index])/(qgini_after-qgini_before)]
+        Gain=Gain+["{0:.1e}".format((Ubus_actual-Ubus_before[bus_index])/(qgini_after-qgini_before))]
         bus_index += 1
     M_Gain=M_Gain+[Gain]
     pv_generator.qgini=qgini_before

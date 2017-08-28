@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  28 AUG 2017 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  28 AUG 2017 16:29
 entering extended mode
-**./rapport_stage.tex
-(rapport_stage.tex
+**./resultats_jusq_20170828.tex
+(resultats_jusq_20170828.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
-(articlewithlogo.cls
-Document Class: articlewithlogo 2016/02/05 v1.0
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
@@ -1196,237 +1196,42 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 56.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 56.
 Package hyperref Info: Option `colorlinks' set `true' on input line 56.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
-Package: glossaries 2017/06/11 v4.30 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks44
-\XKV@tempa@toks=\toks45
-)
-\XKV@depth=\count195
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty"
-Package: mfirstuc 2016/07/31 v2.04 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
-)
-\@glsmfirst=\toks46
-\@glsmrest=\toks47
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\xfor\xfor.sty"
-Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-base.sty"
-Package: datatool-base 2016/07/28 v2.27 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
-Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count197
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
-Package: datatool-fp 2016/07/28 v2.27 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp.sty"
-Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
-Package: defpattern 1994/10/12
-\actioncount=\count198
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
-Package: fp-basic 1996/05/13
-\FP@xs=\count199
-\FP@xia=\count266
-\FP@xib=\count267
-\FP@xfa=\count268
-\FP@xfb=\count269
-\FP@rega=\count270
-\FP@regb=\count271
-\FP@regs=\count272
-\FP@times=\count273
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
-Package: fp-addons 1995/03/15
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-snap.sty"
-Package: fp-snap 1995/04/05
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
-Package: fp-exp 1995/04/03
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
-Package: fp-trigo 1995/04/14
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
-Package: fp-pas 1994/08/29
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
-Package: fp-random 1995/02/23
-\FPseed=\count274
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
-Package: fp-eqn 1995/04/03
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
-Package: fp-upn 1996/10/21
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
-Package: fp-eval 1995/04/03
-)))
-\@dtl@toks=\toks48
-\@dtl@tmpcount=\count275
-\dtl@tmplength=\skip71
-\dtl@sortresult=\count276
-\@dtl@numgrpsepcount=\count277
-\@dtl@datatype=\count278
-\dtl@codeA=\count279
-\dtl@codeB=\count280
-\@dtl@foreach@level=\count281
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
-07.sty"
-Package: glossaries-compatible-307 2017/06/11 v4.30 (NLCT)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty"
-Package: tracklang 2017/03/25 v1.3.4 (NLCT) Track Languages
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\tracklang\tracklang.tex"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\translator.sty"
-Package: translator 2010/06/12 ver 1.10
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\translator\translator-language-m
-appings.tex")
-LaTeX Info: Redefining \translate on input line 118.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries-french\glossaries-french.ldf
-"
-File: glossaries-french.ldf 2016/12/12 v1.1
-)
-\gls@level=\count282
-\@gls@tmpb=\toks49
-\gls@tmplen=\skip72
-\glskeylisttok=\toks50
-\glslabeltok=\toks51
-\glsshorttok=\toks52
-\glslongtok=\toks53
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
-"
-Package: glossary-hypernav 2017/06/11 v4.30 (NLCT)
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
-Package: glossary-list 2017/06/11 v4.30 (NLCT)
-\glslistdottedwidth=\skip73
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
-Package: glossary-long 2017/06/11 v4.30 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip74
-\LTright=\skip75
-\LTpre=\skip76
-\LTpost=\skip77
-\LTchunksize=\count283
-\LTcapwidth=\dimen267
-\LT@head=\box70
-\LT@firsthead=\box71
-\LT@foot=\box72
-\LT@lastfoot=\box73
-\LT@cols=\count284
-\LT@rows=\count285
-\c@LT@tables=\count286
-\c@LT@chunks=\count287
-\LT@p@ftn=\toks54
-)
-\glsdescwidth=\skip78
-\glspagelistwidth=\skip79
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
-Package: glossary-super 2017/06/11 v4.30 (NLCT)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
-Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count288
-\ST@wd=\dimen268
-\ST@rightskip=\skip80
-\ST@leftskip=\skip81
-\ST@parfillskip=\skip82
-\ST@pageleft=\dimen269
-\ST@headht=\dimen270
-\ST@tailht=\dimen271
-\ST@pagesofar=\dimen272
-\ST@pboxht=\dimen273
-\ST@lineht=\dimen274
-\ST@stretchht=\dimen275
-\ST@prevht=\dimen276
-\ST@toadd=\dimen277
-\ST@dimen=\dimen278
-\ST@pbox=\box74
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
-Package: glossary-tree 2017/06/11 v4.30 (NLCT)
-\glstreeindent=\skip83
-))
-\glswrite=\write4
-\glo@main@file=\write5
-\openout5 = `rapport_stage.glo'.
-
-Package glossaries Info: Writing glossary file rapport_stage.glo on input line 
-5.
-\glo@acronym@file=\write6
-\openout6 = `rapport_stage.acn'.
-
-Package glossaries Info: Writing glossary file rapport_stage.acn on input line 
-5.
-
-(glossaires_et_symb.tex)
-\@indexfile=\write7
-\openout7 = `rapport_stage.idx'.
+\@indexfile=\write4
+\openout4 = `resultats_jusq_20170828.idx'.
 
 
-Writing index file rapport_stage.idx
-(rapport_stage.aux)
-\openout1 = `rapport_stage.aux'.
+Writing index file resultats_jusq_20170828.idx
+(resultats_jusq_20170828.aux)
+\openout1 = `resultats_jusq_20170828.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
-\scratchdimen=\dimen279
-\scratchbox=\box75
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count292
-\MPscratchDim=\dimen280
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks56
+\scratchcounter=\count195
+\scratchdimen=\dimen267
+\scratchbox=\box70
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen268
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks45
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1440,20 +1245,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \degres on input line 16.
-LaTeX Info: Redefining \dots on input line 16.
+LaTeX Info: Redefining \degres on input line 13.
+LaTeX Info: Redefining \dots on input line 13.
 Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumerate package,
-(frenchb.ldf)             reported on input line 16.
-LaTeX Info: Redefining \up on input line 16.
+(frenchb.ldf)             reported on input line 13.
+LaTeX Info: Redefining \up on input line 13.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-)
-Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -1491,8 +1290,8 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring ON on input line 16.
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring ON on input line 13.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1500,138 +1299,108 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count267
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
-(rapport_stage.out) (rapport_stage.out)
-\@outlinefile=\write8
-\openout8 = `rapport_stage.out'.
+(resultats_jusq_20170828.out) (resultats_jusq_20170828.out)
+\@outlinefile=\write5
+\openout5 = `resultats_jusq_20170828.out'.
 
- (rapport_stage.glsdefs) (titlepage.tex
-<Figuras/logos/supelec.jpeg, id=66, 277.5168pt x 142.3719pt>
-File: Figuras/logos/supelec.jpeg Graphic file (type jpg)
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 
-<use Figuras/logos/supelec.jpeg>
-Package pdftex.def Info: Figuras/logos/supelec.jpeg used on input line 5.
-(pdftex.def)             Requested size: 170.71652pt x 87.581pt.
-
-<Figuras/logos/logo_IETR_rvb.jpg, id=67, 346.4142pt x 171.5208pt>
-File: Figuras/logos/logo_IETR_rvb.jpg Graphic file (type jpg)
-
-<use Figuras/logos/logo_IETR_rvb.jpg>
-Package pdftex.def Info: Figuras/logos/logo_IETR_rvb.jpg used on input line 23.
-
-(pdftex.def)             Requested size: 170.71652pt x 84.52748pt.
-
-Overfull \hbox (3.98592pt too wide) in paragraph at lines 23--24
- [][] 
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 41--62
 
-\openout4 = `rapport_stage.ist'.
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figuras/logos/supelec.j
-peg> <./Figuras/logos/logo_IETR_rvb.jpg>]
-File: Figuras/logos/supelec.jpeg Graphic file (type jpg)
- <use Figuras/logos/supelec.jpeg>
-Package pdftex.def Info: Figuras/logos/supelec.jpeg used on input line 41.
-(pdftex.def)             Requested size: 170.71652pt x 87.581pt.
-
-Overfull \hbox (45.66539pt too wide) in paragraph at lines 41--42
-[][] 
  []
 
-File: Figuras/logos/logo_IETR_rvb.jpg Graphic file (type jpg)
-<use Figuras/logos/logo_IETR_rvb.jpg>
-Package pdftex.def Info: Figuras/logos/logo_IETR_rvb.jpg used on input line 45.
 
-(pdftex.def)             Requested size: 170.71652pt x 84.52748pt.
-
-Overfull \hbox (45.66539pt too wide) in paragraph at lines 45--46
-[][] 
+Overfull \hbox (60.55548pt too wide) in paragraph at lines 41--62
+[]   [] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 \end{titlepage}
-                     [1]) (rapport_stage.toc)
-\tf@toc=\write9
-\openout9 = `rapport_stage.toc'.
 
- [2] (rapport_stage.acr)
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 12.1638pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+ []
 
-[3] (rapport_stage.gls) [4] (Introduction.tex [5]
-<Figuras/./organigramme_IETR_160717_v28.pdf, id=159, 782.925pt x 542.025pt>
-File: Figuras/./organigramme_IETR_160717_v28.pdf Graphic file (type pdf)
+[1
 
-<use Figuras/./organigramme_IETR_160717_v28.pdf>
-Package pdftex.def Info: Figuras/./organigramme_IETR_160717_v28.pdf used on inp
-ut line 34.
-(pdftex.def)             Requested size: 416.83289pt x 288.57863pt.
-) (Projet.tex)
-(Methodologie.tex) (Resultats.tex) (Conclusion.tex) [6 <./Figuras/./organigramm
-e_IETR_160717_v28.pdf>] [7] [8] (rapport_stage.lot)
-\tf@lot=\write10
-\openout10 = `rapport_stage.lot'.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 73--78
 
- [9] (rapport_stage.lof)
-\tf@lof=\write11
-\openout11 = `rapport_stage.lof'.
+ []
 
 
-[10] (rapport_stage.bbl) [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
- (rapport_stage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-Package rerunfilecheck Info: File `rapport_stage.out' has not changed.
-(rerunfilecheck)             Checksum: E9E74466361EEC1EDEEF0DF34AE97425;910.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+Underfull \hbox (badness 10000) in paragraph at lines 81--89
+
+ []
+
+(resultats_jusq_20170828.bbl)
+! Undefined control sequence.
+\f@nch@ech ->\subtitle 
+                       \strut 
+l.93 \end{document}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (resultats_jusq_20170828.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package rerunfilecheck Info: File `resultats_jusq_20170828.out' has not changed
+.
+(rerunfilecheck)             Checksum: 7A094EA410C710698A0F6E4DF5B24101;374.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  ) 
 Here is how much of TeX's memory you used:
- 28136 strings out of 493323
- 522742 string characters out of 3139045
- 664964 words of memory out of 3000000
- 30994 multiletter control sequences out of 15000+200000
- 19261 words of font info for 52 fonts, out of 3000000 for 9000
+ 21928 strings out of 493323
+ 408234 string characters out of 3139045
+ 519395 words of memory out of 3000000
+ 24994 multiletter control sequences out of 15000+200000
+ 22352 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,77p,1976b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469
-} has been referenced but does not exist, replaced by a fixed one
+ 64i,11n,65p,468b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{tocsection.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469} 
+has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{tocsection.2} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{tocsection.1} has been referenced but does not exis
+t, replaced by a fixed one
 
  <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecti1200.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nogueira_raf\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
-nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx12
+i600\ecti1000.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\ecrm0500.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\nogueira_raf\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\
+nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm10
 00.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecrm1000.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\nogueira_raf\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk>
-Output written on rapport_stage.pdf (12 pages, 684699 bytes).
+\ec\dpi600\ecbx1440.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\nogueira_raf\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
+Output written on resultats_jusq_20170828.pdf (2 pages, 82174 bytes).
 PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

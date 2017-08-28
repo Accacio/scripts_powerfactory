@@ -1,4 +1,5 @@
 import sys
+import decimal
 import powerfactory as pf
 
 # Initialize project
@@ -85,7 +86,8 @@ for load in loads:
             # app.PrintPlain(qlini_after)
             # app.PrintPlain("            ")
             Ubus_after = Ubus_after + [Ubus_actual]
-            Gain=Gain+[(Ubus_actual-Ubus_before[bus_index])/(qlini_after-qlini_before)]
+
+            Gain=Gain+["{0:.1e}".format((Ubus_actual-Ubus_before[bus_index])/(qlini_after-qlini_before))]
             bus_index += 1
                 # app.PrintPlain('Voltage on bus ' + str(bus) + ': ' + str(bus_v) + 'kV')
 

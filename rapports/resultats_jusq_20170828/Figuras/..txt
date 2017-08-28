@@ -1,0 +1,16 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./organigramme_IETR_160717_v28.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:organigramme_IETR_160717_v28}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{./teste.jpg}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:teste}
+	\end{center}
+\end{figure}
+

@@ -12,7 +12,7 @@ Model {
       BusOutputAsStruct	      "off"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.7"
+    ComputedModelVersion    "1.10"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -70,9 +70,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "nogueira_raf"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Jul 27 15:15:08 2017"
-  RTWModifiedTimeStamp	  423065249
-  ModelVersionFormat	  "1.%<AutoIncrement:7>"
+  LastModifiedDate	  "Mon Aug 28 10:55:36 2017"
+  RTWModifiedTimeStamp	  425818534
+  ModelVersionFormat	  "1.%<AutoIncrement:10>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -812,41 +812,6 @@ Model {
       SampleTime	      "-1"
     }
     Block {
-      BlockType		      DiscreteTransferFcn
-      NumeratorSource	      "Dialog"
-      Numerator		      "[1]"
-      DenominatorSource	      "Dialog"
-      Denominator	      "[1 0.5]"
-      InitialStatesSource     "Dialog"
-      InitialStates	      "0"
-      InputProcessing	      "Elements as channels (sample based)"
-      ExternalReset	      "None"
-      InitialDenominatorStates "0"
-      FilterStructure	      "Direct form II"
-      SampleTime	      "-1"
-      a0EqualsOne	      off
-      NumCoefMin	      "[]"
-      NumCoefMax	      "[]"
-      DenCoefMin	      "[]"
-      DenCoefMax	      "[]"
-      OutMin		      "[]"
-      OutMax		      "[]"
-      StateDataTypeStr	      "Inherit: Same as input"
-      MultiplicandDataTypeStr "Inherit: Same as input"
-      NumCoefDataTypeStr      "Inherit: Inherit via internal rule"
-      DenCoefDataTypeStr      "Inherit: Inherit via internal rule"
-      NumProductDataTypeStr   "Inherit: Inherit via internal rule"
-      DenProductDataTypeStr   "Inherit: Inherit via internal rule"
-      NumAccumDataTypeStr     "Inherit: Inherit via internal rule"
-      DenAccumDataTypeStr     "Inherit: Inherit via internal rule"
-      OutDataTypeStr	      "Inherit: Inherit via internal rule"
-      LockScale		      off
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	off
-      StateMustResolveToSignalObject off
-      RTWStateStorageClass    "Auto"
-    }
-    Block {
       BlockType		      Gain
       Gain		      "1"
       Multiplication	      "Element-wise(K.*u)"
@@ -943,6 +908,14 @@ Model {
       ContentPreviewEnabled   off
       IsWebBlock	      off
     }
+    Block {
+      BlockType		      TransferFcn
+      Numerator		      "[1]"
+      Denominator	      "[1 2 1]"
+      AbsoluteTolerance	      "auto"
+      ContinuousStateAttributes	"''"
+      Realization	      "auto"
+    }
   }
   System {
     Name		    "modeltest"
@@ -960,7 +933,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "200"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "11"
+    SIDHighWatermark	    "12"
     Block {
       BlockType		      SubSystem
       Name		      "Control"
@@ -984,12 +957,12 @@ Model {
 	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"298"
+	ZoomFactor		"236"
 	Block {
 	  BlockType		  Inport
 	  Name			  "In1"
 	  SID			  "10"
-	  Position		  [185, 38, 215, 52]
+	  Position		  [80, 63, 110, 77]
 	  ZOrder		  8
 	  NamePlacement		  "alternate"
 	  IconDisplay		  "Port number"
@@ -998,7 +971,7 @@ Model {
 	  BlockType		  DeadZone
 	  Name			  "Dead Zone"
 	  SID			  "4"
-	  Position		  [395, 24, 440, 66]
+	  Position		  [395, 49, 440, 91]
 	  ZOrder		  4
 	  LowerValue		  "19250"
 	  UpperValue		  "20750"
@@ -1007,9 +980,9 @@ Model {
 	  BlockType		  Gain
 	  Name			  "Gain"
 	  SID			  "6"
-	  Position		  [325, 30, 355, 60]
+	  Position		  [235, 20, 340, 120]
 	  ZOrder		  6
-	  Gain			  "-(.4*Pmax)/(250)"
+	  Gain			  "-(.4*pmax)/(250)"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
 	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
 	  SaturateOnIntegerOverflow off
@@ -1019,18 +992,18 @@ Model {
 	  Name			  "Saturation"
 	  SID			  "5"
 	  Ports			  [1, 1]
-	  Position		  [480, 25, 520, 65]
+	  Position		  [480, 50, 520, 90]
 	  ZOrder		  5
 	  InputPortMap		  "u0"
-	  UpperLimit		  "0.4*Pmax"
-	  LowerLimit		  "-0.4*Pmax"
+	  UpperLimit		  "0.4*pmax"
+	  LowerLimit		  "-0.4*pmax"
 	}
 	Block {
 	  BlockType		  Saturate
 	  Name			  "Saturation1"
 	  SID			  "7"
 	  Ports			  [1, 1]
-	  Position		  [255, 30, 285, 60]
+	  Position		  [140, 55, 170, 85]
 	  ZOrder		  7
 	  InputPortMap		  "u0"
 	  UpperLimit		  "21000"
@@ -1040,7 +1013,7 @@ Model {
 	  BlockType		  Outport
 	  Name			  "Out1"
 	  SID			  "11"
-	  Position		  [560, 38, 590, 52]
+	  Position		  [560, 63, 590, 77]
 	  ZOrder		  9
 	  IconDisplay		  "Port number"
 	}
@@ -1082,16 +1055,14 @@ Model {
       }
     }
     Block {
-      BlockType		      DiscreteTransferFcn
-      Name		      "Discrete\nTransfer Fcn"
-      SID		      "8"
-      Ports		      [1, 1]
+      BlockType		      TransferFcn
+      Name		      "Transfer Fcn"
+      SID		      "12"
       Position		      [605, 262, 665, 298]
-      ZOrder		      8
+      ZOrder		      10
       BlockMirror	      on
       NamePlacement	      "alternate"
-      InputPortMap	      "u0"
-      Denominator	      "[1 a]"
+      Denominator	      "[1 1]"
     }
     Block {
       BlockType		      Constant
@@ -1114,25 +1085,25 @@ Model {
       IconDisplay	      "Port number"
     }
     Line {
-      ZOrder		      1
-      SrcBlock		      "U"
-      SrcPort		      1
-      DstBlock		      "Discrete\nTransfer Fcn"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      9
-      SrcBlock		      "Discrete\nTransfer Fcn"
-      SrcPort		      1
-      Points		      [-55, 0; 0, -110]
-      DstBlock		      "Control"
-      DstPort		      1
-    }
-    Line {
       ZOrder		      10
       SrcBlock		      "Control"
       SrcPort		      1
       DstBlock		      "q"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      11
+      SrcBlock		      "U"
+      SrcPort		      1
+      DstBlock		      "Transfer Fcn"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      12
+      SrcBlock		      "Transfer Fcn"
+      SrcPort		      1
+      Points		      [-20, 0]
+      DstBlock		      "Control"
       DstPort		      1
     }
   }
