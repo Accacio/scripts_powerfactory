@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  28 AUG 2017 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  29 AUG 2017 18:10
 entering extended mode
 **./resultats_jusq_20170828.tex
 (resultats_jusq_20170828.tex
@@ -1319,65 +1319,126 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 41--62
-
- []
-
-
-Overfull \hbox (60.55548pt too wide) in paragraph at lines 41--62
-[]   [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--69
-
- []
-
-[1
+<Figuras/Division_du_travail/Diagramme_du_reseaux.jpg, id=58, 3055.66594pt x 40
+32.81656pt>
+File: Figuras/Division_du_travail/Diagramme_du_reseaux.jpg Graphic file (type j
+pg)
+ <use Figuras/Division_du_travail/Diagramme_du_reseaux.jpg>
+Package pdftex.def Info: Figuras/Division_du_travail/Diagramme_du_reseaux.jpg u
+sed on input line 49.
+(pdftex.def)             Requested size: 416.83289pt x 550.06804pt.
+ [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 73--78
-
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--89
-
- []
-
-(resultats_jusq_20170828.bbl)
 ! Undefined control sequence.
 \f@nch@ech ->\subtitle 
                        \strut 
-l.93 \end{document}
-                   
+l.55 
+     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
- (resultats_jusq_20170828.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+[2 <./Figuras/Division_du_travail/Diagramme_du_reseaux.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Overfull \hbox (68.75159pt too wide) in paragraph at lines 63--84
+[]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 114.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf, id=8
+5, 227.85126pt x 227.85126pt>
+File: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf 
+Graphic file (type pdf)
+
+<use Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf>
+Package pdftex.def Info: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_C
+harge_C2_29_MT.pdf used on input line 117.
+(pdftex.def)             Requested size: 227.62204pt x 227.62817pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--121
+
+ []
+
+[3]
+<Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf, id=100, 227.85126pt x 22
+7.85126pt>
+File: Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf Graphic file (type p
+df)
+ <use Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>
+Package pdftex.def Info: Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf u
+sed on input line 125.
+(pdftex.def)             Requested size: 227.62204pt x 227.62817pt.
+
+(resultats_jusq_20170828.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+! Undefined control sequence.
+\f@nch@ech ->\subtitle 
+                       \strut 
+l.9 \bibitem{farina2015model}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4 <./Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf>
+ <./Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>]) [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+
+(resultats_jusq_20170828.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
 Package rerunfilecheck Info: File `resultats_jusq_20170828.out' has not changed
 .
-(rerunfilecheck)             Checksum: 7A094EA410C710698A0F6E4DF5B24101;374.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
+(rerunfilecheck)             Checksum: 82D905CA9526822F8900BAE09DB2DFBE;631.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
- 21928 strings out of 493323
- 408234 string characters out of 3139045
- 519395 words of memory out of 3000000
- 24994 multiletter control sequences out of 15000+200000
- 22352 words of font info for 67 fonts, out of 3000000 for 9000
+ 22000 strings out of 493323
+ 410322 string characters out of 3139045
+ 520840 words of memory out of 3000000
+ 25040 multiletter control sequences out of 15000+200000
+ 22665 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,65p,468b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{tocsection.3} has been referenced but does not ex
+ 64i,11n,65p,701b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{tocsection.4} has been referenced but does not ex
 ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{tocsection.3} has been referenced but does not exis
+t, replaced by a fixed one
 
 pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469} 
 has been referenced but does not exist, replaced by a fixed one
@@ -1390,17 +1451,18 @@ t, replaced by a fixed one
 
  <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
 i600\ecti1000.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecrm0500.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\nogueira_raf\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\
-nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm10
+ur\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0500.pk> <C:\Users\nogueira_raf\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\
+nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx12
 00.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecbx1440.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\nogueira_raf\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
-Output written on resultats_jusq_20170828.pdf (2 pages, 82174 bytes).
+\ec\dpi600\ecrm1000.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\nogueira_raf\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\nogueira_ra
+f\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk>
+Output written on resultats_jusq_20170828.pdf (5 pages, 1082715 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

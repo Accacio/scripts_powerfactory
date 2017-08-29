@@ -8,8 +8,8 @@ properties = textscan(fileID,'%q',values_size(2),'delimiter',';');
 
 % Create structure with csv data
 for i = [1:values_size(2)]
-    eval(['all_data.' regexprep(element{1,1}{i,1},{'\.';':';'-';' ';'\'},{'_';'__';'___';'____';'_____'}) ...
-                  '.' regexprep(properties{1,1}{i,1},{'\.';':';'-';' ';'\'},{'_';'__';'___';'____';'_____'}) '=values(1:end,i);'])
+    eval(['all_data.' regexprep(element{1,1}{i,1},{'\.';':';'-';' ';'\'},{'__';'___';'____';'_____';'______'}) ...
+                  '.' regexprep(properties{1,1}{i,1},{'\.';':';'-';' ';'\'},{'__';'___';'____';'_____';'______'}) '=values(1:end,i);'])
 end
 clearvars -except all_data
 

@@ -1,0 +1,16 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Resultats/Puissance_Active_et_Reactive_du_Bus_C2_29_MT.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Puissance_Active_et_Reactive_du_Bus_C2_29_MT}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Resultats/Tension_des_Bus_N21_N23_et_N29.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_des_Bus_N21_N23_et_N29}
+	\end{center}
+\end{figure}
+
