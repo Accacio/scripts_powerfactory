@@ -12,7 +12,7 @@ Model {
       BusOutputAsStruct	      "off"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.13"
+    ComputedModelVersion    "1.22"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -67,11 +67,11 @@ Model {
 	$ObjectID		6
 	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	ViewObjType		"SimulinkTopLevel"
-	LoadSaveID		"0"
+	ViewObjType		"SimulinkSubsys"
+	LoadSaveID		"9"
 	Extents			[1234.0, 825.0]
 	ZoomFactor		[2.0]
-	Offset			[399.04975124378109, 26.386815920397993]
+	Offset			[60.537499561905861, -53.218748793005943]
       }
     }
   }
@@ -81,9 +81,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "nogueira_raf"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Aug 31 17:12:28 2017"
-  RTWModifiedTimeStamp	  426100346
-  ModelVersionFormat	  "1.%<AutoIncrement:13>"
+  LastModifiedDate	  "Fri Sep 01 14:00:54 2017"
+  RTWModifiedTimeStamp	  426175253
+  ModelVersionFormat	  "1.%<AutoIncrement:22>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -888,6 +888,26 @@ Model {
       RndMeth		      "Floor"
     }
     Block {
+      BlockType		      Scope
+      ModelBased	      off
+      TickLabels	      "OneTimeTick"
+      ZoomMode		      "on"
+      Grid		      "on"
+      ShowLegends	      off
+      TimeRange		      "auto"
+      YMin		      "-5"
+      YMax		      "5"
+      SaveToWorkspace	      off
+      SaveName		      "ScopeData"
+      DataFormat	      "Array"
+      LimitDataPoints	      on
+      MaxDataPoints	      "5000"
+      Decimation	      "1"
+      SampleInput	      off
+      SampleTime	      "-1"
+      ScrollMode	      off
+    }
+    Block {
       BlockType		      SubSystem
       ShowPortLabels	      "FromPortIcon"
       Permissions	      "ReadWrite"
@@ -931,7 +951,7 @@ Model {
   System {
     Name		    "modeltest"
     Location		    [-8, 0, 1276, 1000]
-    Open		    on
+    Open		    off
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -944,7 +964,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "200"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "14"
+    SIDHighWatermark	    "18"
     Block {
       BlockType		      SubSystem
       Name		      "Control"
@@ -957,7 +977,7 @@ Model {
       System {
 	Name			"Control"
 	Location		[-8, 0, 1276, 1000]
-	Open			off
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -982,7 +1002,7 @@ Model {
 	  BlockType		  DeadZone
 	  Name			  "Dead Zone"
 	  SID			  "4"
-	  Position		  [395, 49, 440, 91]
+	  Position		  [210, 49, 255, 91]
 	  ZOrder		  4
 	  LowerValue		  "19250"
 	  UpperValue		  "20750"
@@ -991,7 +1011,7 @@ Model {
 	  BlockType		  Gain
 	  Name			  "Gain"
 	  SID			  "6"
-	  Position		  [235, 20, 340, 120]
+	  Position		  [320, 20, 425, 120]
 	  ZOrder		  6
 	  Gain			  "-(0.4*pmax)/(250)"
 	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
@@ -1024,40 +1044,41 @@ Model {
 	  BlockType		  Outport
 	  Name			  "Out1"
 	  SID			  "11"
-	  Position		  [560, 63, 590, 77]
+	  Position		  [575, 73, 605, 87]
 	  ZOrder		  9
 	  IconDisplay		  "Port number"
 	}
 	Line {
-	  ZOrder		  6
-	  SrcBlock		  "Gain"
+	  ZOrder		  22
+	  SrcBlock		  "Saturation"
+	  SrcPort		  1
+	  Points		  [2, 0; 0, 10]
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  14
+	  SrcBlock		  "Saturation1"
 	  SrcPort		  1
 	  DstBlock		  "Dead Zone"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  10
-	  SrcBlock		  "Saturation"
-	  SrcPort		  1
-	  DstBlock		  "Out1"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  5
+	  ZOrder		  15
 	  SrcBlock		  "Dead Zone"
-	  SrcPort		  1
-	  DstBlock		  "Saturation"
-	  DstPort		  1
-	}
-	Line {
-	  ZOrder		  7
-	  SrcBlock		  "Saturation1"
 	  SrcPort		  1
 	  DstBlock		  "Gain"
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  9
+	  ZOrder		  16
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "Saturation"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  21
 	  SrcBlock		  "In1"
 	  SrcPort		  1
 	  DstBlock		  "Saturation1"
@@ -1066,15 +1087,33 @@ Model {
       }
     }
     Block {
-      BlockType		      Gain
-      Name		      "Gain"
-      SID		      "14"
-      Position		      [715, 142, 765, 198]
-      ZOrder		      12
-      Gain		      "1/pmax"
-      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      OutDataTypeStr	      "Inherit: Inherit via internal rule"
-      SaturateOnIntegerOverflow	off
+      BlockType		      Scope
+      Name		      "Scope"
+      SID		      "18"
+      Ports		      [1]
+      Position		      [465, 264, 495, 296]
+      ZOrder		      14
+      BlockMirror	      on
+      Commented		      "on"
+      Floating		      off
+      Location		      [1, 49, 1281, 983]
+      Open		      off
+      NumInputPorts	      "1"
+      ZoomMode		      "xonly"
+      List {
+	ListType		AxesTitles
+	axes1			"%<SignalLabel>"
+      }
+      List {
+	ListType		ScopeGraphics
+	FigureColor		"[0.5 0.5 0.5]"
+	AxesColor		"[0 0 0]"
+	AxesTickColor		"[1 1 1]"
+	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
+	LineStyles		"-|-|-|-|-|-"
+	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
+	MarkerStyles		"none|none|none|none|none|none"
+      }
     }
     Block {
       BlockType		      TransferFcn
@@ -1107,30 +1146,31 @@ Model {
       IconDisplay	      "Port number"
     }
     Line {
-      ZOrder		      15
-      SrcBlock		      "Control"
-      SrcPort		      1
-      DstBlock		      "Gain"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      11
+      FontName		      "Helvetica"
+      FontSize		      9
+      FontWeight	      "normal"
+      FontAngle		      "normal"
+      ZOrder		      31
       SrcBlock		      "U"
       SrcPort		      1
       DstBlock		      "Transfer Fcn"
       DstPort		      1
     }
     Line {
-      ZOrder		      12
+      FontName		      "Helvetica"
+      FontSize		      9
+      FontWeight	      "normal"
+      FontAngle		      "normal"
+      ZOrder		      33
       SrcBlock		      "Transfer Fcn"
       SrcPort		      1
-      Points		      [-20, 0]
+      Points		      [-43, 0; 0, -110]
       DstBlock		      "Control"
       DstPort		      1
     }
     Line {
-      ZOrder		      14
-      SrcBlock		      "Gain"
+      ZOrder		      19
+      SrcBlock		      "Control"
       SrcPort		      1
       DstBlock		      "q"
       DstPort		      1

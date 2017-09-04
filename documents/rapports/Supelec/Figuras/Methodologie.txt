@@ -1,0 +1,16 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Methodologie/gain_calc-generator2bus-test_1.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:gain_calc-generator2bus-test_1}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Methodologie/gain_calc-generator2bus-test_2.pdf}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:gain_calc-generator2bus-test_2}
+	\end{center}
+\end{figure}
+

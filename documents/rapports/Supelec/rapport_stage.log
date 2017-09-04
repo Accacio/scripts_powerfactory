@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  30 AUG 2017 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  4 SEP 2017 16:49
 entering extended mode
 **./rapport_stage.tex
 (rapport_stage.tex
@@ -1192,10 +1192,13 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count193
 \c@@ppsaveapp=\count194
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 56.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 56.
-Package hyperref Info: Option `colorlinks' set `true' on input line 56.
-)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 57.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 57.
+Package hyperref Info: Option `colorlinks' set `true' on input line 57.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
 Package: glossaries 2017/06/11 v4.30 (NLCT)
 
@@ -1397,23 +1400,28 @@ Package glossaries Info: Writing glossary file rapport_stage.acn on input line
 
 
 Writing index file rapport_stage.idx
-(rapport_stage.aux)
+(rapport_stage.aux
+
+LaTeX Warning: Label `Deuxi\IeC {\`e}me Partie - Mise en Main' multiply defined
+.
+
+)
 \openout1 = `rapport_stage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
@@ -1440,12 +1448,12 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-LaTeX Info: Redefining \degres on input line 16.
-LaTeX Info: Redefining \dots on input line 16.
+LaTeX Info: Redefining \degres on input line 15.
+LaTeX Info: Redefining \dots on input line 15.
 Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumerate package,
-(frenchb.ldf)             reported on input line 16.
-LaTeX Info: Redefining \up on input line 16.
+(frenchb.ldf)             reported on input line 15.
+LaTeX Info: Redefining \up on input line 15.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -1492,7 +1500,7 @@ Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 15.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1502,50 +1510,19 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (rapport_stage.out) (rapport_stage.out)
 \@outlinefile=\write8
 \openout8 = `rapport_stage.out'.
 
  (rapport_stage.glsdefs) (titlepage.tex
-<Figuras/logos/supelec.jpeg, id=66, 277.5168pt x 142.3719pt>
+<Figuras/logos/supelec.jpeg, id=98, 277.5168pt x 142.3719pt>
 File: Figuras/logos/supelec.jpeg Graphic file (type jpg)
 
 <use Figuras/logos/supelec.jpeg>
-Package pdftex.def Info: Figuras/logos/supelec.jpeg used on input line 5.
-(pdftex.def)             Requested size: 170.71652pt x 87.581pt.
-
-<Figuras/logos/logo_IETR_rvb.jpg, id=67, 346.4142pt x 171.5208pt>
-File: Figuras/logos/logo_IETR_rvb.jpg Graphic file (type jpg)
-
-<use Figuras/logos/logo_IETR_rvb.jpg>
-Package pdftex.def Info: Figuras/logos/logo_IETR_rvb.jpg used on input line 23.
-
-(pdftex.def)             Requested size: 170.71652pt x 84.52748pt.
-
-Overfull \hbox (3.98592pt too wide) in paragraph at lines 23--24
- [][] 
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 24.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 24.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-\openout4 = `rapport_stage.ist'.
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figuras/logos/supelec.j
-peg> <./Figuras/logos/logo_IETR_rvb.jpg>]
-File: Figuras/logos/supelec.jpeg Graphic file (type jpg)
- <use Figuras/logos/supelec.jpeg>
 Package pdftex.def Info: Figuras/logos/supelec.jpeg used on input line 41.
 (pdftex.def)             Requested size: 170.71652pt x 87.581pt.
 
@@ -1553,7 +1530,18 @@ Overfull \hbox (45.66539pt too wide) in paragraph at lines 41--42
 [][] 
  []
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Figuras/logos/logo_IETR_rvb.jpg, id=99, 346.4142pt x 171.5208pt>
 File: Figuras/logos/logo_IETR_rvb.jpg Graphic file (type jpg)
+
 <use Figuras/logos/logo_IETR_rvb.jpg>
 Package pdftex.def Info: Figuras/logos/logo_IETR_rvb.jpg used on input line 45.
 
@@ -1563,12 +1551,13 @@ Overfull \hbox (45.66539pt too wide) in paragraph at lines 45--46
 [][] 
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 \end{titlepage}
-                     [1]) (rapport_stage.toc)
+[1
+
+\openout4 = `rapport_stage.ist'.
+
+{C:/Users/nogueira_raf/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Fi
+guras/logos/supelec.jpeg> <./Figuras/logos/logo_IETR_rvb.jpg>])
+(rapport_stage.toc)
 \tf@toc=\write9
 \openout9 = `rapport_stage.toc'.
 
@@ -1579,45 +1568,173 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3] (rapport_stage.gls) [4] (Introduction.tex [5]
-<Figuras/./organigramme_IETR_160717_v28.pdf, id=159, 782.925pt x 542.025pt>
+[3] (rapport_stage.gls) [4] (Introduction.tex
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+ [5]
+<Figuras/./organigramme_IETR_160717_v28.pdf, id=206, 782.925pt x 542.025pt>
 File: Figuras/./organigramme_IETR_160717_v28.pdf Graphic file (type pdf)
 
 <use Figuras/./organigramme_IETR_160717_v28.pdf>
 Package pdftex.def Info: Figuras/./organigramme_IETR_160717_v28.pdf used on inp
-ut line 34.
+ut line 36.
 (pdftex.def)             Requested size: 416.83289pt x 288.57863pt.
-) (Projet.tex)
-(Methodologie.tex) (Resultats.tex) (Conclusion.tex) [6 <./Figuras/./organigramm
-e_IETR_160717_v28.pdf>] [7] [8] (rapport_stage.lot)
+) (Projet.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <./Figuras/./organigramme_IETR_160717_v28.pdf>]) (Division_du_travail.tex
+Underfull \vbox (badness 3068) has occurred while \output is active []
+
+ [7]
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/Division_du_travail/Diagramme_du_r
+eseaux.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
+allowed
+
+<Figuras/Division_du_travail/Diagramme_du_reseaux.pdf, id=320, 597.50786pt x 84
+5.04686pt>
+File: Figuras/Division_du_travail/Diagramme_du_reseaux.pdf Graphic file (type p
+df)
+ <use Figuras/Division_du_travail/Diagramme_du_reseaux.pdf>
+Package pdftex.def Info: Figuras/Division_du_travail/Diagramme_du_reseaux.pdf u
+sed on input line 34.
+(pdftex.def)             Requested size: 416.83289pt x 589.51726pt.
+ [8 <./Figuras/Division_du_travail/Diagramme_du_reseaux.pdf>]) (Methodologie.te
+x
+<Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG, id=344, 1284.8pt x 995
+.72pt>
+File: Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG Graphic file (type
+ jpg)
+ <use Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG>
+Package pdftex.def Info: Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG
+ used on input line 13.
+(pdftex.def)             Requested size: 416.83289pt x 323.04301pt.
+
+Underfull \vbox (badness 1331) has occurred while \output is active []
+
+ [9 <./Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG>]
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+[]|\T1/cmr/m/n/10 P[MW]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+[]|\T1/cmr/m/n/10 P[MW]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|\T1/cmr/m/n/10 0.25MVA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|\T1/cmr/m/n/10 0.4MVA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+[]|\T1/cmr/m/n/10 0.63MVA
+ []
+
+
+Underfull \vbox (badness 2547) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=387, 190.
+33508pt x 139.80832pt>
+File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf Graphic 
+file (type pdf)
+
+<use Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf>
+Package pdftex.def Info: Figuras/Methodologie/partie_3/gain_calc-generator2bus-
+test_1.pdf used on input line 189.
+(pdftex.def)             Requested size: 227.62204pt x 167.20164pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=394, 190.
+33508pt x 139.80832pt>
+File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf Graphic 
+file (type pdf)
+
+<use Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf>
+Package pdftex.def Info: Figuras/Methodologie/partie_3/gain_calc-generator2bus-
+test_2.pdf used on input line 197.
+(pdftex.def)             Requested size: 227.62204pt x 167.20164pt.
+)
+(Conclusion.tex) [13 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-t
+est_1.pdf> <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf>
+] [14] (rapport_stage.lot)
 \tf@lot=\write10
 \openout10 = `rapport_stage.lot'.
 
- [9] (rapport_stage.lof)
+ [15] (rapport_stage.lof)
 \tf@lof=\write11
 \openout11 = `rapport_stage.lof'.
 
-
-[10] (rapport_stage.bbl) [11]
+ [16] (rapport_stage.bbl)
+[17]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (rapport_stage.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-Package rerunfilecheck Info: File `rapport_stage.out' has not changed.
-(rerunfilecheck)             Checksum: E9E74466361EEC1EDEEF0DF34AE97425;910.
+
+
+Package rerunfilecheck Warning: File `rapport_stage.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `rapport_stage.out':
+(rerunfilecheck)             Before: C2439BF84E985C6559BF677DE8760835;1603
+(rerunfilecheck)             After:  BF1223A21490E66778DC9D3A2711D580;1685.
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 28136 strings out of 493323
- 522742 string characters out of 3139045
- 664964 words of memory out of 3000000
- 30994 multiletter control sequences out of 15000+200000
- 19261 words of font info for 52 fonts, out of 3000000 for 9000
+ 28447 strings out of 493323
+ 528366 string characters out of 3139045
+ 672727 words of memory out of 3000000
+ 31221 multiletter control sequences out of 15000+200000
+ 23717 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,11n,77p,1976b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469
-} has been referenced but does not exist, replaced by a fixed one
+ 64i,11n,77p,1976b,560s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{figure.caption.10} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.17} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.16} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:EMT} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:RMS} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:GUI} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{glo:Enedis} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:EDF} has been referenced but does not exist, re
+placed by a fixed one
+
+pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469} 
+has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
 i600\ecti1200.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
@@ -1628,10 +1745,15 @@ nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx12
 00.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecrm1000.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\p
 k\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\nogueira_raf\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk>
-Output written on rapport_stage.pdf (12 pages, 684293 bytes).
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb>
+Output written on rapport_stage.pdf (17 pages, 990606 bytes).
 PDF statistics:
- 611 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 913 PDF objects out of 1000 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 232 words of extra memory for PDF output out of 10000 (max. 10000000)
 
