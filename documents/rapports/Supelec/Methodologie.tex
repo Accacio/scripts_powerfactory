@@ -5,7 +5,7 @@ Cette section a comme but expliquer les méthodes utilisées pour faire chaque t
 \mysubsection{Deuxième Partie - Mise en Main}
 Comme dit, le logiciel \powerfactory a été utilisé pour faire des simulations du réseau, donc une petit explication du réseau e du logiciel sera fait dans cette section.
 
-\mysubsubsection{Sur le \powerfactory}
+\mysubsubsection{À propos du \powerfactory}
 Le \powerfactory est un logiciel beaucoup utilisé dans le métier d'Énergie, par entreprises comme \gls{EDF}, \gls{Enedis} pour faire des simulations des réseau électriques, que les permettent de vérifier stabilité en cas de panne et surcharge ou sous-charge de parties du réseau, calculer coûts d'opération et même programmer autres changements futur du réseau. Quelques autres instituts comme L'\gls{IETR} et \gls{Polimi}, par exemple l'utilise pour ses thèmes des thèses et autres recherches.   
 
 \begin{figure}[H]
@@ -27,13 +27,27 @@ En peut voir dans la figure \ref{fig:gui_powerfactory} quelques panneaux basique
 \end{enumerate}
 
 
-\mysubsection{Sur le réseau}
-Comme était dit, la figure \ref{fig:Diagramme_du_reseaux} démontre le réseau utilisé. On peut voir que le réseau est formé pour 16 charges et 3 générateurs distribués, 12 transformateurs.
-Dans le réseau original les générateurs étaient des machines synchrones mais elles ont été remplacé par des panneaux photovoltaïque, a fin de faire les réponses des tests plus vite, en vue de la dynamique des panneaux considérablement plus vite que des machines synchrones. 
+\mysubsection{À propos du réseau}
+\newcommand{\trafoi}{40 MVA132/20}
+\newcommand{\trafoii}{0.25MVA 20kV/0.4}
+\newcommand{\trafoiii}{0.4MVA 20kV/0.4}
+\newcommand{\trafoiv}{0.63MVA 20kV/0.4}
+\newcommand{\cablei}{ARG7H1RX 185mmq}
+\newcommand{\cableii}{ARG7H1RX 70mmq}
+\newcommand{\cableiii}{Aerea Cu 70mmq}
+Comme était dit, la figure \ref{fig:Diagramme_du_reseaux} démontre le réseau utilisé. Si on compare avec le réseaux utilisé en \cite{cosson:tel-01374469} et \cite{mariani2013controllo}, il est possible de voir que le réseaux de la figure  \ref{fig:Diagramme_du_reseaux} représente juste la moitié du original. Cette choix de prendre une partie du réseaux a comme raison la diminution des éléments et conséquemment la complexité des résolutions des simulations.
 
+Le réseau est formé pour 16 charges et 3 générateurs distribués, 12 transformateurs.
+Dans le réseau original deux des trois générateurs étaient des machines synchrones mais elles ont été remplacé par des panneaux photovoltaïque, a fin de faire les réponses des tests plus vite, en vue de la dynamique des panneaux considérablement plus vite que des machines synchrones, qui dépendent des constants électromécanique. 
+
+A fin de faire une meilleur description du réseaux les tables \ref{tab:generateurs_du_reseaux} à \ref{tab:Charges} ont les caractéristiques des éléments qui la composent.
+
+\hspace{-1.7cm}
+\begin{minipage}{.5\textwidth}
 \begin{table}[H]
-	\captionsetup{justification=centering,margin=2cm}
+	\captionsetup{justification=centering,margin=1cm}
 	\caption{Générateurs Distribués du Réseau }
+	\label{tab:generateurs_du_reseaux}
 	\centering
 	\begin{tabular}{m{1cm}m{1.5cm}m{1.5cm}}
 		\hline
@@ -45,10 +59,12 @@ Dans le réseau original les générateurs étaient des machines synchrones mais
 		\hline\\
 	\end{tabular}
 \end{table}	
-
+\end{minipage}
+\begin{minipage}{.5\textwidth}
 \begin{table}[H]
-	\captionsetup{justification=centering,margin=2cm}
+	\captionsetup{justification=centering}
 	\caption{Transformateurs HV/MV }
+	\label{tab:Transformateurs_HV/MV}
 	\centering
 	\begin{tabular}{lc}
 		\hline
@@ -62,10 +78,11 @@ Dans le réseau original les générateurs étaient des machines synchrones mais
 		\hline\\
 	\end{tabular}
 \end{table}	
-
+\end{minipage}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
 	\caption{Transformateurs MV/LV }
+	\label{tab:Transformateurs_MV/LV}
 	\centering
 	\begin{tabular}{lm{2cm}m{2cm}m{2cm}}
 		\hline
@@ -78,14 +95,11 @@ Dans le réseau original les générateurs étaient des machines synchrones mais
 		\hline\\
 	\end{tabular}
 \end{table}	
-
-\newcommand{\trafoi}{40 MVA132/20}
-\newcommand{\trafoii}{0.25MVA 20kV/0.4}
-\newcommand{\trafoiii}{0.4MVA 20kV/0.4}
-\newcommand{\trafoiv}{0.63MVA 20kV/0.4}
+\vspace{-.5cm}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
 	\caption{Transformateurs}
+	\label{tab:Transformateurs}
 	\centering
 	\begin{tabular}{cc}
 		\hline
@@ -106,30 +120,11 @@ Dans le réseau original les générateurs étaient des machines synchrones mais
 		\hline\\
 	\end{tabular}
 \end{table}	
-
-\newcommand{\cablei}{ARG7H1RX 185mmq}
-\newcommand{\cableii}{ARG7H1RX 70mmq}
-\newcommand{\cableiii}{Aerea Cu 70mmq}
-
-\begin{table}[H]
-	\captionsetup{justification=centering,margin=2cm}
-	\caption{Lignes}
-	\centering
-	\begin{tabular}{llccccc}
-		\hline
-		Nom&Genre&Section[$ mm^2 $]&R[$ \Omega/km $]&L[$ mH/km $]&C[$ \mu F/km $]\\
-		\hline\\
-		\cablei&Câble&185&0.2180&.0350&0.2900\\
-		\cableii&Câble&70&0.5800&0.41&0.2100\\
-		\cableiii&Aérien&70&0.2681&1.286&0.0090\\
-		\hline\\
-	\end{tabular}
-\end{table}	
-
-
+\vspace{-.5cm}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
 	\caption{Caractéristiques des Lignes}
+	\label{tab:Caractéristiques_des_Lignes}
 	\centering
 	\begin{tabular}{ccc}
 		\hline
@@ -151,11 +146,28 @@ Dans le réseau original les générateurs étaient des machines synchrones mais
 		D2-31\_32	&\cableii&2.7\\
 		\hline\\
 	\end{tabular}
+\end{table}
+\vspace{-.5cm}
+\begin{table}[H]
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Lignes}
+	\label{tab:Lignes}
+	\centering
+	\begin{tabular}{llccccc}
+		\hline
+		Nom&Genre&Section[$ mm^2 $]&R[$ \Omega/km $]&L[$ mH/km $]&C[$ \mu F/km $]\\
+		\hline\\
+		\cablei&Câble&185&0.2180&0.350&0.2900\\
+		\cableii&Câble&70&0.5800&0.41&0.2100\\
+		\cableiii&Aérien&70&0.2681&1.286&0.0090\\
+		\hline\\
+	\end{tabular}
 \end{table}	
-
+\pagebreak
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
 	\caption{Charges}
+	\label{tab:Charges}
 	\centering
 	\begin{tabular}{cccc}
 		\hline
@@ -183,22 +195,114 @@ Dans le réseau original les générateurs étaient des machines synchrones mais
 
 \mysection{Troisième Partie - Programmation}
 
+Pendant ce partie diverses scripts ont été crées en utilisant les langages MATLAB et Python, en intégration des bibliothèques Python du \powerfactory, qui pourvoit quelques fonctions pour accéder aux éléments du réseau, changer ses caractéristiques et faire des mesures de courant, tension etc.
 
-\begin{figure}[H]
-	\begin{center}	
-		\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf}
-		\caption{Allure de la courbe utilisé pendant le Test 1}
-		\label{fig:gaincalcgenerator2bustest1}
-	\end{center}
-\end{figure}
+Dans cette section chaque script est décrit par son fonctionnement, pour une description minutieuse, les codes sont présents dans l'appendice \ref{Programmes}. En ayant en tête que toutes fichiers utilisés sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
 
-\begin{figure}[H]
-	\begin{center}	
-		\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf}
-		\caption{Allure de la courbe utilisé pendant le Test 2}
-		\label{fig:gaincalcgenerator2bustest2}
-	\end{center}
-\end{figure}
+
+
+\begin{enumerate}[\bfseries 5.1]
+	\item $\mathbf{gain\_calc-load2bus.py}$\\
+	\\Ce script change les valeurs de puissance réactive demandé par les charges pendant un intervalle de temps et prend les valeurs de tension du bus auquel la charge est connecté pendant ce temps et calcule le gain entre chaque charge et bus, formant une matrice de dimension $ 16\times16 $, avec le format suivant:
+	\\	\begin{table}[H]\tiny
+		\captionsetup{justification=centering,margin=0cm}
+		\caption{Matrice des Gain de sortie du script $gain\_calc-load2bus.py$}
+		\centering
+		\resizebox{\textwidth}{!}{\begin{tabular}{cccccc}
+				$\frac{V_{N01}}{Q_{C 2-19}}$& $\frac{V_{N02}}{Q_{C 2-19}}$& $\frac{V_{N19}}{Q_{C 2-19}}$& $\frac{V_{N20}}{Q_{C 2-19}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-19}}$\\
+				&&&&&\\
+				$ \vdots $&$ \vdots $&$ \vdots $&$ \vdots $&$ \ddots $&$ \vdots $\\
+%				$\frac{V_{N01}}{Q_{C 2-20}}$& $\frac{V_{N02}}{Q_{C 2-20}}$& $\frac{V_{N19}}{Q_{C 2-20}}$& $\frac{V_{N20}}{Q_{C 2-20}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-20}}$\\
+%				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-21}}$& $\frac{V_{N02}}{Q_{C 2-21}}$& $\frac{V_{N19}}{Q_{C 2-21}}$& $\frac{V_{N20}}{Q_{C 2-21}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-21}}$\\
+%				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-22}}$& $\frac{V_{N02}}{Q_{C 2-22}}$& $\frac{V_{N19}}{Q_{C 2-22}}$& $\frac{V_{N20}}{Q_{C 2-22}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-22}}$\\
+%				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-24}}$& $\frac{V_{N02}}{Q_{C 2-24}}$& $\frac{V_{N19}}{Q_{C 2-24}}$& $\frac{V_{N20}}{Q_{C 2-24}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-24}}$\\
+%				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-25}}$& $\frac{V_{N02}}{Q_{C 2-25}}$& $\frac{V_{N19}}{Q_{C 2-25}}$& $\frac{V_{N20}}{Q_{C 2-25}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-25}}$\\
+%				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-26}}$& $\frac{V_{N02}}{Q_{C 2-26}}$& $\frac{V_{N19}}{Q_{C 2-26}}$& $\frac{V_{N20}}{Q_{C 2-26}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-26}}$\\
+				&&&&&\\
+				$\frac{V_{N01}}{Q_{C 2-27.1}}$& $\frac{V_{N02}}{Q_{C 2-27.1}}$& $\frac{V_{N19}}{Q_{C 2-27.1}}$& $\frac{V_{N20}}{Q_{C 2-27.1}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-27.1}}$\\
+				&&&&&\\
+				$\frac{V_{N01}}{Q_{C 2-27.2}}$& $\frac{V_{N02}}{Q_{C 2-27.2}}$& $\frac{V_{N19}}{Q_{C 2-27.2}}$& $\frac{V_{N20}}{Q_{C 2-27.2}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-27.2}}$\\
+				&&&&&\\				
+				$\frac{V_{N01}}{Q_{C 2-27.3}}$& $\frac{V_{N02}}{Q_{C 2-27.3}}$& $\frac{V_{N19}}{Q_{C 2-27.3}}$& $\frac{V_{N20}}{Q_{C 2-27.3}}$&$ \cdots$&$\frac{V_{N32}}{Q_{C 2-27.3}}$\\
+				&&&&&\\
+				$\frac{V_{N01}}{Q_{C 2-28}}$& $\frac{V_{N02}}{Q_{C 2-28}}$& $\frac{V_{N19}}{Q_{C 2-28}}$& $\frac{V_{N20}}{Q_{C 2-28}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-28}}$\\
+				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-29}}$& $\frac{V_{N02}}{Q_{C 2-29}}$& $\frac{V_{N19}}{Q_{C 2-29}}$& $\frac{V_{N20}}{Q_{C 2-29}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-29}}$\\
+%				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-30}}$& $\frac{V_{N02}}{Q_{C 2-30}}$& $\frac{V_{N19}}{Q_{C 2-30}}$& $\frac{V_{N20}}{Q_{C 2-30}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-30}}$\\
+%				&&&&&\\
+%				$\frac{V_{N01}}{Q_{C 2-31}}$& $\frac{V_{N02}}{Q_{C 2-31}}$& $\frac{V_{N19}}{Q_{C 2-31}}$& $\frac{V_{N20}}{Q_{C 2-31}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-31}}$\\
+%				&&&&&\\
+				$ \vdots $&$ \vdots $&$ \vdots $&$ \vdots $&$ \ddots $&$ \vdots $\\
+				&&&&&\\
+				$\frac{V_{N01}}{Q_{C 2-32.1}}$& $\frac{V_{N02}}{Q_{C 2-32.1}}$& $\frac{V_{N19}}{Q_{C 2-32.1}}$& $\frac{V_{N20}}{Q_{C 2-32.1}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-32.1}}$\\
+				&&&&&\\
+				$\frac{V_{N01}}{Q_{C 2-32.2}}$& $\frac{V_{N02}}{Q_{C 2-32.2}}$& $\frac{V_{N19}}{Q_{C 2-32.2}}$& $\frac{V_{N20}}{Q_{C 2-32.2}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-32.2}}$\\
+		\end{tabular}}		
+	\end{table}
+	Où \gls{Vnxx}  et \gls{Qcxx} sont la tension du bus $ Nxx $ e la puissance réactive de la charge $ Cx-xx $.
+	
+	\item $\mathbf{gain\_calc-generator2bus-test\_1.py}$\\
+	\\Ce Script change les valeurs de puissance réactive des générateurs pendant un intervalle de temps e prends les valeurs de tension du bus auquel le générateur est connecté pendant ce temps et calcule le gain entre chaque générateur et bus, formant une matrice de dimension $ 3\times3 $. L'allure de la courbe utilisé peut être vu dans la figure \ref{fig:gaincalcgenerator2bustest1}. Le format de la matric est montré dans la table \ref{tab:gaincalcgenerator2bustest1}.
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf}
+			\caption{Allure de la courbe utilisé pendant le Test 1}
+			\label{fig:gaincalcgenerator2bustest1}
+		\end{center}
+	\end{figure}
+\begin{table}[H]
+	\captionsetup{justification=centering,margin=2cm}
+	\caption{Matrice des Gain de sortie du script $gain\_calc-generator2bus-test\_1.py$}
+	\label{tab:gaincalcgenerator2bustest1}
+	\centering
+	\begin{tabular}{ccc}
+		$ \frac{V_{N21}}{Q_{GD4}} $&$ \frac{V_{N29}}{Q_{GD4}} $&$ \frac{V_{N23}}{Q_{GD4}} $\\
+		&&\\
+		$ \frac{V_{N21}}{Q_{GD5}} $&$ \frac{V_{N29}}{Q_{GD5}} $&$ \frac{V_{N23}}{Q_{GD5}} $\\
+		&&\\
+		$ \frac{V_{N21}}{Q_{GD6}} $&$ \frac{V_{N29}}{Q_{GD6}} $&$ \frac{V_{N23}}{Q_{GD6}} $\\
+	\end{tabular}
+\end{table}
+Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
+
+	\item $\mathbf{gain\_calc-generator2bus-test\_2.py}$\\
+	\\Fondamentalement le même que $gain\_calc-generator2bus-test\_1.py$, mais la courbe de changement de puissance suivre l'allure de la figure \ref{fig:gaincalcgenerator2bustest2}. Le format de la matrice est le même montré dans la table \ref{tab:gaincalcgenerator2bustest1}.
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf}
+			\caption{Allure de la courbe utilisé pendant le Test 2}
+			\label{fig:gaincalcgenerator2bustest2}
+		\end{center}
+	\end{figure}
+	\item $\mathbf{import\_generator\_csv.py}$\\
+	\\Ce script prend des fichier \gls{CSV} 
+	\\
+	\item $\mathbf{import\_load\_csv.py}$\\
+	\\
+	\\
+	\item $\mathbf{csv2mat.m}$\\
+	\\
+	\\
+	\item $\mathbf{printalldata.m}$\\
+	\\
+	\\
+	\item $\mathbf{printalldata.m et printpdf.m}$\\
+	\\
+\end{enumerate}
+
+
+
+
+
+
+
+
 
 
 
