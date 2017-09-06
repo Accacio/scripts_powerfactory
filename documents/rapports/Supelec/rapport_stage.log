@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  5 SEP 2017 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  6 SEP 2017 10:42
 entering extended mode
 **./rapport_stage.tex
 (rapport_stage.tex
@@ -1572,7 +1572,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Underfull \vbox (badness 1152) has occurred while \output is active []
 
  [5]
-<Figuras/./organigramme_IETR_160717_v28.pdf, id=249, 782.925pt x 542.025pt>
+<Figuras/./organigramme_IETR_160717_v28.pdf, id=253, 782.925pt x 542.025pt>
 File: Figuras/./organigramme_IETR_160717_v28.pdf Graphic file (type pdf)
 
 <use Figuras/./organigramme_IETR_160717_v28.pdf>
@@ -1589,7 +1589,7 @@ pdfTeX warning: pdflatex.exe (file ./Figuras/Division_du_travail/Diagramme_du_r
 eseaux.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
 
-<Figuras/Division_du_travail/Diagramme_du_reseaux.pdf, id=366, 597.50786pt x 84
+<Figuras/Division_du_travail/Diagramme_du_reseaux.pdf, id=370, 597.50786pt x 84
 5.04686pt>
 File: Figuras/Division_du_travail/Diagramme_du_reseaux.pdf Graphic file (type p
 df)
@@ -1599,7 +1599,7 @@ sed on input line 34.
 (pdftex.def)             Requested size: 416.83289pt x 589.51726pt.
  [8 <./Figuras/Division_du_travail/Diagramme_du_reseaux.pdf>]) (Methodologie.te
 x
-<Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG, id=390, 1284.8pt x 995
+<Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG, id=394, 1284.8pt x 995
 .72pt>
 File: Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG Graphic file (type
  jpg)
@@ -1663,7 +1663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--247
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=448, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=452, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf Graphic 
 file (type pdf)
@@ -1681,7 +1681,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--258
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf>]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=485, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=489, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf Graphic 
 file (type pdf)
@@ -1696,88 +1696,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--282
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+<Figuras/Methodologie/partie_3/csv_sample.JPG, id=491, 420.82219pt x 332.74312p
+t>
+File: Figuras/Methodologie/partie_3/csv_sample.JPG Graphic file (type jpg)
+ <use Figuras/Methodologie/partie_3/csv_sample.JPG>
+Package pdftex.def Info: Figuras/Methodologie/partie_3/csv_sample.JPG used on i
+nput line 287.
+(pdftex.def)             Requested size: 227.62204pt x 179.98323pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--291
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--286
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--289
+Underfull \hbox (badness 10000) in paragraph at lines 294--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--289
+Underfull \hbox (badness 10000) in paragraph at lines 294--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--289
+Underfull \hbox (badness 10000) in paragraph at lines 297--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--292
+Underfull \hbox (badness 10000) in paragraph at lines 297--300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--292
+Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
-
- []
-
-) (Conclusion.tex) [14 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus
--test_2.pdf>] [15] (Appendices/programmes.tex) [16] (rapport_stage.lot)
+) (Conclusion.tex) [15 <./Figuras/Methodologie/partie_3/csv_sample.JPG>]
+(Appendices/programmes.tex) [16] (rapport_stage.lot)
 \tf@lot=\write10
 \openout10 = `rapport_stage.lot'.
 
-
-[17] (rapport_stage.lof)
+ [17] (rapport_stage.lof)
 \tf@lof=\write11
 \openout11 = `rapport_stage.lof'.
 
- [18] (rapport_stage.bbl) [19]
+
+[18] (rapport_stage.bbl) [19]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (rapport_stage.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `rapport_stage.out' has not changed.
-(rerunfilecheck)             Checksum: 678BCE4DD2DB350EA0C7EB98824056C3;1766.
+(rerunfilecheck)             Checksum: 2D28C8436D89514AB234F56D8ED71F07;1766.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1785,18 +1766,15 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 28525 strings out of 493323
- 529336 string characters out of 3139045
- 685066 words of memory out of 3000000
- 31267 multiletter control sequences out of 15000+200000
+ 28532 strings out of 493323
+ 529591 string characters out of 3139045
+ 685161 words of memory out of 3000000
+ 31272 multiletter control sequences out of 15000+200000
  27767 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,14n,77p,1976b,638s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,14n,77p,1976b,642s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{tocsection.A} has been referenced but does not ex
 ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:CSV} has been referenced but does not exist, re
-placed by a fixed one
 
 pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469} 
 has been referenced but does not exist, replaced by a fixed one
@@ -1826,9 +1804,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on rapport_stage.pdf (19 pages, 1099900 bytes).
+Output written on rapport_stage.pdf (19 pages, 1138005 bytes).
 PDF statistics:
- 1065 PDF objects out of 1200 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1076 PDF objects out of 1200 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {4.2}\IeC {\`A} propos du r\IeC {\'e}seau}{10}{subsection.4.2}
 \contentsline {section}{\numberline {5}Troisi\IeC {\`e}me Partie - Programmation}{12}{section.5}
 \contentsline {section}{\numberline {6}Conclusion}{15}{section.6}
-\contentsline {section}{Appendices}{16}{section*.22}
+\contentsline {section}{Appendices}{16}{section*.23}
 \contentsline {section}{\numberline {A}Programmes}{16}{Annexe.1.A}
-\contentsline {section}{Liste des tableaux}{17}{section*.24}
-\contentsline {section}{Table des figures}{18}{section*.26}
+\contentsline {section}{Liste des tableaux}{17}{section*.25}
+\contentsline {section}{Table des figures}{18}{section*.27}

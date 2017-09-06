@@ -46,7 +46,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 \begin{minipage}{.5\textwidth}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=1cm}
-	\caption{Générateurs Distribués du Réseau }
+	\caption{Générateurs Distribués du Réseau.}
 	\label{tab:generateurs_du_reseaux}
 	\centering
 	\begin{tabular}{m{1cm}m{1.5cm}m{1.5cm}}
@@ -63,7 +63,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 \begin{minipage}{.5\textwidth}
 \begin{table}[H]
 	\captionsetup{justification=centering}
-	\caption{Transformateurs HV/MV }
+	\caption{Transformateurs HV/MV.}
 	\label{tab:Transformateurs_HV/MV}
 	\centering
 	\begin{tabular}{lc}
@@ -81,7 +81,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 \end{minipage}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
-	\caption{Transformateurs MV/LV }
+	\caption{Transformateurs MV/LV.}
 	\label{tab:Transformateurs_MV/LV}
 	\centering
 	\begin{tabular}{lm{2cm}m{2cm}m{2cm}}
@@ -98,7 +98,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 \vspace{-.5cm}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
-	\caption{Transformateurs}
+	\caption{Transformateurs.}
 	\label{tab:Transformateurs}
 	\centering
 	\begin{tabular}{cc}
@@ -123,7 +123,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 \vspace{-.5cm}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
-	\caption{Caractéristiques des Lignes}
+	\caption{Caractéristiques des Lignes.}
 	\label{tab:Caractéristiques_des_Lignes}
 	\centering
 	\begin{tabular}{ccc}
@@ -150,7 +150,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 \vspace{-.5cm}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
-	\caption{Lignes}
+	\caption{Lignes.}
 	\label{tab:Lignes}
 	\centering
 	\begin{tabular}{llccccc}
@@ -166,7 +166,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 \pagebreak
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
-	\caption{Charges}
+	\caption{Charges.}
 	\label{tab:Charges}
 	\centering
 	\begin{tabular}{cccc}
@@ -206,7 +206,7 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 	\\Ce script change les valeurs de puissance réactive demandé par les charges pendant un intervalle de temps et prend les valeurs de tension du bus auquel la charge est connecté pendant ce temps et calcule le gain entre chaque charge et bus, formant une matrice de dimension $ 16\times16 $, avec le format suivant:
 	\\	\begin{table}[H]\tiny
 		\captionsetup{justification=centering,margin=0cm}
-		\caption{Matrice des Gain de sortie du script $gain\_calc-load2bus.py$}
+		\caption{Matrice des Gain de sortie du script $gain\_calc-load2bus.py$.}
 		\centering
 		\resizebox{\textwidth}{!}{\begin{tabular}{cccccc}
 				$\frac{V_{N01}}{Q_{C 2-19}}$& $\frac{V_{N02}}{Q_{C 2-19}}$& $\frac{V_{N19}}{Q_{C 2-19}}$& $\frac{V_{N20}}{Q_{C 2-19}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-19}}$\\
@@ -252,13 +252,13 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 	\begin{figure}[H]
 		\begin{center}	
 			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf}
-			\caption{Allure de la courbe utilisé pendant le Test 1}
+			\caption{Allure de la courbe utilisé pendant le Test 1.}
 			\label{fig:gaincalcgenerator2bustest1}
 		\end{center}
 	\end{figure}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
-	\caption{Matrice des Gain de sortie du script $gain\_calc-generator2bus-test\_1.py$}
+	\caption{Matrice des Gain de sortie du script $gain\_calc-generator2bus-test\_1.py$.}
 	\label{tab:gaincalcgenerator2bustest1}
 	\centering
 	\begin{tabular}{ccc}
@@ -276,24 +276,29 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 	\begin{figure}[H]
 		\begin{center}	
 			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf}
-			\caption{Allure de la courbe utilisé pendant le Test 2}
+			\caption{Allure de la courbe utilisé pendant le Test 2.}
 			\label{fig:gaincalcgenerator2bustest2}
 		\end{center}
 	\end{figure}
 	\item $\mathbf{import\_generator\_csv.py}$\\
-	\\Ce script prend des fichier \gls{CSV} 
+	\\Ce script prend des fichiers \gls{CSV} qui a données de puissance nominal, active et réactive des générateurs, et les charge en chaque générateur.
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=8cm]{Methodologie/partie_3/csv_sample.JPG}
+			\caption{Exemple d'un fichier CSV, séparé par point-virgule.}
+			\label{fig:csv_sample}
+		\end{center}
+	\end{figure}
+	La choix d'utiliser fichiers \gls{CSV} a été fait en raison de ce type de fichier est texte sans brut sans formatage, sa taille est très réduite. Et ce type de fichier est très simple pour faire des modifications et création a partir d'une table excel, ainsi que la conversion entre ces deux extensions.  
 	\\
 	\item $\mathbf{import\_load\_csv.py}$\\
-	\\
+	\\Ce script prend des fichiers \gls{CSV} qui a données de puissance active et réactive des charges, et les charge en chaque respective charge.
 	\\
 	\item $\mathbf{csv2mat.m}$\\
-	\\
-	\\
-	\item $\mathbf{printalldata.m}$\\
-	\\
+	\\Ce script fait en MATLAB prend un fichier \gls{CSV} sortie de \todo{simulation} et le transforme en un fichier .mat. Il crée une structure composés par autres structures qui sont les éléments du circuit et composées par ses données  pendant le temps, a fin de les utiliser pour faire des graphiques.
 	\\
 	\item $\mathbf{printalldata.m et printpdf.m}$\\
-	\\
+	\\Ces scripts ont été créés pour faire les plots des graphiques et les sauvegarder pour un futur use dans les rapports.  
 \end{enumerate}
 
 
