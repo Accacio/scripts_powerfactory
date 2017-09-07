@@ -1,5 +1,5 @@
 function [t, x, y] = modeltest
-global u a pmax x1 Ent Sor
+global u a pmax x1
 options = simget('modeltest_model');
 options = simset('InitialState', [x1]);
 % options.InitialState=x1
