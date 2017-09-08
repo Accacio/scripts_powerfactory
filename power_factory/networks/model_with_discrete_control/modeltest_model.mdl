@@ -5,9 +5,14 @@ Model {
   SavedCharacterEncoding  "windows-1252"
   GraphicalInterface {
     NumRootInports	    0
-    NumRootOutports	    0
+    NumRootOutports	    1
+    Outport {
+      Name		      "q"
+      BusObject		      ""
+      BusOutputAsStruct	      "off"
+    }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.55"
+    ComputedModelVersion    "1.65"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -76,9 +81,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "nogueira_raf"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Thu Sep 07 16:12:37 2017"
-  RTWModifiedTimeStamp	  426703088
-  ModelVersionFormat	  "1.%<AutoIncrement:55>"
+  LastModifiedDate	  "Fri Sep 08 15:26:55 2017"
+  RTWModifiedTimeStamp	  426785202
+  ModelVersionFormat	  "1.%<AutoIncrement:65>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -737,9 +742,9 @@ Model {
 	  $ObjectID		  21
 	  Version		  "1.15.0"
 	  StartTime		  "0.0"
-	  StopTime		  "5"
+	  StopTime		  "1"
 	  AbsTol		  "auto"
-	  FixedStep		  "0.01"
+	  FixedStep		  "1"
 	  InitialStep		  "auto"
 	  MaxNumMinSteps	  "-1"
 	  MaxOrder		  5
@@ -1269,7 +1274,7 @@ Model {
       }
       Name		      "Configuration1"
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 206, 120, 1075, 841 ] 
+      ConfigPrmDlgPosition     [ 90, 40, 1218, 878 ] 
     }
     PropName		    "ConfigurationSets"
   }
@@ -1377,6 +1382,41 @@ Model {
       SampleTime	      "-1"
     }
     Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
       BlockType		      Saturate
       UpperLimitSource	      "Dialog"
       UpperLimit	      "0.5"
@@ -1392,35 +1432,36 @@ Model {
       RndMeth		      "Floor"
     }
     Block {
-      BlockType		      Scope
-      ModelBased	      off
-      TickLabels	      "OneTimeTick"
-      ZoomMode		      "on"
-      Grid		      "on"
-      ShowLegends	      off
-      TimeRange		      "auto"
-      YMin		      "-5"
-      YMax		      "5"
-      SaveToWorkspace	      off
-      SaveName		      "ScopeData"
-      DataFormat	      "Array"
-      LimitDataPoints	      on
-      MaxDataPoints	      "5000"
-      Decimation	      "1"
-      SampleInput	      off
-      SampleTime	      "-1"
-      ScrollMode	      off
-    }
-    Block {
-      BlockType		      StateSpace
-      A			      "1"
-      B			      "1"
-      C			      "1"
-      D			      "1"
-      X0		      "0.0"
-      AbsoluteTolerance	      "auto"
-      ContinuousStateAttributes	"''"
-      Realization	      "auto"
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      PropExecContextOutsideSubsystem off
+      CheckFcnCallInpInsideContextMsg off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
     }
   }
   System {
@@ -1439,267 +1480,157 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "175"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "35"
+    SIDHighWatermark	    "42"
     Block {
-      BlockType		      DeadZone
-      Name		      "Dead Zone"
-      SID		      "4"
-      Position		      [615, 149, 660, 191]
-      ZOrder		      19
-      LowerValue	      "19250"
-      UpperValue	      "20750"
-    }
-    Block {
-      BlockType		      Gain
-      Name		      "Gain"
-      SID		      "6"
-      Position		      [725, 120, 830, 220]
-      ZOrder		      21
-      Gain		      "-(0.4*pmax)/(250)"
-      ParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      OutDataTypeStr	      "Inherit: Inherit via internal rule"
-      SaturateOnIntegerOverflow	off
-    }
-    Block {
-      BlockType		      Saturate
-      Name		      "Saturation"
-      SID		      "5"
+      BlockType		      SubSystem
+      Name		      "Control"
+      SID		      "38"
       Ports		      [1, 1]
-      Position		      [885, 150, 925, 190]
-      ZOrder		      20
-      InputPortMap	      "u0"
-      UpperLimit	      "0.4*pmax"
-      LowerLimit	      "-0.4*pmax"
-    }
-    Block {
-      BlockType		      Saturate
-      Name		      "Saturation1"
-      SID		      "7"
-      Ports		      [1, 1]
-      Position		      [545, 155, 575, 185]
-      ZOrder		      22
-      InputPortMap	      "u0"
-      UpperLimit	      "21000"
-      LowerLimit	      "18000"
-    }
-    Block {
-      BlockType		      Scope
-      Name		      "Scope"
-      SID		      "32"
-      Ports		      [1]
-      Position		      [1010, 79, 1040, 111]
-      ZOrder		      40
-      Floating		      off
-      Location		      [188, 365, 512, 604]
-      Open		      on
-      NumInputPorts	      "1"
-      ZoomMode		      "yonly"
-      List {
-	ListType		AxesTitles
-	axes1			"%<SignalLabel>"
+      Position		      [640, 87, 725, 143]
+      ZOrder		      46
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Control"
+	Location		[-8, 0, 1276, 1000]
+	Open			off
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"A4"
+	PaperUnits		"centimeters"
+	TiledPaperMargins	[1.270000, 1.270000, 1.270000, 1.270000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"175"
+	Block {
+	  BlockType		  Inport
+	  Name			  "In1"
+	  SID			  "39"
+	  Position		  [15, 93, 45, 107]
+	  ZOrder		  23
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  DeadZone
+	  Name			  "Dead Zone"
+	  SID			  "4"
+	  Position		  [190, 79, 230, 121]
+	  ZOrder		  19
+	  LowerValue		  "19250"
+	  UpperValue		  "20750"
+	}
+	Block {
+	  BlockType		  Gain
+	  Name			  "Gain"
+	  SID			  "6"
+	  Position		  [280, 50, 385, 150]
+	  ZOrder		  21
+	  Gain			  "-(0.4*pmax)/(250)"
+	  ParamDataTypeStr	  "Inherit: Inherit via internal rule"
+	  OutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation"
+	  SID			  "5"
+	  Ports			  [1, 1]
+	  Position		  [415, 80, 455, 120]
+	  ZOrder		  20
+	  InputPortMap		  "u0"
+	  UpperLimit		  "0.4*pmax"
+	  LowerLimit		  "-0.4*pmax"
+	}
+	Block {
+	  BlockType		  Saturate
+	  Name			  "Saturation1"
+	  SID			  "7"
+	  Ports			  [1, 1]
+	  Position		  [100, 80, 140, 120]
+	  ZOrder		  22
+	  InputPortMap		  "u0"
+	  UpperLimit		  "21000"
+	  LowerLimit		  "18000"
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "Out1"
+	  SID			  "40"
+	  Position		  [595, 93, 625, 107]
+	  ZOrder		  24
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  16
+	  SrcBlock		  "Gain"
+	  SrcPort		  1
+	  DstBlock		  "Saturation"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  85
+	  SrcBlock		  "In1"
+	  SrcPort		  1
+	  DstBlock		  "Saturation1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  15
+	  SrcBlock		  "Dead Zone"
+	  SrcPort		  1
+	  DstBlock		  "Gain"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  14
+	  SrcBlock		  "Saturation1"
+	  SrcPort		  1
+	  DstBlock		  "Dead Zone"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  86
+	  SrcBlock		  "Saturation"
+	  SrcPort		  1
+	  DstBlock		  "Out1"
+	  DstPort		  1
+	}
       }
-      List {
-	ListType		ScopeGraphics
-	FigureColor		"[0.5 0.5 0.5]"
-	AxesColor		"[0 0 0]"
-	AxesTickColor		"[1 1 1]"
-	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	LineStyles		"-|-|-|-|-|-"
-	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
-	MarkerStyles		"none|none|none|none|none|none"
-      }
-    }
-    Block {
-      BlockType		      Scope
-      Name		      "Scope1"
-      SID		      "33"
-      Ports		      [1]
-      Position		      [510, 24, 540, 56]
-      ZOrder		      41
-      Floating		      off
-      Location		      [188, 365, 512, 604]
-      Open		      off
-      NumInputPorts	      "1"
-      ZoomMode		      "yonly"
-      List {
-	ListType		AxesTitles
-	axes1			"%<SignalLabel>"
-      }
-      List {
-	ListType		ScopeGraphics
-	FigureColor		"[0.5 0.5 0.5]"
-	AxesColor		"[0 0 0]"
-	AxesTickColor		"[1 1 1]"
-	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	LineStyles		"-|-|-|-|-|-"
-	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
-	MarkerStyles		"none|none|none|none|none|none"
-      }
-      SaveName		      "ScopeData1"
-    }
-    Block {
-      BlockType		      Scope
-      Name		      "Scope2"
-      SID		      "34"
-      Ports		      [1]
-      Position		      [585, 29, 615, 61]
-      ZOrder		      42
-      Floating		      off
-      Location		      [188, 365, 512, 604]
-      Open		      on
-      NumInputPorts	      "1"
-      ZoomMode		      "yonly"
-      List {
-	ListType		AxesTitles
-	axes1			"%<SignalLabel>"
-      }
-      List {
-	ListType		ScopeGraphics
-	FigureColor		"[0.5 0.5 0.5]"
-	AxesColor		"[0 0 0]"
-	AxesTickColor		"[1 1 1]"
-	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	LineStyles		"-|-|-|-|-|-"
-	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
-	MarkerStyles		"none|none|none|none|none|none"
-      }
-      SaveName		      "ScopeData2"
-    }
-    Block {
-      BlockType		      Scope
-      Name		      "Scope3"
-      SID		      "35"
-      Ports		      [1]
-      Position		      [695, 29, 725, 61]
-      ZOrder		      43
-      Floating		      off
-      Location		      [188, 365, 512, 604]
-      Open		      on
-      NumInputPorts	      "1"
-      ZoomMode		      "yonly"
-      List {
-	ListType		AxesTitles
-	axes1			"%<SignalLabel>"
-      }
-      List {
-	ListType		ScopeGraphics
-	FigureColor		"[0.5 0.5 0.5]"
-	AxesColor		"[0 0 0]"
-	AxesTickColor		"[1 1 1]"
-	LineColors		"[1 1 0;1 0 1;0 1 1;1 0 0;0 1 0;0 0 1]"
-	LineStyles		"-|-|-|-|-|-"
-	LineWidths		"[0.5 0.5 0.5 0.5 0.5 0.5]"
-	MarkerStyles		"none|none|none|none|none|none"
-      }
-      SaveName		      "ScopeData3"
-    }
-    Block {
-      BlockType		      StateSpace
-      Name		      "State-Space"
-      SID		      "29"
-      Ports		      [1, 1]
-      Position		      [440, 153, 500, 187]
-      ZOrder		      37
-      A			      "-1/a"
-      B			      "1/a"
-      D			      "0"
-      X0		      "20000"
     }
     Block {
       BlockType		      Constant
       Name		      "U"
       SID		      "1"
-      Position		      [380, 155, 410, 185]
+      Position		      [540, 100, 570, 130]
       ZOrder		      1
       ShowName		      off
       FontSize		      12
-      Value		      "1000*20.855"
+      Value		      "1000*u"
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "q"
+      SID		      "37"
+      Position		      [1025, 108, 1055, 122]
+      ZOrder		      45
+      IconDisplay	      "Port number"
     }
     Line {
-      ZOrder		      16
-      SrcBlock		      "Gain"
-      SrcPort		      1
-      DstBlock		      "Saturation"
-      DstPort		      1
-    }
-    Line {
-      ZOrder		      15
-      SrcBlock		      "Dead Zone"
-      SrcPort		      1
-      Points		      [16, 0]
-      Branch {
-	ZOrder			82
-	Points			[0, -125]
-	DstBlock		"Scope3"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			81
-	DstBlock		"Gain"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      14
-      SrcBlock		      "Saturation1"
-      SrcPort		      1
-      Points		      [5, 0]
-      Branch {
-	ZOrder			80
-	Points			[0, -55; -16, 0; 0, -70]
-	DstBlock		"Scope2"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			79
-	DstBlock		"Dead Zone"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      72
-      SrcBlock		      "State-Space"
-      SrcPort		      1
-      Points		      [5, 0]
-      Branch {
-	ZOrder			78
-	Points			[0, -59; -16, 0; 0, -71]
-	DstBlock		"Scope1"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			77
-	DstBlock		"Saturation1"
-	DstPort			1
-      }
-    }
-    Line {
-      ZOrder		      73
+      ZOrder		      90
       SrcBlock		      "U"
       SrcPort		      1
-      DstBlock		      "State-Space"
+      DstBlock		      "Control"
       DstPort		      1
     }
     Line {
-      ZOrder		      76
-      SrcBlock		      "Saturation"
+      ZOrder		      86
+      SrcBlock		      "Control"
       SrcPort		      1
-      Points		      [40, 0; 0, -75]
-      DstBlock		      "Scope"
+      DstBlock		      "q"
       DstPort		      1
-    }
-    Annotation {
-      SID		      "19"
-      Name		      "Control"
-      Position		      [533, 90, 943, 235]
-      InternalMargins	      [0, 0, 0, 0]
-      FixedHeight	      off
-      FixedWidth	      on
-      ForegroundColor	      "[0.941176, 0.941176, 1.000000]"
-      DropShadow	      on
-      AnnotationType	      "area_annotation"
-      ZOrder		      17
-      FontSize		      12
     }
   }
 }
