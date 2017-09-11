@@ -1,0 +1,14 @@
+\setbeamertemplate{section in toc}[square]
+\AtBeginSection[]{
+	\begin{frame}
+	\frametitle{Summaire}
+	%			\linespread{1.3}
+	\tableofcontents[currentsection,sectionstyle=show/hide,subsectionstyle=show/show/hide]
+\end{frame}
+}
+
+\begin{frame}{Summaire}
+\begin{multicols}{2}
+	\tableofcontents[subsectionstyle=hide/hide]
+\end{multicols}
+\end{frame}

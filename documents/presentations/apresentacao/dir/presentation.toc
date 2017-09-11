@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Panorama Gen\IeC {\'e}rale}{4}{0}{2}
+\beamer@sectionintoc {3}{Le Projet}{9}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{17}{0}{4}

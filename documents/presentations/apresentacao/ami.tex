@@ -1,0 +1,75 @@
+\begin{frame}{Infraestrutura Avançada de Medição (AMI)}
+	\begin{itemize}
+		\item Arquitetura Computacional
+		\item Interconexão entre fornecedor e usuário
+		\item Comunicação bidirecional
+		\item Medidores inteligentes
+	\end{itemize}
+	
+	\note{Para que haja interconexão entre o usuário da rede e o fornecedor dos serviços, é necessário implementar uma arquitetura computacional, designada por Infraestrutura Avançada de Medição (AMI), de forma a criar uma comunicação automática e bidirecional entre o consumidor e a concessionária dos serviços através do uso de medidores inteligentes.
+
+Tarifação Variável: Em periodos de alta demanda a energia é mais cara e de baixa demanda é mais barata.}
+	
+\end{frame}
+
+\begin{frame}{Medidores Inteligentes}
+
+	\begin{figure}[h]
+		\centering
+		\begin{minipage}{.5\textwidth}
+			\begin{itemize}
+				\item Dispositivos medidores de consumo energético
+				\item Fluxo bidirecional de informações
+				\item Monitoramento e tarifação mais detalhados
+				\item Controle de gastos pelo consumidor
+			\end{itemize}
+		\end{minipage}%
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\includegraphics[width=.6\linewidth]{./img/smart_meter.png}
+			\caption{Medidor inteligente utilizado comercialmente.}
+			\label{fig:smart_meter}
+		\end{minipage}
+	\end{figure}
+	\note{Os medidores inteligentes são dispositivos utilizados para medir o consumo de energia elétrica regularmente. O que difere esses equipamentos de medidores mais simples é o fato de que os medidores inteligentes permitem o fluxo bidirecional de energia, além de coletar uma quantidade de informações sobre o consumo muito maior do que os medidores comuns. Assim, pode ser feita uma monitoração e tarifação mais detalhada da energia, e a integração da rede elétrica como um todo é facilitada pelo grande fluxo de informações.
+		
+	Smart Grid é uma rede inteligente que permite ao consumidor controlar seu gasto a partir de canais remotos. Televisão, smartphone, computador com internet e até mesmo um tablet podem ser usados para checar o consumo em tempo real da família e ver se ela está dentro da sua meta energética diária ou mensal. A intenção é que cada integrante possa acompanhar seu consumo em qualquer um dos diferentes display.}
+\end{frame}
+
+\begin{frame}{Estrutura do AMI}
+	
+	\begin{itemize}
+		\item Composta por três redes: HAN (Home Area Network), NAN (Neighbourhood Area Network) e WAN (Wide Area Network).
+		\item Cada residência compõe uma HAN.
+		\item Cada HAN possui um medidor inteligente relacionado à ela.
+		\item Uma vizinhança de medidores compõe uma NAN.
+		\item Uma região com diversas NANs tem seus dados concentrados, formando uma WAN.
+	\end{itemize}
+	
+	\note{A estrutura do AMI é composta por basicamente três redes: HAN, NAN e WAN. Cada domicílio possui uma rede própria, do tipo HAN (Home Area Network) que conecta os dispositivos inteligentes (consumidores de energia) e as microgerações, se existirem. Todas essas informações de consumo elétrico, ocorrência de apagões e qualidade geral da utilização energética são armazenadas em um medidor inteligente. 
+		
+	As informações armazenadas nos medidores vizinhos compõe uma rede NAN (Neighbourhood Area Network), e cada rede desse tipo envia as informações para um concentrador de dados, que é conectado à central de gerenciamento de medição através de uma rede WAN (Wide Area Network), criando assim uma Infraestrutura Avançada de Medição. A Figura 6 exemplifica uma AMI e os seus componentes, todos gerenciados pelos três tipos de redes, HAN, NAN e WAN.}
+\end{frame}
+
+\begin{frame}{Infraestrutura Avançada de Medição}
+	\begin{figure}[h]
+		\begin{center}
+			\includegraphics[width=0.9\textwidth]{./img/AMI.png}   
+			\caption{Fluxograma de uma AMI contendo redes HAN, NAN e WAN.}
+			\label{fig:ami}
+		\end{center}
+	\end{figure}	
+\end{frame}
+
+
+
+%=Infraestrutura Avançada de Medição
+%Para que haja interconexão entre o usuário da rede e o fornecedor dos serviços, é necessário implementar uma arquitetura computacional, designada por Infraestrutura Avançada de Medição (AMI), de forma a criar uma comunicação automática e bidirecional entre o consumidor e a concessionária dos serviços através do uso de medidores inteligentes.
+%
+%=Medidores Inteligentes
+%Os medidores inteligente são dispositivos utilizados para medir o consumo de energia elétrica regularmente. O que difere esses equipamentos de medidores mais simples é o fato de que os medidores inteligentes permitem o fluxo bidirecional de energia, além de coletar uma quantidade de informações sobre o consumo muito maior do que os medidores comuns. Assim, pode ser feita uma monitoração e tarifação mais detalhada da energia, e a integração da rede elétrica como um todo é facilitada pelo grande fluxo de informações. Um exemplo de medidor inteligente pode ser visualizado na Figura 5.
+%
+%=Estrutura do AMI
+%A estrutura do AMI é composta por basicamente três redes: HAN, NAN e WAN. Cada domicílio possui uma rede própria, do tipo HAN (Home Area Network) que conecta os dispositivos inteligentes (consumidores de energia) e as microgerações, se existirem. Todas essas informações de consumo elétrico, ocorrência de apagões e qualidade geral da utilização energética são armazenadas em um medidor inteligente. 
+%
+%As informações armazenadas nos medidores vizinhos compõe uma rede NAN (Neighbourhood Area Network), e cada rede desse tipo envia as informações para um concentrador de dados, que é conectado à central de gerenciamento de medição através de uma rede WAN (Wide Area Network), criando assim uma Infraestrutura Avançada de Medição. A Figura 6 exemplifica uma AMI e os seus componentes, todos gerenciados pelos três tipos de redes, HAN, NAN e WAN.
