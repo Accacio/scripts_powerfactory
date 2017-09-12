@@ -1,0 +1,10 @@
+
+      \begin{tikzpicture}[domain=0:4]
+      \draw[very thin,color=gray] (-0.1,-1.1) grid (3.9,3.1);
+      \draw[->] (-0.2,1) -- (4.2,1) node[right] {$t$};
+      \draw[->] (0,-1.2) -- (0,3.2) node[left] {$Q$};
+      \draw[color=red] (0,1)--(1,1)--(1,0) -- (3,0)--(3,1)--(4.2,1);
+       \draw (0,0) node[left] {$-0.2\ P_{nom}$};
+       \draw (-0.2,1) node[left] {$0$};
+      \end{tikzpicture}
+    

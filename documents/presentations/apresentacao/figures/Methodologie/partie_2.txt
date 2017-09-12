@@ -1,0 +1,8 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{Methodologie\partie_2/gui_powerfactory.JPG}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:gui_powerfactory}
+	\end{center}
+\end{figure}
+
