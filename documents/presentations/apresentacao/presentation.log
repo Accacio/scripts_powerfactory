@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  12 SEP 2017 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  12 SEP 2017 22:36
 entering extended mode
 **./presentation.tex
 (presentation.tex
@@ -1097,8 +1097,10 @@ Package babel Info: Making ? an active character on input line 368.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
 Package frenchb.ldf Info: No list customisation for the beamer class,
 (frenchb.ldf)             reported on input line 9.
-)
-(beameroptions.tex (beamerthemeTorino.sty (beamerinnerthemefancy.sty
+{C:/Users/racca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}{C:/Program F
+iles/MiKTeX 2.9/fonts/map/dvips/sansmathaccent/sansmathaccent.map}) (beameropti
+ons.tex
+(beamerthemeTorino.sty (beamerinnerthemefancy.sty
 \beamer@fancy@lineup=\skip70
 \beamer@fancy@linemid=\skip71
 \beamer@fancy@linebottom=\skip72
@@ -1355,9 +1357,8 @@ Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 8.
 (pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
  [2
 
-{C:/Users/racca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}pdfTeX warnin
-g (ext4): destination with the same identifier (name{Navigation1}) has been alr
-eady used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation1})
+ has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
@@ -2054,7 +2055,7 @@ Overfull \vbox (70.888pt too high) detected at line 17
  []
 
 
-<./figures/Methodologie/partie_2/gui_powerfactory_num.JPG, id=252, 1284.8pt x 9
+<./figures/Methodologie/partie_2/gui_powerfactory_num.JPG, id=254, 1284.8pt x 9
 95.72pt>
 File: ./figures/Methodologie/partie_2/gui_powerfactory_num.JPG Graphic file (ty
 pe jpg)
@@ -2189,7 +2190,7 @@ pdfTeX warning: pdflatex.exe (file ./figures/Methodologie/Diagramme_du_reseaux.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<./figures/Methodologie/Diagramme_du_reseaux.pdf, id=284, 597.50786pt x 845.046
+<./figures/Methodologie/Diagramme_du_reseaux.pdf, id=286, 597.50786pt x 845.046
 86pt>
 File: ./figures/Methodologie/Diagramme_du_reseaux.pdf Graphic file (type pdf)
  <use ./figures/Methodologie/Diagramme_du_reseaux.pdf>
@@ -2759,6 +2760,412 @@ l.1 \section{Résultats}
 Overfull \vbox (70.888pt too high) detected at line 1
  []
 
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 7.
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 7.
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [37
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation36}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.7 \end{frame}
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{page.36}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.7 \end{frame}
+               
+
+]
+Overfull \vbox (70.888pt too high) detected at line 7
+ []
+
+
+<./figures/Resultats/meus_resultados/Puissance_Active_et_Reactive_de_la_Charge_
+C2_29_MT.pdf, id=452, 227.85126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Puissance_Active_et_Reactive_de_la_Ch
+arge_C2_29_MT.pdf Graphic file (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Puissance_Active_et_Reactive_de_la_Cha
+rge_C2_29_MT.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Puissance_Active_e
+t_Reactive_de_la_Charge_C2_29_MT.pdf used on input line 16.
+(pdftex.def)             Requested size: 152.23645pt x 152.23886pt.
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+ <use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 16.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 16.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [38
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation37}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.16 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.37}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.16 \end{frame}
+                
+
+]
+Overfull \vbox (70.888pt too high) detected at line 16
+ []
+
+File: ./figures/Resultats/meus_resultados/Puissance_Active_et_Reactive_de_la_Ch
+arge_C2_29_MT.pdf Graphic file (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Puissance_Active_et_Reactive_de_la_Cha
+rge_C2_29_MT.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Puissance_Active_e
+t_Reactive_de_la_Charge_C2_29_MT.pdf used on input line 16.
+(pdftex.def)             Requested size: 152.23645pt x 152.23886pt.
+
+<./figures/Resultats/meus_resultados/Tension_des_Bus_N21_N23_et_N29.pdf, id=464
+, 227.85126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_des_Bus_N21_N23_et_N29.pdf Gr
+aphic file (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_des_Bus_N21_N23_et_N29.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_des_Bus_N2
+1_N23_et_N29.pdf used on input line 16.
+(pdftex.def)             Requested size: 152.23645pt x 152.23886pt.
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 16.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 16.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [39
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation38}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.16 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.38}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.16 \end{frame}
+                
+
+ <./figures/Resultats/meus_resultados/Puissance_Active_et_Reactive_de_la_Charge
+_C2_29_MT.pdf>]
+Overfull \vbox (70.888pt too high) detected at line 16
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 38.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 38.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [40
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation39}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.38 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.39}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.38 \end{frame}
+                
+
+ <./figures/Resultats/meus_resultados/Tension_des_Bus_N21_N23_et_N29.pdf>]
+Overfull \vbox (70.888pt too high) detected at line 38
+ []
+
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_4.pdf, id=507
+, 227.85126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_4.pdf Gr
+aphic file (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_4.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5
+_et_GD6_a0_4.pdf used on input line 48.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_5.pdf, id=508
+, 227.85126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_5.pdf Gr
+aphic file (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_5.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5
+_et_GD6_a0_5.pdf used on input line 48.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_6.pdf, id=509
+, 227.85126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_6.pdf Gr
+aphic file (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_6.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_GD5
+_et_GD6_a0_6.pdf used on input line 48.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 48.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 48.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [41
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation40}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.48 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.40}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.48 \end{frame}
+                
+
+]
+Overfull \vbox (70.888pt too high) detected at line 48
+ []
+
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_4.pdf, id=524, 227.8
+5126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_4.pdf Graphic f
+ile (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_4.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_P50
+_a0_4.pdf used on input line 57.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_5.pdf, id=525, 227.8
+5126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_5.pdf Graphic f
+ile (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_5.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_P50
+_a0_5.pdf used on input line 57.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_6.pdf, id=526, 227.8
+5126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_6.pdf Graphic f
+ile (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_6.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_P50
+_a0_6.pdf used on input line 57.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 57.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 57.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [42
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation41}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.57 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.41}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.57 \end{frame}
+                
+
+ <./figures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_4.pdf> <./fi
+gures/Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_5.pdf> <./figures/
+Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_6.pdf>]
+Overfull \vbox (70.888pt too high) detected at line 57
+ []
+
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_4.pdf, id=570, 227.8
+5126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_4.pdf Graphic f
+ile (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_4.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50
+_a0_4.pdf used on input line 66.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_5.pdf, id=571, 227.8
+5126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_5.pdf Graphic f
+ile (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_5.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50
+_a0_5.pdf used on input line 66.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+
+<./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_6.pdf, id=572, 227.8
+5126pt x 227.85126pt>
+File: ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_6.pdf Graphic f
+ile (type pdf)
+
+<use ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_6.pdf>
+Package pdftex.def Info: ./figures/Resultats/meus_resultados/Tension_de_GD4_Q50
+_a0_6.pdf used on input line 66.
+(pdftex.def)             Requested size: 96.14908pt x 96.14883pt.
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 66.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 66.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [43
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation42}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.66 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.42}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.66 \end{frame}
+                
+
+ <./figures/Resultats/meus_resultados/Tension_de_GD4_P50_a0_4.pdf> <./figures/R
+esultats/meus_resultados/Tension_de_GD4_P50_a0_5.pdf> <./figures/Resultats/meus
+_resultados/Tension_de_GD4_P50_a0_6.pdf>]
+Overfull \vbox (70.888pt too high) detected at line 66
+ []
+
 ) (Conclusion.tex (presentation.toc)
 File: ./figures/logos/supelecietr.png Graphic file (type png)
  <use ./figures/logos/supelecietr.png>
@@ -2778,28 +3185,190 @@ File: ./figures/logos/supelecietr.png Graphic file (type png)
 <use ./figures/logos/supelecietr.png>
 Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 1.
 (pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
- [37
+ [44
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation36}
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation43}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.1 \section{Conclusion}
-                        pdfTeX warning (ext4): destination with the same identi
-fier (name{page.36}) has been already used, duplicate ignored
+l.1 \section{Difficultés et Conclusions}
+                                         pdfTeX warning (ext4): destination wit
+h the same identifier (name{page.43}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
-l.1 \section{Conclusion}
-                        
+l.1 \section{Difficultés et Conclusions}
+                                         
 
-]
+ <./figures/Resultats/meus_resultados/Tension_de_GD4_Q50_a0_4.pdf> <./figures/R
+esultats/meus_resultados/Tension_de_GD4_Q50_a0_5.pdf> <./figures/Resultats/meus
+_resultados/Tension_de_GD4_Q50_a0_6.pdf>]
 Overfull \vbox (70.888pt too high) detected at line 1
  []
 
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 13.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 13.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [45
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation44}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.13 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.44}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.13 \end{frame}
+                
+
+]
+Overfull \vbox (70.888pt too high) detected at line 13
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 13.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 13.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [46
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation45}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.13 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.45}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.13 \end{frame}
+                
+
+]
+Overfull \vbox (70.888pt too high) detected at line 13
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 13.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 13.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [47
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation46}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.13 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.46}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.13 \end{frame}
+                
+
+]
+Overfull \vbox (70.888pt too high) detected at line 13
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 21.
+
+(pdftex.def)             Requested size: 0.0pt x 0.0pt.
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) has occurred while \output is active
+[]
+ []
+
+File: ./figures/logos/supelecietr.png Graphic file (type png)
+<use ./figures/logos/supelecietr.png>
+Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 21.
+
+(pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
+ [48
+
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation47}
+) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.21 \end{frame}
+                pdfTeX warning (ext4): destination with the same identifier (na
+me{page.47}) has been already used, duplicate ignored
+
+\pgfpages@shipoutshipoutbox ...physicalpagesizes }
+                                                  \endgroup 
+l.21 \end{frame}
+                
+
+]
+Overfull \vbox (70.888pt too high) detected at line 21
+ []
+
 ) (Contact.tex
-<./figures//logos/GitHub-Mark-32px.png, id=451, 32.12pt x 32.12pt>
+<./figures//logos/GitHub-Mark-32px.png, id=653, 32.12pt x 32.12pt>
 File: ./figures//logos/GitHub-Mark-32px.png Graphic file (type png)
 
 <use ./figures//logos/GitHub-Mark-32px.png>
@@ -2825,16 +3394,16 @@ File: ./figures/logos/supelecietr.png Graphic file (type png)
 <use ./figures/logos/supelecietr.png>
 Package pdftex.def Info: ./figures/logos/supelecietr.png used on input line 6.
 (pdftex.def)             Requested size: 43.85423pt x 13.65399pt.
- [38
+ [49
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation37}
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation48}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
 l.6 \end{frame}
                pdfTeX warning (ext4): destination with the same identifier (nam
-e{page.37}) has been already used, duplicate ignored
+e{page.48}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
@@ -2855,16 +3424,16 @@ Overfull \vbox (70.888pt too high) detected at line 6
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
- [39
+ [50
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation38}
+pdfTeX warning (ext4): destination with the same identifier (name{Navigation49}
 ) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
 l.19 \end{document}
                    pdfTeX warning (ext4): destination with the same identifier 
-(name{page.38}) has been already used, duplicate ignored
+(name{page.49}) has been already used, duplicate ignored
 
 \pgfpages@shipoutshipoutbox ...physicalpagesizes }
                                                   \endgroup 
@@ -2878,28 +3447,31 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 19.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 19.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 19.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: B211F2624746704117FAA214603C664C;292.
+(rerunfilecheck)             Checksum: 5D8BED2413E722F3BF465A06CDFE2C72;311.
  ) 
 Here is how much of TeX's memory you used:
- 19232 strings out of 493333
- 359135 string characters out of 3139194
- 457534 words of memory out of 3000000
- 22166 multiletter control sequences out of 15000+200000
+ 19347 strings out of 493333
+ 363519 string characters out of 3139194
+ 487534 words of memory out of 3000000
+ 22244 multiletter control sequences out of 15000+200000
  16224 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,15n,57p,819b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
-bols/msam10.pfb>
-Output written on presentation.pdf (38 pages, 763687 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on presentation.pdf (49 pages, 1073153 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

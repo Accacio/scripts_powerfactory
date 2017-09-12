@@ -1,4 +1,69 @@
 \section{Résultats}
-\begin{itemize}
-	\item 
-\end{itemize}
+\begin{frame}{}
+	\begin{itemize}
+		\item Gain
+		\item Réponse des Simulations
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Gain}
+\begin{figure}
+   \only<1,2>{\includegraphics[width=0.475\textwidth]{Resultats/meus_resultados/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT}}
+   \hfill
+   \only<2>{\includegraphics[width=0.475\textwidth]{Resultats/meus_resultados/Tension_des_Bus_N21_N23_et_N29}}\note{le tableaux serait trop petit, c'est pas coherant}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Matrice de Gain}\centering
+			\resizebox{0.5\textwidth}{!}{\begin{tabular}{cccccc}
+		$\frac{V_{N01}}{Q_{C 2-19}}$& $\frac{V_{N02}}{Q_{C 2-19}}$& $\frac{V_{N19}}{Q_{C 2-19}}$& $\frac{V_{N20}}{Q_{C 2-19}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-19}}$\\
+		&&&&&\\
+		$ \vdots $&$ \vdots $&$ \vdots $&$ \vdots $&$ \ddots $&$ \vdots $\\
+		&&&&&\\
+		$\frac{V_{N01}}{Q_{C 2-27.1}}$& $\frac{V_{N02}}{Q_{C 2-27.1}}$& $\frac{V_{N19}}{Q_{C 2-27.1}}$& $\frac{V_{N20}}{Q_{C 2-27.1}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-27.1}}$\\
+		&&&&&\\
+		$\frac{V_{N01}}{Q_{C 2-27.2}}$& $\frac{V_{N02}}{Q_{C 2-27.2}}$& $\frac{V_{N19}}{Q_{C 2-27.2}}$& $\frac{V_{N20}}{Q_{C 2-27.2}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-27.2}}$\\
+		&&&&&\\				
+		$\frac{V_{N01}}{Q_{C 2-27.3}}$& $\frac{V_{N02}}{Q_{C 2-27.3}}$& $\frac{V_{N19}}{Q_{C 2-27.3}}$& $\frac{V_{N20}}{Q_{C 2-27.3}}$&$ \cdots$&$\frac{V_{N32}}{Q_{C 2-27.3}}$\\
+		&&&&&\\
+		$\frac{V_{N01}}{Q_{C 2-28}}$& $\frac{V_{N02}}{Q_{C 2-28}}$& $\frac{V_{N19}}{Q_{C 2-28}}$& $\frac{V_{N20}}{Q_{C 2-28}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-28}}$\\
+		&&&&&\\
+		$ \vdots $&$ \vdots $&$ \vdots $&$ \vdots $&$ \ddots $&$ \vdots $\\
+		&&&&&\\
+		$\frac{V_{N01}}{Q_{C 2-32.1}}$& $\frac{V_{N02}}{Q_{C 2-32.1}}$& $\frac{V_{N19}}{Q_{C 2-32.1}}$& $\frac{V_{N20}}{Q_{C 2-32.1}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-32.1}}$\\
+		&&&&&\\
+		$\frac{V_{N01}}{Q_{C 2-32.2}}$& $\frac{V_{N02}}{Q_{C 2-32.2}}$& $\frac{V_{N19}}{Q_{C 2-32.2}}$& $\frac{V_{N20}}{Q_{C 2-32.2}}$&$\cdots$&$\frac{V_{N32}}{Q_{C 2-32.2}}$\\
+\end{tabular}}		
+\end{frame}
+
+
+\begin{frame}{Simulation}\note{Pour faciliter la visualiation les prochains graphiques seront d'un seul générateur}
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_4.pdf}
+\hfill
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_5.pdf}
+\hfill
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_GD5_et_GD6_a0_6.pdf}
+\quad \\\quad\\ \centering \small  Sans Perturbation
+\end{frame}
+
+\begin{frame}{Simulation}
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_P50_a0_4.pdf}
+\hfill
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_P50_a0_5.pdf}
+\hfill
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_P50_a0_6.pdf}
+\quad \\\quad\\ \centering \small  Changement de Puissance Active en +50\%\\ Charge C2\_29\_MT
+\end{frame}
+
+\begin{frame}{Simulation}
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_Q50_a0_4.pdf}
+\hfill
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_Q50_a0_5.pdf}
+\hfill
+\includegraphics[width=0.3\textwidth]{Resultats/meus_resultados/Tension_de_GD4_Q50_a0_6.pdf}
+\quad \\\quad\\ \centering \small  Changement de Puissance Réactive +50\%\\ Charge C2\_29\_MT
+\end{frame}
+
+
+

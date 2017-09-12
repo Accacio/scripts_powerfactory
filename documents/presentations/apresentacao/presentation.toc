@@ -4,4 +4,4 @@
 \beamer@sectionintoc {3}{Division du travail}{9}{0}{3}
 \beamer@sectionintoc {4}{M\IeC {\'e}thodologie}{17}{0}{4}
 \beamer@sectionintoc {5}{R\IeC {\'e}sultats}{36}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{37}{0}{6}
+\beamer@sectionintoc {6}{Difficult\IeC {\'e}s et Conclusions}{44}{0}{6}

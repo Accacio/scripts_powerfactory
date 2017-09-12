@@ -4,8 +4,8 @@ clc
 default_input_folder='..\..\..\data\output\matlab\simulations\';
 [FileName,PathName] = uigetfile('*.mat','Select mat file with simulation data',default_input_folder);
 
-if((strcmp(FileName,0))||((strcmp(PathName,0))))
-    return;
+if(isa(FileName,'double'))
+    return
 end
 
 FileName_noext=FileName(1:end-4);
@@ -74,5 +74,11 @@ end
 
 %% Save File    
 [saveFileName,PathName]=uiputfile('*.pdf','Save data as',[PathName FileName]);
+
+if(isa(saveFileName,'double'))
+    return
+end
+
 saveas(gcf,[ PathName FileName '.pdf'])
+close all
 clear
