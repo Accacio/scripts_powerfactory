@@ -1,5 +1,5 @@
 # scripts_powerfactory
-Repository of tests in net model
+Repository of tests in net model using DIgSILENT PowerFactory
 ## Folder Tree:
 
 ```
