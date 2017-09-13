@@ -193,7 +193,7 @@ A fin de faire une meilleur description du réseaux les tables \ref{tab:generate
 	\end{tabular}
 \end{table}	
 
-\mysection{Troisième Partie - Programmation}
+\mysubsection{Troisième Partie - Programmation}
 
 Pendant ce partie diverses scripts ont été crées en utilisant les langages MATLAB et Python, en intégration des bibliothèques Python du \powerfactory, qui pourvoit quelques fonctions pour accéder aux éléments du réseau, changer ses caractéristiques et faire des mesures de courant, tension etc.
 
@@ -201,7 +201,7 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 
 
 
-\begin{enumerate}[\bfseries 5.1]
+\begin{enumerate}[\bfseries 4.3.1]
 	\item $\mathbf{gain\_calc-load2bus.py}$\\
 	\\Ce script change les valeurs de puissance réactive demandé par les charges pendant un intervalle de temps et prend les valeurs de tension du bus auquel la charge est connecté pendant ce temps et calcule le gain entre chaque charge et bus, formant une matrice de dimension $ 16\times16 $, avec le format suivant:
 	\\	\begin{table}[H]\tiny
@@ -297,9 +297,12 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 	\item $\mathbf{csv2mat.m}$\\
 	\\Ce script fait en MATLAB prend un fichier \gls{CSV} sorti d'une simulation du \powerfactory et le transforme en un fichier .mat. Il crée une structure composés par autres structures qui sont les éléments du circuit et composées par ses données  pendant le temps, a fin de les utiliser pour faire des graphiques.
 	\\
-	\item $\mathbf{printalldata.m et printpdf.m}$\\
-	\\Ces scripts ont été créés pour faire les plots des graphiques et les sauvegarder pour un futur use dans les rapports.  
+	\item $\mathbf{printpdf.m}$\\
+	\\Ce scripts a été créé pour faire les plots des graphiques et les sauvegarder en fichier \verb|.pdf| pour un futur use dans les rapports (ce rapport par exemple).  
 \end{enumerate}
+
+\mysubsection{Quatrième Partie - Intégration}
+
 
 
 
