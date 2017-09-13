@@ -1,12 +1,13 @@
 \setbeamertemplate{section in toc}[square]
-\AtBeginSection[]{
+\setbeamertemplate{subsection in toc}[square]
+\newcommand{\eachsectiononlycurrentsubsections}{\AtBeginSection[]{
 	\begin{frame}
 	\frametitle{Summaire}
 	%			\linespread{1.3}
 	\tableofcontents[currentsection,sectionstyle=show/hide,subsectionstyle=show/show/hide]
 \end{frame}
-}
-
+}}
+\eachsectiononlycurrentsubsections
 \begin{frame}{Summaire}
 \begin{multicols}{2}
 	\tableofcontents[subsectionstyle=hide/hide]
