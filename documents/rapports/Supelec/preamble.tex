@@ -68,21 +68,45 @@
 
 \pagestyle{fancy}
 \newif\ifdebug
-\newcommand\todo[1]{\ifdebug {\color{red}#1}\fi}
+\newcommand{\draft}{\debugtrue}
+\newcommand{\final}{\debugfalse}
+\newcommand\todo[1]{\ifdebug {\color{red}#1}\else \PackageError{}{FORGOT TO DO SOMETHING}{}\fi}
 \newcommand\doing[1]{\ifdebug {\color{blue}#1}\fi}
+\newcommand\warning[1]{\ifdebug {\color{red}#1}\fi}
 
 
 \fancyhead[CO]{\title}
 \fancyhead[CE]{\subtitle}
 %\fancyhead[RE]{\rightmark}
-\fancyhead[R]{\todo{DEBUG ON}}
-\fancyhead[L]{\todo{DEBUG ON}}
+\fancyhead[L]{\warning{DRAFT}}
+\fancyhead[R]{\warning{DEBUG ON}}
 
-\fancyfoot[R]{\todo{DEBUG ON}}
-\fancyfoot[L]{\todo{DEBUG ON}}
+\fancyfoot[L]{\warning{DRAFT}}
+\fancyfoot[R]{\warning{DEBUG ON}}
+
 \fancyfoot[C]{\thepage}
 
 \allowdisplaybreaks
 
 \usepackage{chngcntr}
 \counterwithin{figure}{section}
+
+
+\newcommand{\figplaceholder}[1]{\ifdebug
+	\begin{figure}[H]
+		\begin{center}	
+			\rule{8cm}{8cm}
+			\caption{\color{red}placeholder}
+			\label{fig:#1}
+		\end{center}
+	\end{figure}
+\else
+\PackageError{}{NO FIGURE}{}
+\fi
+}
+
+
+\usepackage[acronym]{glossaries}\makeglossaries
+\newcommand{\acr}[3]{\newacronym{#1}{#2}{#3}}
+\newcommand{\symbl}[3]{\newglossaryentry{#1}{name = #2,	description = #3,}}
+

@@ -1,0 +1,32 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:DIgSILENT_Matlab_AVR_frame}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:DIgSILENT_Matlab_AVR_frame_filtre}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:DIgSILENT_Matlab_AVR_frame_matlab}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:DIgSILENT_Matlab_AVR_frame_withoutmatlab}
+	\end{center}
+\end{figure}
+

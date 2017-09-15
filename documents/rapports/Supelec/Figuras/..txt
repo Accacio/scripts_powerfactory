@@ -1,6 +1,6 @@
 \begin{figure}[H]
 	\begin{center}	
-		\includegraphics[width=8cm]{./organigramme_IETR_160717_v28.pdf}
+		\includegraphics[width=8cm]{"./organigramme_IETR_160717_v28"}
 		\caption{\todo{escrevaaquiseucaption}}
 		\label{fig:organigramme_IETR_160717_v28}
 	\end{center}
@@ -8,7 +8,7 @@
 
 \begin{figure}[H]
 	\begin{center}	
-		\includegraphics[width=8cm]{./teste.jpg}
+		\includegraphics[width=8cm]{"./teste"}
 		\caption{\todo{escrevaaquiseucaption}}
 		\label{fig:teste}
 	\end{center}

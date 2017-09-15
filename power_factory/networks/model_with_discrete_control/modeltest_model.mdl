@@ -12,7 +12,7 @@ Model {
       BusOutputAsStruct	      "off"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.65"
+    ComputedModelVersion    "1.70"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -81,9 +81,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "nogueira_raf"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Sep 08 15:26:55 2017"
-  RTWModifiedTimeStamp	  426785202
-  ModelVersionFormat	  "1.%<AutoIncrement:65>"
+  LastModifiedDate	  "Thu Sep 14 15:43:15 2017"
+  RTWModifiedTimeStamp	  427304415
+  ModelVersionFormat	  "1.%<AutoIncrement:70>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -742,9 +742,9 @@ Model {
 	  $ObjectID		  21
 	  Version		  "1.15.0"
 	  StartTime		  "0.0"
-	  StopTime		  "1"
+	  StopTime		  "0.01"
 	  AbsTol		  "auto"
-	  FixedStep		  "1"
+	  FixedStep		  "0.01"
 	  InitialStep		  "auto"
 	  MaxNumMinSteps	  "-1"
 	  MaxOrder		  5
@@ -1274,7 +1274,7 @@ Model {
       }
       Name		      "Configuration1"
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 90, 40, 1218, 878 ] 
+      ConfigPrmDlgPosition     [ 74, 40, 1218, 917 ] 
     }
     PropName		    "ConfigurationSets"
   }

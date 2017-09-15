@@ -1,16 +1,8 @@
 \begin{figure}[H]
 	\begin{center}	
-		\includegraphics[width=8cm]{Methodologie/gain_calc-generator2bus-test_1.pdf}
+		\includegraphics[width=8cm]{"C:/Users/nogueira_raf/Documents/GitHub/scripts_powerfactory/documents/rapports/Supelec/Figuras/Methodologie/DIgSILENT_Matlab_AVR_frame_matlab"}
 		\caption{\todo{escrevaaquiseucaption}}
-		\label{fig:gain_calc-generator2bus-test_1}
-	\end{center}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}	
-		\includegraphics[width=8cm]{Methodologie/gain_calc-generator2bus-test_2.pdf}
-		\caption{\todo{escrevaaquiseucaption}}
-		\label{fig:gain_calc-generator2bus-test_2}
+		\label{fig:DIgSILENT_Matlab_AVR_frame_matlab}
 	\end{center}
 \end{figure}
 

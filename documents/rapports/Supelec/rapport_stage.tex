@@ -2,16 +2,14 @@
 
 \input{preamble.tex}
 
-\usepackage[acronym]{glossaries}\makeglossaries
-\newcommand{\acr}[3]{\newacronym{#1}{#2}{#3}}
-\newcommand{\symbl}[3]{\newglossaryentry{#1}{name = #2,	description = #3,}}
+
 \input{glossaires_et_symb.tex}
-\debugtrue
+
 
 
 \makeindex
-
-
+%\final
+\draft
 \begin{document}
 %\symbl{teste2}{$\beta$}{beta}
 %\acr{Supelec}{Supélec}{École Supérieure d'Électricité}
@@ -35,7 +33,7 @@
 \input{Projet}
 \input{Division_du_travail}
 \input{Methodologie}
-%\input{Resultats}
+\input{Resultats}
 \input{Conclusion}
 
 

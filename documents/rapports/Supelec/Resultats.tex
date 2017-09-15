@@ -1,52 +1,10 @@
 \mysection{Résultats}
 \mysubsection{Scripts}
 En dessous les résultats provenus des scripts crées dans la troisième partie du projet. 
-\mysubsubsection{gain\_calc-load2bus}
-Ce script calcule le gain entre la puissance réactive des charges et la tension des bus aux lesquels elles sont connectées. La matrice généré par ce script est construit de ce forme :
 
-
-
-\begin{table}[H]\tiny
-	\captionsetup{justification=centering,margin=2cm}
-	\caption{Matrice des Gain entre Puissance Réactive des charges et la tension des Bus}
-	\centering
-	\resizebox{\textwidth}{!}{\begin{tabular}{cccccccccccccccc}
-			$\frac{V_{N01}}{Q_{C 2-19}}$& $\frac{V_{N02}}{Q_{C 2-19}}$& $\frac{V_{N19}}{Q_{C 2-19}}$& $\frac{V_{N20}}{Q_{C 2-19}}$& $\frac{V_{N21 DG}}{Q_{C 2-19}}$& $\frac{V_{N22}}{Q_{C 2-19}}$& $\frac{V_{N23 DG}}{Q_{C 2-19}}$& $\frac{V_{N24}}{Q_{C 2-19}}$& $\frac{V_{N25}}{Q_{C 2-19}}$& $\frac{V_{N26}}{Q_{C 2-19}}$&$\frac{V_{N27}}{Q_{C 2-19}}$&$\frac{V_{N28}}{Q_{C 2-19}}$&$\frac{V_{N29 DG}}{Q_{C 2-19}}$&$\frac{V_{N30}}{Q_{C 2-19}}$&$\frac{V_{N31}}{Q_{C 2-19}}$&$\frac{V_{N32}}{Q_{C 2-19}}$\\
-			$\frac{V_{N01}}{Q_{C 2-20}}$& $\frac{V_{N02}}{Q_{C 2-20}}$& $\frac{V_{N19}}{Q_{C 2-20}}$& $\frac{V_{N20}}{Q_{C 2-20}}$& $\frac{V_{N21 DG}}{Q_{C 2-20}}$& $\frac{V_{N22}}{Q_{C 2-20}}$& $\frac{V_{N23 DG}}{Q_{C 2-20}}$& $\frac{V_{N24}}{Q_{C 2-20}}$& $\frac{V_{N25}}{Q_{C 2-20}}$& $\frac{V_{N26}}{Q_{C 2-20}}$&$\frac{V_{N27}}{Q_{C 2-20}}$&$\frac{V_{N28}}{Q_{C 2-20}}$&$\frac{V_{N29 DG}}{Q_{C 2-20}}$&$\frac{V_{N30}}{Q_{C 2-20}}$&$\frac{V_{N31}}{Q_{C 2-20}}$&$\frac{V_{N32}}{Q_{C 2-20}}$\\
-			$\frac{V_{N01}}{Q_{C 2-21}}$& $\frac{V_{N02}}{Q_{C 2-21}}$& $\frac{V_{N19}}{Q_{C 2-21}}$& $\frac{V_{N20}}{Q_{C 2-21}}$& $\frac{V_{N21 DG}}{Q_{C 2-21}}$& $\frac{V_{N22}}{Q_{C 2-21}}$& $\frac{V_{N23 DG}}{Q_{C 2-21}}$& $\frac{V_{N24}}{Q_{C 2-21}}$& $\frac{V_{N25}}{Q_{C 2-21}}$& $\frac{V_{N26}}{Q_{C 2-21}}$&$\frac{V_{N27}}{Q_{C 2-21}}$&$\frac{V_{N28}}{Q_{C 2-21}}$&$\frac{V_{N29 DG}}{Q_{C 2-21}}$&$\frac{V_{N30}}{Q_{C 2-21}}$&$\frac{V_{N31}}{Q_{C 2-21}}$&$\frac{V_{N32}}{Q_{C 2-21}}$\\
-			$\frac{V_{N01}}{Q_{C 2-22}}$& $\frac{V_{N02}}{Q_{C 2-22}}$& $\frac{V_{N19}}{Q_{C 2-22}}$& $\frac{V_{N20}}{Q_{C 2-22}}$& $\frac{V_{N21 DG}}{Q_{C 2-22}}$& $\frac{V_{N22}}{Q_{C 2-22}}$& $\frac{V_{N23 DG}}{Q_{C 2-22}}$& $\frac{V_{N24}}{Q_{C 2-22}}$& $\frac{V_{N25}}{Q_{C 2-22}}$& $\frac{V_{N26}}{Q_{C 2-22}}$&$\frac{V_{N27}}{Q_{C 2-22}}$&$\frac{V_{N28}}{Q_{C 2-22}}$&$\frac{V_{N29 DG}}{Q_{C 2-22}}$&$\frac{V_{N30}}{Q_{C 2-22}}$&$\frac{V_{N31}}{Q_{C 2-22}}$&$\frac{V_{N32}}{Q_{C 2-22}}$\\
-			$\frac{V_{N01}}{Q_{C 2-24}}$& $\frac{V_{N02}}{Q_{C 2-24}}$& $\frac{V_{N19}}{Q_{C 2-24}}$& $\frac{V_{N20}}{Q_{C 2-24}}$& $\frac{V_{N21 DG}}{Q_{C 2-24}}$& $\frac{V_{N22}}{Q_{C 2-24}}$& $\frac{V_{N23 DG}}{Q_{C 2-24}}$& $\frac{V_{N24}}{Q_{C 2-24}}$& $\frac{V_{N25}}{Q_{C 2-24}}$& $\frac{V_{N26}}{Q_{C 2-24}}$&$\frac{V_{N27}}{Q_{C 2-24}}$&$\frac{V_{N28}}{Q_{C 2-24}}$&$\frac{V_{N29 DG}}{Q_{C 2-24}}$&$\frac{V_{N30}}{Q_{C 2-24}}$&$\frac{V_{N31}}{Q_{C 2-24}}$&$\frac{V_{N32}}{Q_{C 2-24}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-25}}$& $\frac{V_{N02}}{Q_{C 2-25}}$& $\frac{V_{N19}}{Q_{C 2-25}}$& $\frac{V_{N20}}{Q_{C 2-25}}$& $\frac{V_{N21 DG}}{Q_{C 2-25}}$& $\frac{V_{N22}}{Q_{C 2-25}}$& $\frac{V_{N23 DG}}{Q_{C 2-25}}$& $\frac{V_{N24}}{Q_{C 2-25}}$& $\frac{V_{N25}}{Q_{C 2-25}}$& $\frac{V_{N26}}{Q_{C 2-25}}$&$\frac{V_{N27}}{Q_{C 2-25}}$&$\frac{V_{N28}}{Q_{C 2-25}}$&$\frac{V_{N29 DG}}{Q_{C 2-25}}$&$\frac{V_{N30}}{Q_{C 2-25}}$&$\frac{V_{N31}}{Q_{C 2-25}}$&$\frac{V_{N32}}{Q_{C 2-25}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-26}}$& $\frac{V_{N02}}{Q_{C 2-26}}$& $\frac{V_{N19}}{Q_{C 2-26}}$& $\frac{V_{N20}}{Q_{C 2-26}}$& $\frac{V_{N21 DG}}{Q_{C 2-26}}$& $\frac{V_{N22}}{Q_{C 2-26}}$& $\frac{V_{N23 DG}}{Q_{C 2-26}}$& $\frac{V_{N24}}{Q_{C 2-26}}$& $\frac{V_{N25}}{Q_{C 2-26}}$& $\frac{V_{N26}}{Q_{C 2-26}}$&$\frac{V_{N27}}{Q_{C 2-26}}$&$\frac{V_{N28}}{Q_{C 2-26}}$&$\frac{V_{N29 DG}}{Q_{C 2-26}}$&$\frac{V_{N30}}{Q_{C 2-26}}$&$\frac{V_{N31}}{Q_{C 2-26}}$&$\frac{V_{N32}}{Q_{C 2-26}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-27.1}}$& $\frac{V_{N02}}{Q_{C 2-27.1}}$& $\frac{V_{N19}}{Q_{C 2-27.1}}$& $\frac{V_{N20}}{Q_{C 2-27.1}}$& $\frac{V_{N21 DG}}{Q_{C 2-27.1}}$& $\frac{V_{N22}}{Q_{C 2-27.1}}$& $\frac{V_{N23 DG}}{Q_{C 2-27.1}}$& $\frac{V_{N24}}{Q_{C 2-27.1}}$& $\frac{V_{N25}}{Q_{C 2-27.1}}$& $\frac{V_{N26}}{Q_{C 2-27.1}}$&$\frac{V_{N27}}{Q_{C 2-27.1}}$&$\frac{V_{N28}}{Q_{C 2-27.1}}$&$\frac{V_{N29 DG}}{Q_{C 2-27.1}}$&$\frac{V_{N30}}{Q_{C 2-27.1}}$&$\frac{V_{N31}}{Q_{C 2-27.1}}$&$\frac{V_{N32}}{Q_{C 2-27.1}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-27.2}}$& $\frac{V_{N02}}{Q_{C 2-27.2}}$& $\frac{V_{N19}}{Q_{C 2-27.2}}$& $\frac{V_{N20}}{Q_{C 2-27.2}}$& $\frac{V_{N21 DG}}{Q_{C 2-27.2}}$& $\frac{V_{N22}}{Q_{C 2-27.2}}$& $\frac{V_{N23 DG}}{Q_{C 2-27.2}}$& $\frac{V_{N24}}{Q_{C 2-27.2}}$& $\frac{V_{N25}}{Q_{C 2-27.2}}$& $\frac{V_{N26}}{Q_{C 2-27.2}}$&$\frac{V_{N27}}{Q_{C 2-27.2}}$&$\frac{V_{N28}}{Q_{C 2-27.2}}$&$\frac{V_{N29 DG}}{Q_{C 2-27.2}}$&$\frac{V_{N30}}{Q_{C 2-27.2}}$&$\frac{V_{N31}}{Q_{C 2-27.2}}$&$\frac{V_{N32}}{Q_{C 2-27.2}}$\\
-			
-			
-			$\frac{V_{N01}}{Q_{C 2-27.3}}$& $\frac{V_{N02}}{Q_{C 2-27.3}}$& $\frac{V_{N19}}{Q_{C 2-27.3}}$& $\frac{V_{N20}}{Q_{C 2-27.3}}$& $\frac{V_{N21 DG}}{Q_{C 2-27.3}}$& $\frac{V_{N22}}{Q_{C 2-27.3}}$& $\frac{V_{N23 DG}}{Q_{C 2-27.3}}$& $\frac{V_{N24}}{Q_{C 2-27.3}}$& $\frac{V_{N25}}{Q_{C 2-27.3}}$& $\frac{V_{N26}}{Q_{C 2-27.3}}$&$\frac{V_{N27}}{Q_{C 2-27.3}}$&$\frac{V_{N28}}{Q_{C 2-27.3}}$&$\frac{V_{N29 DG}}{Q_{C 2-27.3}}$&$\frac{V_{N30}}{Q_{C 2-27.3}}$&$\frac{V_{N31}}{Q_{C 2-27.3}}$&$\frac{V_{N32}}{Q_{C 2-27.3}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-28}}$& $\frac{V_{N02}}{Q_{C 2-28}}$& $\frac{V_{N19}}{Q_{C 2-28}}$& $\frac{V_{N20}}{Q_{C 2-28}}$& $\frac{V_{N21 DG}}{Q_{C 2-28}}$& $\frac{V_{N22}}{Q_{C 2-28}}$& $\frac{V_{N23 DG}}{Q_{C 2-28}}$& $\frac{V_{N24}}{Q_{C 2-28}}$& $\frac{V_{N25}}{Q_{C 2-28}}$& $\frac{V_{N26}}{Q_{C 2-28}}$&$\frac{V_{N27}}{Q_{C 2-28}}$&$\frac{V_{N28}}{Q_{C 2-28}}$&$\frac{V_{N29 DG}}{Q_{C 2-28}}$&$\frac{V_{N30}}{Q_{C 2-28}}$&$\frac{V_{N31}}{Q_{C 2-28}}$&$\frac{V_{N32}}{Q_{C 2-28}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-29}}$& $\frac{V_{N02}}{Q_{C 2-29}}$& $\frac{V_{N19}}{Q_{C 2-29}}$& $\frac{V_{N20}}{Q_{C 2-29}}$& $\frac{V_{N21 DG}}{Q_{C 2-29}}$& $\frac{V_{N22}}{Q_{C 2-29}}$& $\frac{V_{N23 DG}}{Q_{C 2-29}}$& $\frac{V_{N24}}{Q_{C 2-29}}$& $\frac{V_{N25}}{Q_{C 2-29}}$& $\frac{V_{N26}}{Q_{C 2-29}}$&$\frac{V_{N27}}{Q_{C 2-29}}$&$\frac{V_{N28}}{Q_{C 2-29}}$&$\frac{V_{N29 DG}}{Q_{C 2-29}}$&$\frac{V_{N30}}{Q_{C 2-29}}$&$\frac{V_{N31}}{Q_{C 2-29}}$&$\frac{V_{N32}}{Q_{C 2-29}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-30}}$& $\frac{V_{N02}}{Q_{C 2-30}}$& $\frac{V_{N19}}{Q_{C 2-30}}$& $\frac{V_{N20}}{Q_{C 2-30}}$& $\frac{V_{N21 DG}}{Q_{C 2-30}}$& $\frac{V_{N22}}{Q_{C 2-30}}$& $\frac{V_{N23 DG}}{Q_{C 2-30}}$& $\frac{V_{N24}}{Q_{C 2-30}}$& $\frac{V_{N25}}{Q_{C 2-30}}$& $\frac{V_{N26}}{Q_{C 2-30}}$&$\frac{V_{N27}}{Q_{C 2-30}}$&$\frac{V_{N28}}{Q_{C 2-30}}$&$\frac{V_{N29 DG}}{Q_{C 2-30}}$&$\frac{V_{N30}}{Q_{C 2-30}}$&$\frac{V_{N31}}{Q_{C 2-30}}$&$\frac{V_{N32}}{Q_{C 2-30}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-31}}$& $\frac{V_{N02}}{Q_{C 2-31}}$& $\frac{V_{N19}}{Q_{C 2-31}}$& $\frac{V_{N20}}{Q_{C 2-31}}$& $\frac{V_{N21 DG}}{Q_{C 2-31}}$& $\frac{V_{N22}}{Q_{C 2-31}}$& $\frac{V_{N23 DG}}{Q_{C 2-31}}$& $\frac{V_{N24}}{Q_{C 2-31}}$& $\frac{V_{N25}}{Q_{C 2-31}}$& $\frac{V_{N26}}{Q_{C 2-31}}$&$\frac{V_{N27}}{Q_{C 2-31}}$&$\frac{V_{N28}}{Q_{C 2-31}}$&$\frac{V_{N29 DG}}{Q_{C 2-31}}$&$\frac{V_{N30}}{Q_{C 2-31}}$&$\frac{V_{N31}}{Q_{C 2-31}}$&$\frac{V_{N32}}{Q_{C 2-31}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-32.1}}$& $\frac{V_{N02}}{Q_{C 2-32.1}}$& $\frac{V_{N19}}{Q_{C 2-32.1}}$& $\frac{V_{N20}}{Q_{C 2-32.1}}$& $\frac{V_{N21 DG}}{Q_{C 2-32.1}}$& $\frac{V_{N22}}{Q_{C 2-32.1}}$& $\frac{V_{N23 DG}}{Q_{C 2-32.1}}$& $\frac{V_{N24}}{Q_{C 2-32.1}}$& $\frac{V_{N25}}{Q_{C 2-32.1}}$& $\frac{V_{N26}}{Q_{C 2-32.1}}$&$\frac{V_{N27}}{Q_{C 2-32.1}}$&$\frac{V_{N28}}{Q_{C 2-32.1}}$&$\frac{V_{N29 DG}}{Q_{C 2-32.1}}$&$\frac{V_{N30}}{Q_{C 2-32.1}}$&$\frac{V_{N31}}{Q_{C 2-32.1}}$&$\frac{V_{N32}}{Q_{C 2-32.1}}$\\
-			
-			$\frac{V_{N01}}{Q_{C 2-32.2}}$& $\frac{V_{N02}}{Q_{C 2-32.2}}$& $\frac{V_{N19}}{Q_{C 2-32.2}}$& $\frac{V_{N20}}{Q_{C 2-32.2}}$& $\frac{V_{N21 DG}}{Q_{C 2-32.2}}$& $\frac{V_{N22}}{Q_{C 2-32.2}}$& $\frac{V_{N23 DG}}{Q_{C 2-32.2}}$& $\frac{V_{N24}}{Q_{C 2-32.2}}$& $\frac{V_{N25}}{Q_{C 2-32.2}}$& $\frac{V_{N26}}{Q_{C 2-32.2}}$&$\frac{V_{N27}}{Q_{C 2-32.2}}$&$\frac{V_{N28}}{Q_{C 2-32.2}}$&$\frac{V_{N29 DG}}{Q_{C 2-32.2}}$&$\frac{V_{N30}}{Q_{C 2-32.2}}$&$\frac{V_{N31}}{Q_{C 2-32.2}}$&$\frac{V_{N32}}{Q_{C 2-32.2}}$\\
-	\end{tabular}}
-	
-	
-\end{table}
-
-
-Où $ V_{Nxx} $ et $ Q_{Cx-xx} $ sont la tension du bus $ Nxx $ e la puissance réactive du bus $ Cx-xx $.
-
+\begin{itemize}
+\item $\mathbf{gain\_calc-load2bus}$\\
+\\
 \begin{table}[H]\tiny
 	\captionsetup{justification=centering,margin=2cm}
 	\caption{Matrice des Gain entre Puissance Réactive des charges et la tension des Bus ( Valeurs numériques )}
@@ -72,26 +30,11 @@ Où $ V_{Nxx} $ et $ Q_{Cx-xx} $ sont la tension du bus $ Nxx $ e la puissance r
 			\\
 	\end{tabular}}
 \end{table} 
-
-\mysubsubsection{gain\_calc-generator2bus}
-Les matrices générés par les scripts suivants sont construits de ce forme :
-
-\begin{table}[H]
-	\captionsetup{justification=centering,margin=2cm}
-	\caption{Matrice des Gain entre Puissance Réactive des générateurs et la tension des Bus}
-	\centering
-	\begin{tabular}{ccc}
-		$ \frac{V_{N21}}{Q_{GD4}} $&$ \frac{V_{N29}}{Q_{GD4}} $&$ \frac{V_{N23}}{Q_{GD4}} $\\
-		&&\\
-		$ \frac{V_{N21}}{Q_{GD5}} $&$ \frac{V_{N29}}{Q_{GD5}} $&$ \frac{V_{N23}}{Q_{GD5}} $\\
-		&&\\
-		$ \frac{V_{N21}}{Q_{GD6}} $&$ \frac{V_{N29}}{Q_{GD6}} $&$ \frac{V_{N23}}{Q_{GD6}} $\\
-	\end{tabular}
-\end{table}
-
-Où $ V_{Nxx} $ et $ Q_{GDx} $ sont la tension du bus $ Nxx $ e la puissance réactive du générateur $ GDx $.
-\paragraph{gain\_calc-generator2bus-test\_1\_-7am\\\\}
-Ce script calcule le gain entre la puissance réactive des générateurs et la tension des bus aux lesquels ils sont connectés, avec les valeurs de charges de 7 heures et en faisant la puissance réactive des générateurs diminuer en 20\%.
+\item $\mathbf{gain\_calc-generator2bus}$\\
+\begin{itemize}
+	
+\item $\mathbf{gain\_calc-generator2bus-test\_1-7am}$\\
+\\Ce script calcule le gain entre la puissance réactive des générateurs et la tension des bus aux lesquels ils sont connectés, avec les valeurs de charges de 7 heures et en faisant la puissance réactive des générateurs diminuer en 20\%.
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
 	\caption{Matrice des Gain entre Puissance Réactive des générateurs et la tension des Bus ( Valeurs numériques )}
@@ -103,7 +46,8 @@ Ce script calcule le gain entre la puissance réactive des générateurs et la t
 	\end{tabular}
 \end{table}
 
-\paragraph{gain\_calc-generator2bus-test\_1\_-1pm\\\\}
+\item $\mathbf{gain\_calc-generator2bus-test\_1-1pm}$\\
+\\
 Ce script calcule le gain entre la puissance réactive des générateurs et la tension des bus aux lesquels ils sont connectés, avec les valeurs de charges de 13 heures et en faisant la puissance réactive des générateurs diminuer en 20\%.
 
 \begin{table}[H]
@@ -117,8 +61,9 @@ Ce script calcule le gain entre la puissance réactive des générateurs et la t
 	\end{tabular}
 	
 \end{table}
-\paragraph{gain\_calc-generator2bus-test\_2\\\\}
-Ce script calcule le gain entre la puissance réactive des générateurs et la tension des bus aux lesquels ils sont connectés, avec les valeurs de charges de 13 heures et en faisant la puissance réactive des générateurs augmenter en 20\%.
+
+\item $\mathbf{gain\_calc-generator2bus-test\_2}$\\
+\\Ce script calcule le gain entre la puissance réactive des générateurs et la tension des bus aux lesquels ils sont connectés, avec les valeurs de charges de 13 heures et en faisant la puissance réactive des générateurs augmenter en 20\%.
 
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
@@ -134,10 +79,10 @@ Ce script calcule le gain entre la puissance réactive des générateurs et la t
 	\end{tabular}
 \end{table}
 
-\mysubsubsection{teste\_simul}
-Ce script crée un événement des changement de valeur de puissance active de la charge C 2-29 MT ind en augmentant sa valeur en 100\% par un période de temps et après prend les valeurs de puissance active et réactive des cette même charge et la tension des bus N21 N23 et N29 ( où les générateurs sont connectés ) pendant le temps de la simulation et en exportant en un fichier $ \verb|.csv| $ pour faire des graphiques, figures \ref{fig:Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT} et \ref{fig:Tension_des_Bus_N21_N23_et_N29}.\\
+\end{itemize}
+\item $\mathbf{teste\_simul}$\\
+\\Ce script crée un événement des changement de valeur de puissance active de la charge C 2-29 MT ind en augmentant sa valeur en 100\% par un période de temps et après prend les valeurs de puissance active et réactive des cette même charge et la tension des bus N21 N23 et N29 ( où les générateurs sont connectés ) pendant le temps de la simulation et en exportant en un fichier $ \verb|.csv| $ pour faire des graphiques, figures \ref{fig:Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT} et \ref{fig:Tension_des_Bus_N21_N23_et_N29}.\\
 \begin{minipage}{.5\textwidth}
-	
 	\begin{figure}[H]
 		\begin{center}
 			\captionsetup{justification=centering,margin=.5cm}	
@@ -146,8 +91,8 @@ Ce script crée un événement des changement de valeur de puissance active de l
 			\label{fig:Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT}
 		\end{center}
 	\end{figure}
-	
 \end{minipage}
+
 \begin{minipage}{.5\textwidth}
 	\begin{figure}[H]
 		\begin{center}
@@ -158,3 +103,4 @@ Ce script crée un événement des changement de valeur de puissance active de l
 		\end{center}
 	\end{figure}
 \end{minipage}
+\end{itemize}

@@ -289,7 +289,7 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 			\label{fig:csv_sample}
 		\end{center}
 	\end{figure}
-	La choix d'utiliser fichiers \gls{CSV} a été fait en raison de ce type de fichier est texte sans brut sans formatage, sa taille est très réduite. Et ce type de fichier est très simple pour faire des modifications et création a partir d'une table excel, ainsi que la conversion entre ces deux extensions.  
+	La choix d'utiliser fichiers \gls{CSV} a été fait en raison de ce type de fichier est texte sans brut sans formatage, sa taille est très réduite. Et ce type de fichier est très simple pour faire des modifications et création a partir d'une table \verb|.xls|, ainsi que la conversion entre ces deux extensions.  
 	\\
 	\item $\mathbf{import\_load\_csv.py}$\\
 	\\Ce script prend des fichiers \gls{CSV} qui a données de puissance active et réactive des charges, et les charge en chaque respective charge.
@@ -298,42 +298,77 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 	\\Ce script fait en MATLAB prend un fichier \gls{CSV} sorti d'une simulation du \powerfactory et le transforme en un fichier .mat. Il crée une structure composés par autres structures qui sont les éléments du circuit et composées par ses données  pendant le temps, a fin de les utiliser pour faire des graphiques.
 	\\
 	\item $\mathbf{printpdf.m}$\\
-	\\Ce scripts a été créé pour faire les plots des graphiques et les sauvegarder en fichier \verb|.pdf| pour un futur use dans les rapports (ce rapport par exemple).  
+	\\Ce scripts a été créé pour faire les plots des graphiques et les sauvegarder en fichier \verb|.pdf| pour un futur use dans les rapports (ce rapport par exemple). 
+	\\
+	\item $\mathbf{teste\_simul.py}$\\
+	\\
+	\\ 
 \end{enumerate}
 
 \mysubsection{Quatrième Partie - Intégration}
+Le but de cette partie était reproduire les simulations du réseau (figure \ref{fig:Diagramme_du_reseaux}) en utilisant le régulateur vu en \cite{cosson:tel-01374469}, montré dans la figure \ref{fig:régulateur}.
+\figplaceholder{régulateur}
+Pour construire le modèle du régulateur dans le \powerfactory, il y a deux façons, faire toute la construction dedans PowerFactory ou faire une intégration avec MATLAB et utiliser les outils des \textit{ToolBox} déjà créés.
 
+A fin de faire l'intégration entre MATLAB et \powerfactory, au minimum deux choses sont nécessaires :
+\begin{enumerate}
+	\item Un Bloc générique défini au PowerFactory qui fait l'appel a un fichier \verb|.m|
+	\item Un fichier \verb|.m| qui décrit le fonctionnement du bloc
+	
+\end{enumerate}
 
+Comme ont voulait faire un régulateur dans le Simulink, un autre fichier, \verb|.mdl|, était nécessaire. Ce fichier est appelé par le fichier \verb|.m| et le donne les sorties de simulation.
 
+La période d'échantillonnage du filtre númerique est de $ 1s $ et le pas de la simulation au PowerFactory est de $ 10ms $. Comme une façon de régler la fréquence d'appel au MATLAB n'était pas trouvé, la solution plus simple était l'implémentation du filtre dehors le MATLAB, donc un échantillonneur e le propre filtre ont était construits dans l'interface du PowerFactory, comme un peut voir dans les figures \ref{fig:DIgSILENT_Matlab_AVR_frame} a \ref{fig:DIgSILENT_Matlab_AVR_frame_matlab} et dans le simulink la loi de commande \ref{fig:simulink}
 
+\begin{minipage}{.475\textwidth}
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=\textwidth]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame"}
+			\caption{\todo{escrevaaquiseucaption}}
+			\label{fig:DIgSILENT_Matlab_AVR_frame}
+		\end{center}
+	\end{figure}
+\end{minipage}
+\begin{minipage}{.475\textwidth}
+	\begin{figure}[H]
+		\begin{center}	
+			\includegraphics[width=\textwidth]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre"}
+			\caption{\todo{escrevaaquiseucaption}}
+			\label{fig:DIgSILENT_Matlab_AVR_frame_filtre}
+		\end{center}
+	\end{figure}
+\end{minipage}
 
+\begin{minipage}{.475\textwidth}
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=\textwidth]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:DIgSILENT_Matlab_AVR_frame_matlab}
+	\end{center}
+\end{figure}
+\end{minipage}
+\begin{minipage}{.475\textwidth}
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=\textwidth]{"./Methodologie/partie_4/simulink"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:simulink}
+	\end{center}
+\end{figure}
+\end{minipage}
+Après fait toutes connexions et quelques tests avec le régulateur, ont a vu qu'une simulation de $ 50s $ a duré approximativement $ 5min $. Donc deux autres modèles ont été créés a fin de comparaison. Un avec toute le régulateur dans le PowerFactory et un autre avec la loi de commande fait dans le MATLAB ( le seule changement était le code \verb|.m|). Avec ces deux modèles une simulation de $50s$ a duré approximativement $ 50s $. Le diagramme du modèle est dans la figure \ref{fig:DIgSILENT_Matlab_AVR_frame_withoutmatlab}, et comme on peut voir, c'est  essentiellement la même chose, le code dedans le bloc générique qui a été changé. 
 
+Les codes utilisés pour les modèles pourront être trouvé dans \todo{APENDICE DE CODIGO}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:DIgSILENT_Matlab_AVR_frame_withoutmatlab}
+	\end{center}
+\end{figure}
 
 
 

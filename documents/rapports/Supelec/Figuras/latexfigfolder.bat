@@ -1,12 +1,16 @@
+setlocal ENABLEDELAYEDEXPANSION
 @echo off
-set /p id= "Qual o nome da pasta onde estão as figuras?"
+cls
+set /p id= "Folder Name:"
+set "id=!id:%cd%=.!"
+echo %id%
 if exist %id%.txt (
     del %id%.txt
 )
-set /p opc= "H ou h?"
-FOR %%f in (.\%id%\*.pdf .\%id%\*.png .\%id%\*.jpg) DO (echo \begin{figure}[%opc%]
+set /p opc= "Float type is t, p, b, !, h or H?"
+FOR %%f in (%id%\*.pdf %id%\*.png %id%\*.jpg %id%\*.eps) DO (echo \begin{figure}[%opc%]
 echo 	\begin{center}	
-echo 		\includegraphics[width=8cm]{%id%/%%~nxf}
+echo 		\includegraphics[width=8cm]{"%id:\=/%/%%~nf"}
 echo 		\caption{\todo{escrevaaquiseucaption}}
 echo 		\label{fig:%%~nf}
 echo 	\end{center}
