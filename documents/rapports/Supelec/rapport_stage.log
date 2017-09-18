@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  15 SEP 2017 17:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  18 SEP 2017 18:03
 entering extended mode
 **./rapport_stage.tex
 (rapport_stage.tex
@@ -1000,6 +1000,18 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \stm@phasetot=\skip66
 \stm@phasewd=\skip67
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count158
+\rotFPtop=\skip68
+\rotFPbot=\skip69
+\rot@float@box=\box70
+\rot@mess@toks=\toks44
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\doublestroke\dsfont.sty"
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
@@ -1009,30 +1021,30 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count158
-\c@Blindtext=\count159
-\c@blind@countparstart=\count160
-\blind@countxx=\count161
-\blindtext@numBlindtext=\count162
-\blind@countyy=\count163
-\c@blindlist=\count164
-\c@blindlistlevel=\count165
-\c@blindlist@level=\count166
-\blind@listitem=\count167
-\c@blind@listcount=\count168
-\c@blind@levelcount=\count169
-\blind@mathformula=\count170
-\blind@Mathformula=\count171
-\c@blind@randomcount=\count172
-\c@blind@randommax=\count173
-\c@blind@pangramcount=\count174
-\c@blind@pangrammax=\count175
+\c@blindtext=\count159
+\c@Blindtext=\count160
+\c@blind@countparstart=\count161
+\blind@countxx=\count162
+\blindtext@numBlindtext=\count163
+\blind@countyy=\count164
+\c@blindlist=\count165
+\c@blindlistlevel=\count166
+\c@blindlist@level=\count167
+\blind@listitem=\count168
+\c@blind@listcount=\count169
+\c@blind@levelcount=\count170
+\blind@mathformula=\count171
+\blind@Mathformula=\count172
+\c@blind@randomcount=\count173
+\c@blind@randommax=\count174
+\c@blind@pangramcount=\count175
+\c@blind@pangrammax=\count176
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip68
-\multirow@cntb=\count176
-\multirow@dima=\skip69
+\multirow@colwidth=\skip70
+\multirow@cntb=\count177
+\multirow@dima=\skip71
 \bigstrutjot=\dimen193
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
@@ -1047,12 +1059,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen257
 \cmidrulekern=\dimen258
 \defaultaddspace=\dimen259
-\@cmidla=\count177
-\@cmidlb=\count178
+\@cmidla=\count178
+\@cmidlb=\count179
 \@aboverulesep=\dimen260
 \@belowrulesep=\dimen261
-\@thisruleclass=\count179
-\@lastruleclass=\count180
+\@thisruleclass=\count180
+\@lastruleclass=\count181
 \@thisrulewidth=\dimen262
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\bm.sty"
@@ -1068,7 +1080,7 @@ Package: bigstrut 2016/11/25 v2.2 Provide larger struts in tabulars
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\perpage.sty"
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count181
+\c@abspage=\count182
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
@@ -1123,15 +1135,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen263
-\Hy@linkcounter=\count182
-\Hy@pagecounter=\count183
+\Hy@linkcounter=\count183
+\Hy@pagecounter=\count184
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count184
+\Hy@SavedSpaceFactor=\count185
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1143,7 +1155,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count185
+\c@Hy@tempcnt=\count186
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
@@ -1151,7 +1163,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen264
-\Fld@menulength=\count186
+\Fld@menulength=\count187
 \Field@Width=\dimen265
 \Fld@charsize=\dimen266
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -1163,34 +1175,34 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count187
-\c@Item=\count188
-\c@Hfootnote=\count189
+\Hy@abspage=\count188
+\c@Item=\count189
+\c@Hfootnote=\count190
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count190
-\c@bookmark@seq@number=\count191
+\Fld@listcount=\count191
+\c@bookmark@seq@number=\count192
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip72
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count192
-\c@@ppsavesec=\count193
-\c@@ppsaveapp=\count194
+\c@@pps=\count193
+\c@@ppsavesec=\count194
+\c@@ppsaveapp=\count195
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 57.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 57.
-Package hyperref Info: Option `colorlinks' set `true' on input line 57.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 58.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 58.
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
@@ -1198,18 +1210,15 @@ Package: chngcntr 2009/09/02 v1.0a change counter resetting
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
 Package: glossaries 2017/06/11 v4.30 (NLCT)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks44
-\XKV@tempa@toks=\toks45
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count195
+\XKV@depth=\count196
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty"
@@ -1217,10 +1226,10 @@ Package: mfirstuc 2016/07/31 v2.04 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count197
 )
-\@glsmfirst=\toks46
-\@glsmrest=\toks47
+\@glsmfirst=\toks47
+\@glsmrest=\toks48
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1233,7 +1242,7 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count197
+\c@su@anzahl=\count198
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
@@ -1244,19 +1253,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count198
+\actioncount=\count199
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count199
-\FP@xia=\count266
-\FP@xib=\count267
-\FP@xfa=\count268
-\FP@xfb=\count269
-\FP@rega=\count270
-\FP@regb=\count271
-\FP@regs=\count272
-\FP@times=\count273
+\FP@xs=\count266
+\FP@xia=\count267
+\FP@xib=\count268
+\FP@xfa=\count269
+\FP@xfb=\count270
+\FP@rega=\count271
+\FP@regb=\count272
+\FP@regs=\count273
+\FP@times=\count274
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
@@ -1275,7 +1284,7 @@ Package: fp-pas 1994/08/29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count274
+\FPseed=\count275
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
@@ -1286,15 +1295,15 @@ Package: fp-upn 1996/10/21
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks48
-\@dtl@tmpcount=\count275
-\dtl@tmplength=\skip71
-\dtl@sortresult=\count276
-\@dtl@numgrpsepcount=\count277
-\@dtl@datatype=\count278
-\dtl@codeA=\count279
-\dtl@codeB=\count280
-\@dtl@foreach@level=\count281
+\@dtl@toks=\toks49
+\@dtl@tmpcount=\count276
+\dtl@tmplength=\skip73
+\dtl@sortresult=\count277
+\@dtl@numgrpsepcount=\count278
+\@dtl@datatype=\count279
+\dtl@codeA=\count280
+\dtl@codeB=\count281
+\@dtl@foreach@level=\count282
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
 07.sty"
@@ -1314,54 +1323,54 @@ LaTeX Info: Redefining \translate on input line 118.
 "
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-\gls@level=\count282
-\@gls@tmpb=\toks49
-\gls@tmplen=\skip72
-\glskeylisttok=\toks50
-\glslabeltok=\toks51
-\glsshorttok=\toks52
-\glslongtok=\toks53
+\gls@level=\count283
+\@gls@tmpb=\toks50
+\gls@tmplen=\skip74
+\glskeylisttok=\toks51
+\glslabeltok=\toks52
+\glsshorttok=\toks53
+\glslongtok=\toks54
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
 "
 Package: glossary-hypernav 2017/06/11 v4.30 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
 Package: glossary-list 2017/06/11 v4.30 (NLCT)
-\glslistdottedwidth=\skip73
+\glslistdottedwidth=\skip75
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
 Package: glossary-long 2017/06/11 v4.30 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip74
-\LTright=\skip75
-\LTpre=\skip76
-\LTpost=\skip77
-\LTchunksize=\count283
+\LTleft=\skip76
+\LTright=\skip77
+\LTpre=\skip78
+\LTpost=\skip79
+\LTchunksize=\count284
 \LTcapwidth=\dimen267
-\LT@head=\box70
-\LT@firsthead=\box71
-\LT@foot=\box72
-\LT@lastfoot=\box73
-\LT@cols=\count284
-\LT@rows=\count285
-\c@LT@tables=\count286
-\c@LT@chunks=\count287
-\LT@p@ftn=\toks54
+\LT@head=\box71
+\LT@firsthead=\box72
+\LT@foot=\box73
+\LT@lastfoot=\box74
+\LT@cols=\count285
+\LT@rows=\count286
+\c@LT@tables=\count287
+\c@LT@chunks=\count288
+\LT@p@ftn=\toks55
 )
-\glsdescwidth=\skip78
-\glspagelistwidth=\skip79
+\glsdescwidth=\skip80
+\glspagelistwidth=\skip81
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
 Package: glossary-super 2017/06/11 v4.30 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count288
+\c@tracingst=\count289
 \ST@wd=\dimen268
-\ST@rightskip=\skip80
-\ST@leftskip=\skip81
-\ST@parfillskip=\skip82
+\ST@rightskip=\skip82
+\ST@leftskip=\skip83
+\ST@parfillskip=\skip84
 \ST@pageleft=\dimen269
 \ST@headht=\dimen270
 \ST@tailht=\dimen271
@@ -1372,23 +1381,23 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen276
 \ST@toadd=\dimen277
 \ST@dimen=\dimen278
-\ST@pbox=\box74
+\ST@pbox=\box75
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
 Package: glossary-tree 2017/06/11 v4.30 (NLCT)
-\glstreeindent=\skip83
+\glstreeindent=\skip85
 ))
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `rapport_stage.glo'.
 
 Package glossaries Info: Writing glossary file rapport_stage.glo on input line 
-109.
+110.
 \glo@acronym@file=\write6
 \openout6 = `rapport_stage.acn'.
 
 Package glossaries Info: Writing glossary file rapport_stage.acn on input line 
-109.
+110.
 ) (glossaires_et_symb.tex)
 \@indexfile=\write7
 \openout7 = `rapport_stage.idx'.
@@ -1427,17 +1436,17 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
+\scratchcounter=\count290
 \scratchdimen=\dimen279
-\scratchbox=\box75
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count292
+\scratchbox=\box76
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count293
 \MPscratchDim=\dimen280
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks56
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks57
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1464,6 +1473,7 @@ Package caption Info: longtable package is loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
 Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
+Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1502,7 +1512,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box76
+\AtBeginShipoutBox=\box77
 Package hyperref Info: Link coloring ON on input line 13.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -1511,7 +1521,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count296
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
@@ -1522,7 +1532,7 @@ LaTeX Info: Redefining \nameref on input line 13.
 \openout8 = `rapport_stage.out'.
 
  (titlepage.tex
-<Figuras/logos/supelec.jpeg, id=118, 277.5168pt x 142.3719pt>
+<Figuras/logos/supelec.jpeg, id=126, 277.5168pt x 142.3719pt>
 File: Figuras/logos/supelec.jpeg Graphic file (type jpg)
 
 <use Figuras/logos/supelec.jpeg>
@@ -1538,7 +1548,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figuras/logos/logo_IETR_rvb.jpg, id=119, 346.4142pt x 171.5208pt>
+<Figuras/logos/logo_IETR_rvb.jpg, id=127, 346.4142pt x 171.5208pt>
 File: Figuras/logos/logo_IETR_rvb.jpg Graphic file (type jpg)
 
 <use Figuras/logos/logo_IETR_rvb.jpg>
@@ -1560,18 +1570,18 @@ guras/logos/supelec.jpeg> <./Figuras/logos/logo_IETR_rvb.jpg>]) [2]
 \tf@toc=\write9
 \openout9 = `rapport_stage.toc'.
 
- (rapport_stage.acr
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.1638pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3]) [4] (rapport_stage.gls) [5] (Introduction.tex
+[3] (rapport_stage.acr) [4] (rapport_stage.gls) [5] (Introduction.tex
 Underfull \vbox (badness 1152) has occurred while \output is active []
 
  [6]
-<Figuras/./organigramme_IETR_160717_v28.pdf, id=273, 782.925pt x 542.025pt>
+<Figuras/./organigramme_IETR_160717_v28.pdf, id=290, 782.925pt x 542.025pt>
 File: Figuras/./organigramme_IETR_160717_v28.pdf Graphic file (type pdf)
 
 <use Figuras/./organigramme_IETR_160717_v28.pdf>
@@ -1590,7 +1600,7 @@ pdfTeX warning: pdflatex.exe (file ./Figuras/Division_du_travail/Diagramme_du_r
 eseaux.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
 
-<Figuras/Division_du_travail/Diagramme_du_reseaux.pdf, id=390, 597.50786pt x 84
+<Figuras/Division_du_travail/Diagramme_du_reseaux.pdf, id=407, 597.50786pt x 84
 5.04686pt>
 File: Figuras/Division_du_travail/Diagramme_du_reseaux.pdf Graphic file (type p
 df)
@@ -1600,7 +1610,7 @@ sed on input line 34.
 (pdftex.def)             Requested size: 416.83289pt x 589.51726pt.
  [9 <./Figuras/Division_du_travail/Diagramme_du_reseaux.pdf>]) (Methodologie.te
 x
-<Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG, id=413, 1284.8pt x 995
+<Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG, id=431, 1284.8pt x 995
 .72pt>
 File: Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG Graphic file (type
  jpg)
@@ -1664,7 +1674,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--247
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=472, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=490, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf Graphic 
 file (type pdf)
@@ -1682,7 +1692,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--258
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf>]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=508, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=526, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf Graphic 
 file (type pdf)
@@ -1697,7 +1707,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--282
  []
 
 
-<Figuras/Methodologie/partie_3/csv_sample.JPG, id=510, 420.82219pt x 332.74312p
+<Figuras/Methodologie/partie_3/csv_sample.JPG, id=528, 420.82219pt x 332.74312p
 t>
 File: Figuras/Methodologie/partie_3/csv_sample.JPG Graphic file (type jpg)
  <use Figuras/Methodologie/partie_3/csv_sample.JPG>
@@ -1738,166 +1748,187 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--300
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--302
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--306
+
+ []
+
+
+<Figuras/Methodologie/partie_4/regulateur.pdf, id=556, 405.6455pt x 77.32388pt>
+File: Figuras/Methodologie/partie_4/regulateur.pdf Graphic file (type pdf)
+<use Figuras/Methodologie/partie_4/regulateur.pdf>
+Package pdftex.def Info: Figuras/Methodologie/partie_4/regulateur.pdf used on i
+nput line 313.
+(pdftex.def)             Requested size: 405.64449pt x 77.32368pt.
  [16 <./Figuras/Methodologie/partie_3/csv_sample.JPG>]
-<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf, id=550, 844.
+<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf, id=569, 844.
 83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf Graphic 
 file (type pdf)
 
 <use Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf>
 Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
-frame".pdf used on input line 323.
+frame".pdf used on input line 367.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf, id=55
-1, 844.83629pt x 596.95016pt>
+<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf, id=57
+0, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf G
 raphic file (type pdf)
 
 <use Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf>
 Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
-frame_filtre".pdf used on input line 332.
+frame_filtre".pdf used on input line 377.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf, id=55
-2, 844.83629pt x 596.95016pt>
+<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf, id=57
+1, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf G
 raphic file (type pdf)
 
 <use Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf>
 Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
-frame_matlab".pdf used on input line 342.
+frame_matlab".pdf used on input line 387.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-<Figuras/"./Methodologie/partie_4/simulink".pdf, id=553, 845.1575pt x 597.23125
-pt>
+<Figuras/"./Methodologie/partie_4/simulink".pdf, id=572, 844.83629pt x 596.9501
+6pt>
 File: Figuras/"./Methodologie/partie_4/simulink".pdf Graphic file (type pdf)
  <use Figuras/"./Methodologie/partie_4/simulink".pdf>
 Package pdftex.def Info: Figuras/"./Methodologie/partie_4/simulink".pdf used on
- input line 351.
-(pdftex.def)             Requested size: 197.99815pt x 139.91193pt.
- [17 <./Figuras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame.pdf> <./Figu
-ras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre.pdf
+ input line 397.
+(pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-pdfTeX warning: pdflatex.exe (file ./Figuras/./Methodologie/partie_4/DIgSILENT_
-Matlab_AVR_frame_filtre.pdf): PDF inclusion: multiple pdfs with page group incl
-uded in a single page
->]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 361--404
+[]$[]$ 
+ []
+
+
+Underfull \vbox (badness 6125) has occurred while \output is active []
+
+ [17 <./Figuras/Methodologie/partie_4/regulateur.pdf>]
 <Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab".pdf
-, id=584, 844.83629pt x 596.95016pt>
+, id=623, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab
 ".pdf Graphic file (type pdf)
 
 <use Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab"
 .pdf>
 Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
-frame_withoutmatlab".pdf used on input line 363.
-(pdftex.def)             Requested size: 227.62204pt x 160.83257pt.
-) (Resultats.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--32
+frame_withoutmatlab".pdf used on input line 411.
+(pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
+ [18 <./Figuras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame.pdf> <./Figu
+ras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre.pdf
 
- []
+pdfTeX warning: pdflatex.exe (file ./Figuras/./Methodologie/partie_4/DIgSILENT_
+Matlab_AVR_frame_filtre.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
+> <./Figuras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab.pdf
 
+pdfTeX warning: pdflatex.exe (file ./Figuras/./Methodologie/partie_4/DIgSILENT_
+Matlab_AVR_frame_matlab.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
+> <./Figuras/./Methodologie/partie_4/simulink.pdf
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--32
-
- []
-
-
-Underfull \vbox (badness 1584) has occurred while \output is active []
-
- [18 <./Figuras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab.pdf> 
-<./Figuras/./Methodologie/partie_4/simulink.pdf> <./Figuras/./Methodologie/part
-ie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab.pdf
+pdfTeX warning: pdflatex.exe (file ./Figuras/./Methodologie/partie_4/simulink.p
+df): PDF inclusion: multiple pdfs with page group included in a single page
+> <./Figuras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab.p
+df
 
 pdfTeX warning: pdflatex.exe (file ./Figuras/./Methodologie/partie_4/DIgSILENT_
 Matlab_AVR_frame_withoutmatlab.pdf): PDF inclusion: multiple pdfs with page gro
 up included in a single page
->]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+>]) (Resultats.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--47
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--52
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
-
+[19]
 <Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf, id=6
-16, 227.85126pt x 227.85126pt>
+84, 227.85126pt x 227.85126pt>
 File: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf 
 Graphic file (type pdf)
 
 <use Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf>
 Package pdftex.def Info: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_C
-harge_C2_29_MT.pdf used on input line 89.
-(pdftex.def)             Requested size: 208.41644pt x 208.42274pt.
+harge_C2_29_MT.pdf used on input line 58.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--95
-
- []
-
-[19]
-<Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf, id=626, 227.85126pt x 22
+<Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf, id=685, 227.85126pt x 22
 7.85126pt>
 File: Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf Graphic file (type p
 df)
  <use Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>
 Package pdftex.def Info: Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf u
-sed on input line 100.
-(pdftex.def)             Requested size: 208.41644pt x 208.42274pt.
-)
-(Conclusion.tex) [20 <./Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Ch
-arge_C2_29_MT.pdf> <./Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>]
-(Appendices/programmes.tex) [21] (rapport_stage.lot)
+sed on input line 68.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--74
+
+ []
+
+
+Overfull \hbox (11.77147pt too wide) in paragraph at lines 52--74
+[]$ $[]$ 
+ []
+
+) (Conclusion.tex) [20 <./Figuras/Resultats/Puissance_Active_et_Reactive_de_la_
+Charge_C2_29_MT.pdf> <./Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>]
+[21] (Appendices/programmes.tex) [22] (rapport_stage.lot)
 \tf@lot=\write10
 \openout10 = `rapport_stage.lot'.
 
- [22] (rapport_stage.lof)
+ [23]
+(rapport_stage.lof)
 \tf@lof=\write11
 \openout11 = `rapport_stage.lof'.
 
-
-[23] (rapport_stage.bbl) [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+ [24] (rapport_stage.bbl) [25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (rapport_stage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
 Package rerunfilecheck Info: File `rapport_stage.out' has not changed.
-(rerunfilecheck)             Checksum: EDD571B5A8BFE2E6549F954E8B27322C;1986.
+(rerunfilecheck)             Checksum: 640257B5D567D410DD369BE13E6DC698;2176.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 28627 strings out of 493323
- 532824 string characters out of 3139045
- 685899 words of memory out of 3000000
- 31317 multiletter control sequences out of 15000+200000
+ 28744 strings out of 493323
+ 534735 string characters out of 3139045
+ 688017 words of memory out of 3000000
+ 31416 multiletter control sequences out of 15000+200000
  27767 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,14n,78p,1997b,642s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,14n,77p,1997b,642s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{tocsection.A} has been referenced but does not ex
 ist, replaced by a fixed one
 
@@ -1921,17 +1952,21 @@ nappen\ec\dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on rapport_stage.pdf (24 pages, 1361840 bytes).
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/symbols/msam10.pfb>
+Output written on rapport_stage.pdf (25 pages, 1414619 bytes).
 PDF statistics:
- 1264 PDF objects out of 1440 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
- 312 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1346 PDF objects out of 1440 (max. 8388607)
+ 189 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
