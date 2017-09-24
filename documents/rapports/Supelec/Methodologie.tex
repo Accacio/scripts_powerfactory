@@ -197,8 +197,8 @@ A fin de faire une meilleur description du réseaux les tableaux \ref{tab:genera
 
 Pendant ce partie diverses scripts ont été crées en utilisant les langages MATLAB et Python, en intégration des bibliothèques Python du \powerfactory, qui pourvoit quelques fonctions pour accéder aux éléments du réseau, changer ses caractéristiques et faire des mesures de courant, tension etc.
 
-Dans cette section chaque script est décrit par son fonctionnement, pour une description minutieuse, les codes sont présents dans l'appendice \ref{Programmes}. En ayant en tête que toutes fichiers utilisés sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
-
+%Dans cette section chaque script est décrit par son fonctionnement, pour une description minutieuse, les codes sont présents dans l'appendice \ref{Programmes}. En ayant en tête que toutes fichiers utilisés sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
+Dans cette section chaque script est décrit par son fonctionnement, pour une description minutieuse, les codes sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
 
 
 \begin{enumerate}[\bfseries 4.3.1]
@@ -248,7 +248,7 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 	Où \gls{Vnxx}  et \gls{Qcxx} sont la tension du bus $ Nxx $ e la puissance réactive de la charge $ Cx-xx $.
 	
 	\item $\mathbf{gain\_calc-generator2bus-test\_1.py}$\\
-	\\Ce Script change les valeurs de puissance réactive des générateurs pendant un intervalle de temps e prends les valeurs de tension du bus auquel le générateur est connecté pendant ce temps et calcule le gain entre chaque générateur et bus, formant une matrice de dimension $ 3\times3 $. L'allure de la courbe utilisé peut être vu dans la figure \ref{fig:gaincalcgenerator2bustest1}. Le format de la matric est montré dans letableau \ref{tab:gaincalcgenerator2bustest1}.
+	\\Ce Script change les valeurs de puissance réactive des générateurs pendant un intervalle de temps e prends les valeurs de tension du bus auquel le générateur est connecté pendant ce temps et calcule le gain entre chaque générateur et bus, formant une matrice de dimension $ 3\times3 $. L'allure de la courbe utilisé peut être vu dans la figure \ref{fig:gaincalcgenerator2bustest1}. Le format de la matric est montré dans le tableau \ref{tab:gaincalcgenerator2bustest1}.
 	\begin{figure}[H]
 		\begin{center}	
 			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf}
@@ -272,14 +272,14 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 
 	\item $\mathbf{gain\_calc-generator2bus-test\_2.py}$\\
-	\\Fondamentalement le même que $gain\_calc-generator2bus-test\_1.py$, mais la courbe de changement de puissance suivre l'allure de la figure \ref{fig:gaincalcgenerator2bustest2}. Le format de la matrice est le même montré dans letableau \ref{tab:gaincalcgenerator2bustest1}.
+	\\Fondamentalement le même que $gain\_calc-generator2bus-test\_1.py$, mais la courbe de changement de puissance suivre l'allure de la figure \ref{fig:gaincalcgenerator2bustest2}. Le format de la matrice est le même montré dans le tableau \ref{tab:gaincalcgenerator2bustest1}.
 	\begin{figure}[H]
 		\begin{center}	
 			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf}
 			\caption{Allure de la courbe utilisé pendant le Test 2.}
 			\label{fig:gaincalcgenerator2bustest2}
 		\end{center}
-	\end{figure}
+	\end{figure}\pagebreak
 	\item $\mathbf{import\_generator\_csv.py}$\\
 	\\Ce script prend des fichiers \gls{CSV} qui a données de puissance nominal, active et réactive des générateurs, et les charge en chaque générateur.
 	\begin{figure}[H]
@@ -289,7 +289,7 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 			\label{fig:csv_sample}
 		\end{center}
 	\end{figure}
-	La choix d'utiliser fichiers \gls{CSV} a été fait en raison de ce type de fichier est texte sans brut sans formatage, sa taille est très réduite. Et ce type de fichier est très simple pour faire des modifications et création a partir d'untableau \verb|.xls|, ainsi que la conversion entre ces deux extensions.  
+	La choix d'utiliser fichiers \gls{CSV} a été fait en raison de ce type de fichier est texte sans brut sans formatage, sa taille est très réduite. Et ce type de fichier est très simple pour faire des modifications et création a partir d'un tableau \verb|.xls|, ainsi que la conversion entre ces deux extensions.  
 	\\
 	\item $\mathbf{import\_load\_csv.py}$\\
 	\\Ce script prend des fichiers \gls{CSV} qui a données de puissance active et réactive des charges, et les charge en chaque respective charge.
@@ -299,7 +299,7 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 	\\
 	\item $\mathbf{printpdf.m}$\\
 	\\Ce script a été créé pour faire les plots des graphiques et les sauvegarder en fichier \verb|.pdf| pour un futur use dans les rapports (ce rapport par exemple). 
-	\\
+	\\\pagebreak
 	\item $\mathbf{teste\_simul.py}$\\
 	\\Ce script crée un événement des changement de valeur de puissance active de la charge C 2-29 MT ind en augmentant sa valeur en 100\% par un période de temps et après prend les valeurs de puissance active et réactive des cette même charge et la tension des bus N21 N23 et N29 ( où les générateurs sont connectés ) pendant le temps de la simulation et en exportant en un fichier $ \verb|.csv| $.
 	\\ 
@@ -404,7 +404,7 @@ La période d'échantillonnage du filtre númerique est de $ 1s $ et le pas de l
 
 Le diagramme du modèle est dans la figure \ref{fig:DIgSILENT_Matlab_AVR_frame_withoutmatlab}, et comme on peut voir, c'est  essentiellement la même chose, le code dedans le bloc générique qui a été changé. 
 
-Les codes utilisés pour les modèles pourront être trouvé dans \todo{APENDICE DE CODIGO}
+%Les codes utilisés pour les modèles pourront être trouvé dans \todo{APENDICE DE CODIGO}
 
 \begin{figure}[H]
 	\begin{center}	
@@ -431,7 +431,7 @@ On peut voir dans le tableau \ref{tab:comparaisontempssimul} la comparaison entr
 		Powerfactory$ \leftrightarrows $MATLAB$ \leftrightarrows $Simulink&57&140\\
 	\end{tabular}
 \end{table}
-On peut vérifier que il ne vaut pas la peine utiliser le Simulink pour faire ce genre de simulation cas il soit appellé  a chaque $ 0.01s $. Nouveaux tests doivent être faits a fin de confirmer si même faisant appels a chaque seconde si les temps se maintiennent.
+On peut vérifier que il ne vaut pas la peine utiliser le Simulink pour faire ce genre de simulation cas il soit appelé  a chaque $ 0.01s $. Nouveaux tests doivent être faits a fin de confirmer si même faisant appels a chaque seconde si les temps se maintiennent.
 
 
 

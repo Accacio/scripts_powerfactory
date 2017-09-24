@@ -1,0 +1,72 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_de_GD4_P=50%_a=0_4"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_P=50%_a=0_4}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_de_GD4_P=50%_a=0_5"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_P=50%_a=0_5}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_de_GD4_P=50%_a=0_6"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_P=50%_a=0_6}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_de_GD4_Q=50%_a=0_4"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_Q=50%_a=0_4}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_de_GD4_Q=50%_a=0_5"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_Q=50%_a=0_5}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_de_GD4_Q=50%_a=0_6"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_Q=50%_a=0_6}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_et_Puissance_Reactive_de_GD4_P50_a0_4"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_et_Puissance_Reactive_de_GD4_P50_a0_4}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_et_Puissance_Reactive_de_GD4_P50_a0_5"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_et_Puissance_Reactive_de_GD4_P50_a0_5}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_GD4_Q=50%_a=0_4"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_GD4_Q=50%_a=0_4}
+	\end{center}
+\end{figure}
+

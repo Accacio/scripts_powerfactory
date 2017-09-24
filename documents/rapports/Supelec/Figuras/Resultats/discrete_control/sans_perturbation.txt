@@ -1,0 +1,24 @@
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD6_a0_4"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_GD5_et_GD6_a0_4}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD6_a0_5"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_GD5_et_GD6_a0_5}
+	\end{center}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}	
+		\includegraphics[width=8cm]{"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD6_a0_6"}
+		\caption{\todo{escrevaaquiseucaption}}
+		\label{fig:Tension_de_GD4_GD5_et_GD6_a0_6}
+	\end{center}
+\end{figure}
+

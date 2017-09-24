@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  14 SEP 2017 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  23 SEP 2017 20:57
 entering extended mode
 **./presentation.tex
 (presentation.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2017/01/01> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (preamble.tex ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamer.cls"
-Document Class: beamer 2017/07/13 v3.42 A class for typesetting presentations
+Document Class: beamer 2017/08/22 v3.43 A class for typesetting presentations
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasemodes.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
@@ -23,7 +23,7 @@ Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \beamer@modecount=\count84
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 \headdp=\dimen102
 \footheight=\dimen103
@@ -107,7 +107,7 @@ File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -346,7 +346,7 @@ Package: xxcolor 2003/10/24 ver 0.1
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -369,7 +369,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -401,43 +401,43 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count120
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count121
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4374.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4374.
-Package hyperref Info: Option `implicit' set `false' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4362.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4362.
+Package hyperref Info: Option `implicit' set `false' on input line 4362.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count122
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen164
 \Fld@menulength=\count123
 \Field@Width=\dimen165
 \Fld@charsize=\dimen166
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
 \Hy@abspage=\count124
 
 
@@ -448,7 +448,7 @@ Package hyperref Message: Stopped early.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
 \Fld@listcount=\count125
 \c@bookmark@seq@number=\count126
 
@@ -527,7 +527,11 @@ appings.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaseframecomponents.sty"
 \beamer@footins=\box44
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasecolor.sty")
+("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasecolor.sty"
+\beamer@bg@ht=\dimen170
+\beamer@bg@wd=\dimen171
+\beamer@bg@dp=\dimen172
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasenotes.sty"
 \beamer@frameboxcopy=\box45
 )
@@ -542,12 +546,12 @@ appings.tex")))
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen170
-\bmb@dima=\dimen171
-\bmb@dimb=\dimen172
-\bmb@prevheight=\dimen173
+\bmb@temp=\dimen173
+\bmb@dima=\dimen174
+\bmb@dimb=\dimen175
+\bmb@prevheight=\dimen176
 )
-\beamer@blockheadheight=\dimen174
+\beamer@blockheadheight=\dimen177
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbaselocalstructure.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
@@ -560,7 +564,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \belowcaptionskip=\skip50
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasenavigation.sty"
-\beamer@section@min@dim=\dimen175
+\beamer@section@min@dim=\dimen178
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\beamerbasetheorems.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
@@ -574,11 +578,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen176
+\ex@=\dimen179
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen177
+\pmbraise@=\dimen180
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -595,7 +599,7 @@ LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen178
+\big@size=\dimen181
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count146
@@ -608,12 +612,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \column@=\count151
 \maxfields@=\count152
 \andhelp@=\toks34
-\eqnshift@=\dimen179
-\alignsep@=\dimen180
-\tagshift@=\dimen181
-\tagwidth@=\dimen182
-\totwidth@=\dimen183
-\lineht@=\dimen184
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
 \@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -644,8 +648,8 @@ lt.sty")
 ault.sty")
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\themes\inner\beamerinnerthemedef
 ault.sty"
-\beamer@dima=\dimen185
-\beamer@dimb=\dimen186
+\beamer@dima=\dimen188
+\beamer@dimb=\dimen189
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\beamer\themes\outer\beamerouterthemedef
 ault.sty"))) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
@@ -654,14 +658,14 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks44
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -873,8 +877,6 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -895,14 +897,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -943,7 +943,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -975,8 +975,8 @@ Package: pgfpages 2011/01/05 ver 0.02
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count154
 \calc@Bcount=\count155
-\calc@Adimen=\dimen187
-\calc@Bdimen=\dimen188
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 80.
@@ -990,29 +990,29 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \pgf@currentshipout=\count160
 \pgf@cpn=\count161
 \pgf@shipoutnextto=\count162
-\pgfphysicalheight=\dimen189
-\pgfphysicalwidth=\dimen190
+\pgfphysicalheight=\dimen192
+\pgfphysicalwidth=\dimen193
 \pgfpages@shipoutbox=\box53
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count163
 \mult@box=\box54
-\multicol@leftmargin=\dimen191
+\multicol@leftmargin=\dimen194
 \c@unbalance=\count164
 \c@collectmore=\count165
 \doublecol@number=\count166
 \multicoltolerance=\count167
 \multicolpretolerance=\count168
-\full@width=\dimen192
-\page@free=\dimen193
-\premulticols=\dimen194
-\postmulticols=\dimen195
+\full@width=\dimen195
+\page@free=\dimen196
+\premulticols=\dimen197
+\postmulticols=\dimen198
 \multicolsep=\skip60
 \multicolbaselineskip=\skip61
 \partial@page=\box55
 \last@line=\box56
-\maxbalancingoverflow=\dimen196
+\maxbalancingoverflow=\dimen199
 \mult@rightbox=\box57
 \mult@grightbox=\box58
 \mult@gfirstbox=\box59
@@ -1036,9 +1036,9 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \@tempa=\box77
 \c@columnbadness=\count169
 \c@finalcolumnbadness=\count170
-\last@try=\dimen197
-\multicolovershoot=\dimen198
-\multicolundershoot=\dimen199
+\last@try=\dimen256
+\multicolovershoot=\dimen257
+\multicolundershoot=\dimen258
 \mult@nat@firstbox=\box78
 \colbreak@box=\box79
 \mc@col@check@num=\count171
@@ -1047,11 +1047,11 @@ Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 Package: picture 2016/05/16 v1.4 Dimens for picture macros (HO)
 Package picture Info: Calculation method: calc.
 )
-(C:\Users\nogueira_raf\AppData\Roaming\MiKTeX\2.9\tex\latex\bbding\bbding.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\bbding\bbding.sty"
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
@@ -1060,82 +1060,59 @@ Package: babel 2017/05/19 3.10 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\frenchb.ldf"
-Language: frenchb 2017/04/30 v3.3a French support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-french\frenchb.ldf"
+Language: frenchb 2017/01/15 v3.2f French support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
+File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count172
-\U@D=\dimen256
-LaTeX Info: Redefining \textlatin on input line 1648.
+\U@D=\dimen259
+LaTeX Info: Redefining \textlatin on input line 1448.
 )
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
 \FB@nonchar=\count173
-\FBcolonsp=\toks45
-\FBthinsp=\toks46
-Package babel Info: Making : an active character on input line 362.
-Package babel Info: Making ; an active character on input line 363.
-Package babel Info: Making ! an active character on input line 364.
-Package babel Info: Making ? an active character on input line 365.
-\FBguillsp=\toks47
+\FBcolonskip=\skip62
+\FBthinskip=\skip63
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip64
 \FBguill@level=\count174
-\FB@everypar=\toks48
-\FB@Mht=\dimen257
+\FB@everypar=\toks45
+\FB@Mht=\dimen260
 \mc@charclass=\count175
 \mc@charfam=\count176
 \mc@charslot=\count177
 \std@mcc=\count178
 \dec@mcc=\count179
-\listindentFB=\skip62
-\descindentFB=\skip63
-\labelwidthFB=\skip64
-\leftmarginFB=\skip65
-\parindentFFN=\dimen258
-\FBfnindent=\skip66
+\listindentFB=\skip65
+\descindentFB=\skip66
+\labelwidthFB=\skip67
+\leftmarginFB=\skip68
+\parindentFFN=\dimen261
+\FBfnindent=\skip69
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
 Package frenchb.ldf Info: No list customisation for the beamer class,
 (frenchb.ldf)             reported on input line 9.
-{C:/Users/nogueira_raf/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}{C:/Pr
-ogram Files/MiKTeX 2.9/fonts/map/dvips/sansmathaccent/sansmathaccent.map
-
-pdfTeX warning: pdflatex.exe (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
-sansmathaccent/sansmathaccent.map): fontmap entry for `mathkerncmssi8' already 
-exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex.exe (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
-sansmathaccent/sansmathaccent.map): fontmap entry for `mathkerncmssi9' already 
-exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex.exe (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
-sansmathaccent/sansmathaccent.map): fontmap entry for `mathkerncmssi10' already
- exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex.exe (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
-sansmathaccent/sansmathaccent.map): fontmap entry for `mathkerncmssi12' already
- exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex.exe (file C:/Program Files/MiKTeX 2.9/fonts/map/dvips/
-sansmathaccent/sansmathaccent.map): fontmap entry for `mathkerncmssi17' already
- exists, duplicates ignored
-}) (beameroptions.tex (beamerthemeTorino.sty (beamerinnerthemefancy.sty
-\beamer@fancy@lineup=\skip67
-\beamer@fancy@linemid=\skip68
-\beamer@fancy@linebottom=\skip69
-\beamer@fancy@normalmargin=\skip70
+{C:/Users/racca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}{C:/Program F
+iles/MiKTeX 2.9/fonts/map/dvips/sansmathaccent/sansmathaccent.map}) (beameropti
+ons.tex
+(beamerthemeTorino.sty (beamerinnerthemefancy.sty
+\beamer@fancy@lineup=\skip70
+\beamer@fancy@linemid=\skip71
+\beamer@fancy@linebottom=\skip72
+\beamer@fancy@normalmargin=\skip73
 )
 (beamerouterthemedecolines.sty
-\headerheight=\skip71
-\beamer@decolines@lineup=\skip72
-\beamer@decolines@linemid=\skip73
-\beamer@decolines@linebottom=\skip74
-\beamer@decolines@watermarkheightbottom=\skip75
-\beamer@decolines@watermarkheightupperorig=\skip76
+\headerheight=\skip74
+\beamer@decolines@lineup=\skip75
+\beamer@decolines@linemid=\skip76
+\beamer@decolines@linebottom=\skip77
+\beamer@decolines@watermarkheightbottom=\skip78
+\beamer@decolines@watermarkheightupperorig=\skip79
 ) (beamercolorthemechameleon.sty))
 (beamercolorthemeblue.sty))
 \pgfpages@box@1=\box80
@@ -1195,16 +1172,16 @@ LaTeX Font Info:    ... okay on input line 5.
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count180
-\scratchdimen=\dimen259
+\scratchdimen=\dimen262
 \scratchbox=\box82
 \nofMPsegments=\count181
 \nofMParguments=\count182
-\everyMPshowfont=\toks49
+\everyMPshowfont=\toks46
 \MPscratchCnt=\count183
-\MPscratchDim=\dimen260
+\MPscratchDim=\dimen263
 \MPnumerator=\count184
 \makeMPintoPDFobject=\count185
-\everyMPtoPDFconversion=\toks50
+\everyMPtoPDFconversion=\toks47
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1322,7 +1299,7 @@ LaTeX Info: Redefining \up on input line 5.
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document; reported on input line 5.
+(frenchb.ldf)                of your document, on input line 5.
 
 (presentation.nav)
 <./figures/logos/supelecietr.png, id=56, 967.36406pt x 301.125pt>
@@ -3910,13 +3887,13 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D4D78F8E30FCC06BF37390A74AB73896;621.
  ) 
 Here is how much of TeX's memory you used:
- 19499 strings out of 493323
- 367351 string characters out of 3139045
- 493087 words of memory out of 3000000
- 22370 multiletter control sequences out of 15000+200000
+ 19445 strings out of 493333
+ 366728 string characters out of 3139194
+ 488540 words of memory out of 3000000
+ 22308 multiletter control sequences out of 15000+200000
  16224 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,17n,57p,819b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,15n,57p,819b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTe
@@ -3929,7 +3906,7 @@ cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (58 pages, 1431911 bytes).
+Output written on presentation.pdf (58 pages, 1432270 bytes).
 PDF statistics:
  950 PDF objects out of 1000 (max. 8388607)
  128 named destinations out of 1000 (max. 500000)

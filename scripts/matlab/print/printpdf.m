@@ -48,8 +48,8 @@ eval(['plot(' test ')'])
 prompt = {'Enter title:'};
 defaultans={'Title'};
 for i=[1:ndata]
-prompt={prompt{1:end} ['Enter legend n° ' num2str(i)]};
-defaultans = {defaultans{1:end} ['Legend  n°' num2str(i)'] };
+prompt={prompt{1:end} ['Enter legend n. ' num2str(i)]};
+defaultans = {defaultans{1:end} ['Legend  n. ' num2str(i)'] };
 end
 input=inputdlg(prompt,'Input',ndata,defaultans);
 if(isempty(input))

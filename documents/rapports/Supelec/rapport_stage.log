@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.7.24)  18 SEP 2017 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  25 SEP 2017 01:43
 entering extended mode
 **./rapport_stage.tex
 (rapport_stage.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2017/01/01> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (articlewithlogo.cls
 Document Class: articlewithlogo 2016/02/05 v1.0
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -33,7 +33,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -140,7 +140,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count101
 \mult@box=\box30
 \multicol@leftmargin=\dimen116
@@ -194,14 +194,14 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@posthook=\toks25
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -413,8 +413,6 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
    defining Unicode char U+1E02 (decimal 7682)
    defining Unicode char U+1E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
@@ -435,14 +433,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -483,7 +479,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -507,14 +503,14 @@ Now handling font encoding U ...
    defining Unicode char U+2423 (decimal 9251)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+Package: fontenc 2017/01/24 v2.0c Standard LaTeX package
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+File: t1enc.def 2017/01/24 v2.0c Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2017/05/19 3.10 The Babel package
+Package: babel 2016/04/23 3.9r The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
@@ -523,43 +519,40 @@ Package: babel 2017/05/19 3.10 The Babel package
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel-french\frenchb.ldf"
-Language: frenchb 2017/04/30 v3.3a French support from the babel system
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-french\frenchb.ldf"
+Language: frenchb 2017/01/15 v3.2f French support from the babel system
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2017/05/19 3.10 Babel common definitions
+File: babel.def 2016/04/23 3.9r Babel common definitions
 \babel@savecnt=\count110
 \U@D=\dimen125
 )
 \l@acadian = a dialect from \language\l@french 
 \l@canadien = a dialect from \language\l@french 
 \FB@nonchar=\count111
-\FBcolonsp=\toks26
-\FBthinsp=\toks27
-Package babel Info: Making : an active character on input line 362.
-Package babel Info: Making ; an active character on input line 363.
-Package babel Info: Making ! an active character on input line 364.
-Package babel Info: Making ? an active character on input line 365.
-\FBguillsp=\toks28
+\FBcolonskip=\skip50
+\FBthinskip=\skip51
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip52
 \FBguill@level=\count112
-\FB@everypar=\toks29
+\FB@everypar=\toks26
 \FB@Mht=\dimen126
 \mc@charclass=\count113
 \mc@charfam=\count114
 \mc@charslot=\count115
 \std@mcc=\count116
 \dec@mcc=\count117
-\listindentFB=\skip50
-\descindentFB=\skip51
-\labelwidthFB=\skip52
-\leftmarginFB=\skip53
+\listindentFB=\skip53
+\descindentFB=\skip54
+\labelwidthFB=\skip55
+\leftmarginFB=\skip56
 \parindentFFN=\dimen127
-\FBfnindent=\skip54
+\FBfnindent=\skip57
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\carlisle\scalefnt.sty")
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
@@ -574,9 +567,16 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen133
 \caption@hangindent=\dimen134
 )
+Package caption Info: We need package `newfloat' on input line 292.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\newfloat.sty"
+Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
+)
 \c@ContinuedFloat=\count118
 Package caption Info: float package is loaded.
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 \c@subfigure=\count119
 \c@subtable=\count120
 )
@@ -584,7 +584,7 @@ Package caption Info: float package is loaded.
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -604,24 +604,23 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen140
 \Gm@layouthoffset=\dimen141
 \Gm@layoutvoffset=\dimen142
-\Gm@dimlist=\toks30
+\Gm@dimlist=\toks27
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip55
-\f@nch@O@elh=\skip56
-\f@nch@O@erh=\skip57
-\f@nch@O@olh=\skip58
-\f@nch@O@orh=\skip59
-\f@nch@O@elf=\skip60
-\f@nch@O@erf=\skip61
-\f@nch@O@olf=\skip62
-\f@nch@O@orf=\skip63
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip58
+\f@ncyO@elh=\skip59
+\f@ncyO@erh=\skip60
+\f@ncyO@olh=\skip61
+\f@ncyO@orh=\skip62
+\f@ncyO@elf=\skip63
+\f@ncyO@erf=\skip64
+\f@ncyO@olf=\skip65
+\f@ncyO@orf=\skip66
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -640,7 +639,7 @@ Package: pgfgantt 2013/06/01 v4.0 Draw Gantt diagrams with TikZ
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks31
+\pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen143
 \pgfutil@tempdimb=\dimen144
 
@@ -661,12 +660,12 @@ Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen145
 \pgf@y=\dimen146
@@ -682,9 +681,9 @@ x"
 \c@pgf@countb=\count125
 \c@pgf@countc=\count126
 \c@pgf@countd=\count127
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -734,9 +733,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 \pgfmath@dimen=\dimen153
 \pgfmath@count=\count130
 \pgfmath@box=\box57
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
@@ -875,8 +874,8 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen180
 \pgffor@skip=\dimen181
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
 Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
@@ -989,16 +988,16 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pict2e\p2e-pdftex.def"
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks43
+\pIIe@GRAPH=\toks40
 \@arclen=\dimen190
 \@arcrad=\dimen191
 \@tempdimd=\dimen192
 )
 \stm@phasebox=\box69
-\stm@phasedp=\skip64
-\stm@phaseht=\skip65
-\stm@phasetot=\skip66
-\stm@phasewd=\skip67
+\stm@phasedp=\skip67
+\stm@phaseht=\skip68
+\stm@phasetot=\skip69
+\stm@phasewd=\skip70
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
@@ -1007,10 +1006,10 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count158
-\rotFPtop=\skip68
-\rotFPbot=\skip69
+\rotFPtop=\skip71
+\rotFPbot=\skip72
 \rot@float@box=\box70
-\rot@mess@toks=\toks44
+\rot@mess@toks=\toks41
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\doublestroke\dsfont.sty"
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
@@ -1042,9 +1041,9 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip70
+\multirow@colwidth=\skip73
 \multirow@cntb=\count177
-\multirow@dima=\skip71
+\multirow@dima=\skip74
 \bigstrutjot=\dimen193
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
@@ -1083,7 +1082,7 @@ Package: perpage 2014/10/25 2.0 Reset/sort counters per page
 \c@abspage=\count182
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -1106,7 +1105,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -1139,7 +1138,7 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 \Hy@pagecounter=\count184
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
@@ -1148,33 +1147,33 @@ Now handling font encoding PD1 ...
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4735.
 \c@Hy@tempcnt=\count186
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5088.
 \XeTeXLinkMargin=\dimen264
 \Fld@menulength=\count187
 \Field@Width=\dimen265
 \Fld@charsize=\dimen266
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
 \Hy@abspage=\count188
 \c@Item=\count189
 \c@Hfootnote=\count190
@@ -1183,7 +1182,7 @@ LaTeX Info: Redefining \pageref on input line 6432.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
 \Fld@listcount=\count191
 \c@bookmark@seq@number=\count192
 
@@ -1192,7 +1191,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip72
+\Hy@SectionHShift=\skip75
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
@@ -1200,25 +1199,59 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count194
 \c@@ppsaveapp=\count195
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 58.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 58.
-Package hyperref Info: Option `colorlinks' set `true' on input line 58.
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count196
+\lst@gtempboxa=\box71
+\lst@token=\toks42
+\lst@length=\count197
+\lst@currlwidth=\dimen267
+\lst@column=\count198
+\lst@pos=\count199
+\lst@lostspace=\dimen268
+\lst@width=\dimen269
+\lst@newlines=\count266
+\lst@lineno=\count267
+\lst@maxwidth=\dimen270
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count268
+\lst@skipnumbers=\count269
+\lst@framebox=\box72
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\currfile\currfile.sty"
+Package: currfile 2015/04/23 v0.7c Provides the file path elements of the curre
+nt input file
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\filehook\filehook.sty"
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+\c@currfiledepth=\count270
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 61.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 61.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries.sty"
-Package: glossaries 2017/06/11 v4.30 (NLCT)
+Package: glossaries 2017/08/24 v4.32 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks45
-\XKV@tempa@toks=\toks46
+\XKV@toks=\toks43
+\XKV@tempa@toks=\toks44
 )
-\XKV@depth=\count196
+\XKV@depth=\count271
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\mfirstuc\mfirstuc.sty"
@@ -1226,10 +1259,10 @@ Package: mfirstuc 2016/07/31 v2.04 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count197
+\etb@tempcnta=\count272
 )
-\@glsmfirst=\toks47
-\@glsmrest=\toks48
+\@glsmfirst=\toks45
+\@glsmrest=\toks46
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1242,7 +1275,7 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count198
+\c@su@anzahl=\count273
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\datatool\datatool-fp.sty"
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
@@ -1253,19 +1286,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count199
+\actioncount=\count274
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count266
-\FP@xia=\count267
-\FP@xib=\count268
-\FP@xfa=\count269
-\FP@xfb=\count270
-\FP@rega=\count271
-\FP@regb=\count272
-\FP@regs=\count273
-\FP@times=\count274
+\FP@xs=\count275
+\FP@xia=\count276
+\FP@xib=\count277
+\FP@xfa=\count278
+\FP@xfb=\count279
+\FP@rega=\count280
+\FP@regb=\count281
+\FP@regs=\count282
+\FP@times=\count283
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
@@ -1284,7 +1317,7 @@ Package: fp-pas 1994/08/29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count275
+\FPseed=\count284
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
@@ -1295,19 +1328,19 @@ Package: fp-upn 1996/10/21
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks49
-\@dtl@tmpcount=\count276
-\dtl@tmplength=\skip73
-\dtl@sortresult=\count277
-\@dtl@numgrpsepcount=\count278
-\@dtl@datatype=\count279
-\dtl@codeA=\count280
-\dtl@codeB=\count281
-\@dtl@foreach@level=\count282
+\@dtl@toks=\toks47
+\@dtl@tmpcount=\count285
+\dtl@tmplength=\skip76
+\dtl@sortresult=\count286
+\@dtl@numgrpsepcount=\count287
+\@dtl@datatype=\count288
+\dtl@codeA=\count289
+\dtl@codeB=\count290
+\@dtl@foreach@level=\count291
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-compatible-3
 07.sty"
-Package: glossaries-compatible-307 2017/06/11 v4.30 (NLCT)
+Package: glossaries-compatible-307 2017/08/24 v4.32 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty"
 Package: tracklang 2017/03/25 v1.3.4 (NLCT) Track Languages
 
@@ -1323,81 +1356,81 @@ LaTeX Info: Redefining \translate on input line 118.
 "
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-\gls@level=\count283
-\@gls@tmpb=\toks50
-\gls@tmplen=\skip74
-\glskeylisttok=\toks51
-\glslabeltok=\toks52
-\glsshorttok=\toks53
-\glslongtok=\toks54
+\gls@level=\count292
+\@gls@tmpb=\toks48
+\gls@tmplen=\skip77
+\glskeylisttok=\toks49
+\glslabeltok=\toks50
+\glsshorttok=\toks51
+\glslongtok=\toks52
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-hypernav.sty
 "
-Package: glossary-hypernav 2017/06/11 v4.30 (NLCT)
+Package: glossary-hypernav 2017/08/24 v4.32 (NLCT)
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-list.sty"
-Package: glossary-list 2017/06/11 v4.30 (NLCT)
-\glslistdottedwidth=\skip75
+Package: glossary-list 2017/08/24 v4.32 (NLCT)
+\glslistdottedwidth=\skip78
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-long.sty"
-Package: glossary-long 2017/06/11 v4.30 (NLCT)
+Package: glossary-long 2017/08/24 v4.32 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip76
-\LTright=\skip77
-\LTpre=\skip78
-\LTpost=\skip79
-\LTchunksize=\count284
-\LTcapwidth=\dimen267
-\LT@head=\box71
-\LT@firsthead=\box72
-\LT@foot=\box73
-\LT@lastfoot=\box74
-\LT@cols=\count285
-\LT@rows=\count286
-\c@LT@tables=\count287
-\c@LT@chunks=\count288
-\LT@p@ftn=\toks55
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
+\LTchunksize=\count293
+\LTcapwidth=\dimen271
+\LT@head=\box73
+\LT@firsthead=\box74
+\LT@foot=\box75
+\LT@lastfoot=\box76
+\LT@cols=\count294
+\LT@rows=\count295
+\c@LT@tables=\count296
+\c@LT@chunks=\count297
+\LT@p@ftn=\toks53
 )
-\glsdescwidth=\skip80
-\glspagelistwidth=\skip81
+\glsdescwidth=\skip83
+\glspagelistwidth=\skip84
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-super.sty"
-Package: glossary-super 2017/06/11 v4.30 (NLCT)
+Package: glossary-super 2017/08/24 v4.32 (NLCT)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count289
-\ST@wd=\dimen268
-\ST@rightskip=\skip82
-\ST@leftskip=\skip83
-\ST@parfillskip=\skip84
-\ST@pageleft=\dimen269
-\ST@headht=\dimen270
-\ST@tailht=\dimen271
-\ST@pagesofar=\dimen272
-\ST@pboxht=\dimen273
-\ST@lineht=\dimen274
-\ST@stretchht=\dimen275
-\ST@prevht=\dimen276
-\ST@toadd=\dimen277
-\ST@dimen=\dimen278
-\ST@pbox=\box75
+\c@tracingst=\count298
+\ST@wd=\dimen272
+\ST@rightskip=\skip85
+\ST@leftskip=\skip86
+\ST@parfillskip=\skip87
+\ST@pageleft=\dimen273
+\ST@headht=\dimen274
+\ST@tailht=\dimen275
+\ST@pagesofar=\dimen276
+\ST@pboxht=\dimen277
+\ST@lineht=\dimen278
+\ST@stretchht=\dimen279
+\ST@prevht=\dimen280
+\ST@toadd=\dimen281
+\ST@dimen=\dimen282
+\ST@pbox=\box77
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\styles\glossary-tree.sty"
-Package: glossary-tree 2017/06/11 v4.30 (NLCT)
-\glstreeindent=\skip85
+Package: glossary-tree 2017/08/24 v4.32 (NLCT)
+\glstreeindent=\skip88
 ))
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `rapport_stage.glo'.
 
 Package glossaries Info: Writing glossary file rapport_stage.glo on input line 
-110.
+113.
 \glo@acronym@file=\write6
 \openout6 = `rapport_stage.acn'.
 
 Package glossaries Info: Writing glossary file rapport_stage.acn on input line 
-110.
+113.
 ) (glossaires_et_symb.tex)
 \@indexfile=\write7
 \openout7 = `rapport_stage.idx'.
@@ -1436,17 +1469,17 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count290
-\scratchdimen=\dimen279
-\scratchbox=\box76
-\nofMPsegments=\count291
-\nofMParguments=\count292
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count293
-\MPscratchDim=\dimen280
-\MPnumerator=\count294
-\makeMPintoPDFobject=\count295
-\everyMPtoPDFconversion=\toks57
+\scratchcounter=\count299
+\scratchdimen=\dimen283
+\scratchbox=\box78
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen284
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks55
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1464,10 +1497,11 @@ LaTeX Info: Redefining \degres on input line 13.
 LaTeX Info: Redefining \dots on input line 13.
 Package frenchb.ldf Info: Setting StandardEnumerateEnv=true for
 (frenchb.ldf)             compatibility with enumerate package,
-(frenchb.ldf)             reported on input line 13.
+(frenchb.ldf)              on input line 13.
 LaTeX Info: Redefining \up on input line 13.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
@@ -1512,7 +1546,7 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box77
+\AtBeginShipoutBox=\box79
 Package hyperref Info: Link coloring ON on input line 13.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -1521,7 +1555,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count296
+\c@section@level=\count305
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
@@ -1531,6 +1565,7 @@ LaTeX Info: Redefining \nameref on input line 13.
 \@outlinefile=\write8
 \openout8 = `rapport_stage.out'.
 
+\c@lstlisting=\count306
  (titlepage.tex
 <Figuras/logos/supelec.jpeg, id=126, 277.5168pt x 142.3719pt>
 File: Figuras/logos/supelec.jpeg Graphic file (type jpg)
@@ -1564,8 +1599,8 @@ Overfull \hbox (5.2146pt too wide) in paragraph at lines 40--48
 
 \openout4 = `rapport_stage.ist'.
 
-{C:/Users/nogueira_raf/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Fi
-guras/logos/supelec.jpeg> <./Figuras/logos/logo_IETR_rvb.jpg>]) [2]
+{C:/Users/racca/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figuras/l
+ogos/supelec.jpeg> <./Figuras/logos/logo_IETR_rvb.jpg>]) [2]
 (rapport_stage.toc)
 \tf@toc=\write9
 \openout9 = `rapport_stage.toc'.
@@ -1656,7 +1691,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
 [12]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 200.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 201.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1674,7 +1709,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--247
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=490, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=488, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf Graphic 
 file (type pdf)
@@ -1692,7 +1727,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--258
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf>]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=526, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=524, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf Graphic 
 file (type pdf)
@@ -1707,7 +1742,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--282
  []
 
 
-<Figuras/Methodologie/partie_3/csv_sample.JPG, id=528, 420.82219pt x 332.74312p
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf>]
+<Figuras/Methodologie/partie_3/csv_sample.JPG, id=545, 420.82219pt x 332.74312p
 t>
 File: Figuras/Methodologie/partie_3/csv_sample.JPG Graphic file (type jpg)
  <use Figuras/Methodologie/partie_3/csv_sample.JPG>
@@ -1720,9 +1758,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--291
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
  []
@@ -1753,11 +1788,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--303
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--303
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-
+ [16 <./Figuras/Methodologie/partie_3/csv_sample.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 303--306
 
  []
@@ -1768,14 +1801,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--306
  []
 
 
-<Figuras/Methodologie/partie_4/regulateur.pdf, id=556, 405.6455pt x 77.32388pt>
+<Figuras/Methodologie/partie_4/regulateur.pdf, id=561, 405.6455pt x 77.32388pt>
 File: Figuras/Methodologie/partie_4/regulateur.pdf Graphic file (type pdf)
 <use Figuras/Methodologie/partie_4/regulateur.pdf>
 Package pdftex.def Info: Figuras/Methodologie/partie_4/regulateur.pdf used on i
 nput line 313.
 (pdftex.def)             Requested size: 405.64449pt x 77.32368pt.
- [16 <./Figuras/Methodologie/partie_3/csv_sample.JPG>]
-<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf, id=569, 844.
+ [17 <./Figuras/Methodologie/partie_4/regulateur.pdf>]
+<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf, id=613, 844.
 83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf Graphic 
 file (type pdf)
@@ -1785,8 +1818,8 @@ Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
 frame".pdf used on input line 367.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf, id=57
-0, 844.83629pt x 596.95016pt>
+<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf, id=61
+4, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf G
 raphic file (type pdf)
 
@@ -1795,8 +1828,8 @@ Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
 frame_filtre".pdf used on input line 377.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf, id=57
-1, 844.83629pt x 596.95016pt>
+<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf, id=61
+5, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf G
 raphic file (type pdf)
 
@@ -1805,7 +1838,7 @@ Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
 frame_matlab".pdf used on input line 387.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-<Figuras/"./Methodologie/partie_4/simulink".pdf, id=572, 844.83629pt x 596.9501
+<Figuras/"./Methodologie/partie_4/simulink".pdf, id=616, 844.83629pt x 596.9501
 6pt>
 File: Figuras/"./Methodologie/partie_4/simulink".pdf Graphic file (type pdf)
  <use Figuras/"./Methodologie/partie_4/simulink".pdf>
@@ -1818,11 +1851,8 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 361--404
  []
 
 
-Underfull \vbox (badness 6125) has occurred while \output is active []
-
- [17 <./Figuras/Methodologie/partie_4/regulateur.pdf>]
 <Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab".pdf
-, id=623, 844.83629pt x 596.95016pt>
+, id=618, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab
 ".pdf Graphic file (type pdf)
 
@@ -1831,6 +1861,9 @@ File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab
 Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
 frame_withoutmatlab".pdf used on input line 411.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [18 <./Figuras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame.pdf> <./Figu
 ras/./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre.pdf
 
@@ -1857,19 +1890,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--51
-
- []
-
 [19]
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--51
+
+ []
+
+
 <Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf, id=6
-84, 227.85126pt x 227.85126pt>
+81, 227.85126pt x 227.85126pt>
 File: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf 
 Graphic file (type pdf)
 
@@ -1878,7 +1911,7 @@ Package pdftex.def Info: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_C
 harge_C2_29_MT.pdf used on input line 58.
 (pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
 
-<Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf, id=685, 227.85126pt x 22
+<Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf, id=682, 227.85126pt x 22
 7.85126pt>
 File: Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf Graphic file (type p
 df)
@@ -1896,77 +1929,214 @@ Overfull \hbox (11.77147pt too wide) in paragraph at lines 52--74
 []$ $[]$ 
  []
 
-) (Conclusion.tex) [20 <./Figuras/Resultats/Puissance_Active_et_Reactive_de_la_
-Charge_C2_29_MT.pdf> <./Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>]
-[21] (Appendices/programmes.tex) [22] (rapport_stage.lot)
+[20 <./Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf
+> <./Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>] [21]
+<Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD
+6_a0_4".pdf, id=720, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_
+et_GD6_a0_4".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_e
+t_GD6_a0_4".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/sans_perturbation/
+Tension_de_GD4_GD5_et_GD6_a0_4".pdf used on input line 120.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
+
+<Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD
+6_a0_5".pdf, id=721, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_
+et_GD6_a0_5".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_e
+t_GD6_a0_5".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/sans_perturbation/
+Tension_de_GD4_GD5_et_GD6_a0_5".pdf used on input line 130.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
+
+<Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD
+6_a0_6".pdf, id=722, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_
+et_GD6_a0_6".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_e
+t_GD6_a0_6".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/sans_perturbation/
+Tension_de_GD4_GD5_et_GD6_a0_6".pdf used on input line 139.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
+ [22 <./Figuras/Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5
+_et_GD6_a0_4.pdf> <./Figuras/Resultats/discrete_control/sans_perturbation/Tensi
+on_de_GD4_GD5_et_GD6_a0_5.pdf> <./Figuras/Resultats/discrete_control/sans_pertu
+rbation/Tension_de_GD4_GD5_et_GD6_a0_6.pdf>]
+<Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
+_de_GD4_P=50_a=0_4".pdf, id=763, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
+nsion_de_GD4_P=50_a=0_4".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Ten
+sion_de_GD4_P=50_a=0_4".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/avec_perturbation/
+puissance_charge/Tension_de_GD4_P=50_a=0_4".pdf used on input line 174.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
+
+<Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
+_de_GD4_P=50_a=0_5".pdf, id=764, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
+nsion_de_GD4_P=50_a=0_5".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Ten
+sion_de_GD4_P=50_a=0_5".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/avec_perturbation/
+puissance_charge/Tension_de_GD4_P=50_a=0_5".pdf used on input line 184.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
+
+<Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
+_de_GD4_P=50_a=0_6".pdf, id=765, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
+nsion_de_GD4_P=50_a=0_6".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Ten
+sion_de_GD4_P=50_a=0_6".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/avec_perturbation/
+puissance_charge/Tension_de_GD4_P=50_a=0_6".pdf used on input line 194.
+(pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./Figuras/Resultats/discrete_control/avec_perturbation/puissance_charge/T
+ension_de_GD4_P=50_a=0_4.pdf> <./Figuras/Resultats/discrete_control/avec_pertur
+bation/puissance_charge/Tension_de_GD4_P=50_a=0_5.pdf> <./Figuras/Resultats/dis
+crete_control/avec_perturbation/puissance_charge/Tension_de_GD4_P=50_a=0_6.pdf>
+]
+<Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
+_de_GD4_Q=50_a=0_4".pdf, id=782, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
+nsion_de_GD4_Q=50_a=0_4".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Ten
+sion_de_GD4_Q=50_a=0_4".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/avec_perturbation/
+puissance_charge/Tension_de_GD4_Q=50_a=0_4".pdf used on input line 208.
+(pdftex.def)             Requested size: 189.65971pt x 189.66232pt.
+
+<Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
+_de_GD4_Q=50_a=0_5".pdf, id=783, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
+nsion_de_GD4_Q=50_a=0_5".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Ten
+sion_de_GD4_Q=50_a=0_5".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/avec_perturbation/
+puissance_charge/Tension_de_GD4_Q=50_a=0_5".pdf used on input line 218.
+(pdftex.def)             Requested size: 189.65971pt x 189.66232pt.
+
+<Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
+_de_GD4_Q=50_a=0_6".pdf, id=784, 227.85126pt x 227.85126pt>
+File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
+nsion_de_GD4_Q=50_a=0_6".pdf Graphic file (type pdf)
+
+<use Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Ten
+sion_de_GD4_Q=50_a=0_6".pdf>
+Package pdftex.def Info: Figuras/"Resultats/discrete_control/avec_perturbation/
+puissance_charge/Tension_de_GD4_Q=50_a=0_6".pdf used on input line 227.
+(pdftex.def)             Requested size: 189.65971pt x 189.66232pt.
+) (Conclusion.tex [24 <./Figuras/Resultats/discrete_control/avec_perturbation/p
+uissance_charge/Tension_de_GD4_Q=50_a=0_4.pdf> <./Figuras/Resultats/discrete_co
+ntrol/avec_perturbation/puissance_charge/Tension_de_GD4_Q=50_a=0_5.pdf> <./Figu
+ras/Resultats/discrete_control/avec_perturbation/puissance_charge/Tension_de_GD
+4_Q=50_a=0_6.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+) [26] (rapport_stage.lot)
 \tf@lot=\write10
 \openout10 = `rapport_stage.lot'.
 
- [23]
-(rapport_stage.lof)
+ [27] (rapport_stage.lof)
 \tf@lof=\write11
 \openout11 = `rapport_stage.lof'.
 
- [24] (rapport_stage.bbl) [25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+ [28] (rapport_stage.bbl)
+[29]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (rapport_stage.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `rapport_stage.out' has not changed.
-(rerunfilecheck)             Checksum: 640257B5D567D410DD369BE13E6DC698;2176.
+(rerunfilecheck)             Checksum: E2ED19F4BD936A731F9825F0F1F15DD2;2188.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 28744 strings out of 493323
- 534735 string characters out of 3139045
- 688017 words of memory out of 3000000
- 31416 multiletter control sequences out of 15000+200000
- 27767 words of font info for 75 fonts, out of 3000000 for 9000
+ 30353 strings out of 493333
+ 562645 string characters out of 3139194
+ 711187 words of memory out of 3000000
+ 32967 multiletter control sequences out of 15000+200000
+ 27094 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,14n,77p,1997b,642s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{tocsection.A} has been referenced but does not ex
-ist, replaced by a fixed one
+ 64i,14n,80p,1997b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469
+} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469} 
-has been referenced but does not exist, replaced by a fixed one
-
- <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dp
-i600\ecrm0500.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ectt1200.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\nogueira_raf\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\
-nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx10
-00.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecbx1440.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\nogueira_raf\AppData\Local\M
-iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\nogueira_ra
-f\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\
-Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-eccc1440.pk> <C:\Users\nogueira_raf\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/symbols/msam10.pfb>
-Output written on rapport_stage.pdf (25 pages, 1414619 bytes).
+ <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
+rm0500.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ectt1200.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecti1200.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\racca\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\racca\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\racca\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\User
+s\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+ccc1440.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/symbols/msam10.pfb>
+Output written on rapport_stage.pdf (29 pages, 1647234 bytes).
 PDF statistics:
- 1346 PDF objects out of 1440 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1450 PDF objects out of 1728 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
+ 378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

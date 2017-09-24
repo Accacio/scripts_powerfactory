@@ -1,6 +1,38 @@
-\mysection{Conclusion}
 
+\newpage
+\mysection{Difficultés}
+Pendant le projet quelques difficultés ont été trouvé et les principaux sont les suivantes:
 
-%\mysection{Difficultés}
+\begin{itemize}
+	\item Long temps de calcule\\
+	Le modèle avec le régulateur implémenté dans simulink prend 5 min a peu près, quoi a difficulté le \textit{debuging} du système comme la génération des résultats.\\ 
+	\item Touts blocs en PowerFactory sont synchrones\\
+	Dû a ça, le filtres a été implémenté dehors simulink, augmentant la complexité du modèle, 4 blocs plus ont été crée.\\
+	\item Conditions Initiales\\ 
+	A cause des différents blocs utilisés chaque bloc avait besoin d'avoir ses conditions initiales cohérents entre elles, qui causait de problèmes cas elles ne fussent pas cohérents.\\
+	\item Documentation du \powerfactory\\
+	Documentation du logiciel n'est pas bien détaillé, causant quelquefois ambiguïté, créant le besoin de chercher l'information en autres lieux.\\
+	\item Communauté PowerFactory presque inexistant\\
+	Pour trouver des informations il fallait chercher a l'internet, mais la principale source était le faq du PowerFactory, qu'est si réticent quant la documentation. 
+\end{itemize}
 
-%\mysection{Prochains Travails}
+\mysection{Prochains Travails}
+Pour prochains travails quelques choses peuvent être suggérées:
+\begin{itemize}
+	\item Implémenter un bloc dans PowerFactory que soit appelé en temps différent du pas de la simulation.
+	\item Réduire temps de communication PowerFactory$ \leftrightarrows $Matlab
+	\item Automatiser les diverses simulations et la génération des figures.
+\end{itemize}
+\newpage
+\mysection{Conclusions}
+On peut arriver a quelques conclusions après avoir vu toute le méthodologie utilisé et les résultats en graphiques et tableaux, et elles sont:
+
+\begin{itemize}
+	\item \textbf{Scripting en PowerFactory}\\
+	Il est possible d'utiliser Python et la combinaison entre l'API PowerFactory avec les bibliothèques Python déjà crées permet une gamme de possibilités.\\
+	\item \textbf{Intégration Matlab $\mathbf{\leftrightarrows }$ PowerFactory}\\
+	Assez facile si toute les variables du système sont préalablement connues.\\
+	\item \textbf{Stabilité dus système dépendent de la valeur de $ a $}\\
+	Régulateur fonctionne mais dépend de $ a $ pour rester stable, valeurs plus proches de 1 font le système stabiliser plus vite.
+	
+\end{itemize}
