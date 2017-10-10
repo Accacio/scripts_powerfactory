@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  25 SEP 2017 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.27)  5 OCT 2017 10:13
 entering extended mode
 **./rapport_stage.tex
 (rapport_stage.tex
@@ -1613,10 +1613,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3] (rapport_stage.acr) [4] (rapport_stage.gls) [5] (Introduction.tex
-Underfull \vbox (badness 1152) has occurred while \output is active []
+Underfull \vbox (badness 3029) has occurred while \output is active []
 
  [6]
-<Figuras/./organigramme_IETR_160717_v28.pdf, id=290, 782.925pt x 542.025pt>
+<Figuras/./organigramme_IETR_160717_v28.pdf, id=291, 782.925pt x 542.025pt>
 File: Figuras/./organigramme_IETR_160717_v28.pdf Graphic file (type pdf)
 
 <use Figuras/./organigramme_IETR_160717_v28.pdf>
@@ -1627,7 +1627,7 @@ ut line 39.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./Figuras/./organigramme_IETR_160717_v28.pdf>]) (Division_du_travail.tex
-Underfull \vbox (badness 1365) has occurred while \output is active []
+Underfull \vbox (badness 3323) has occurred while \output is active []
 
  [8]
 
@@ -1635,17 +1635,17 @@ pdfTeX warning: pdflatex.exe (file ./Figuras/Division_du_travail/Diagramme_du_r
 eseaux.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
 
-<Figuras/Division_du_travail/Diagramme_du_reseaux.pdf, id=407, 597.50786pt x 84
+<Figuras/Division_du_travail/Diagramme_du_reseaux.pdf, id=408, 597.50786pt x 84
 5.04686pt>
 File: Figuras/Division_du_travail/Diagramme_du_reseaux.pdf Graphic file (type p
 df)
  <use Figuras/Division_du_travail/Diagramme_du_reseaux.pdf>
 Package pdftex.def Info: Figuras/Division_du_travail/Diagramme_du_reseaux.pdf u
-sed on input line 34.
+sed on input line 33.
 (pdftex.def)             Requested size: 416.83289pt x 589.51726pt.
  [9 <./Figuras/Division_du_travail/Diagramme_du_reseaux.pdf>]) (Methodologie.te
 x
-<Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG, id=431, 1284.8pt x 995
+<Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG, id=432, 1284.8pt x 995
 .72pt>
 File: Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG Graphic file (type
  jpg)
@@ -1653,9 +1653,6 @@ File: Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG Graphic file (type
 Package pdftex.def Info: Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG
  used on input line 13.
 (pdftex.def)             Requested size: 416.83289pt x 323.04301pt.
-
-Underfull \vbox (badness 1331) has occurred while \output is active []
-
  [10 <./Figuras/Methodologie/partie_2/gui_powerfactory_num.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []|\T1/cmr/m/n/10 P[MW]
@@ -1709,7 +1706,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--247
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=488, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf, id=489, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf Graphic 
 file (type pdf)
@@ -1727,7 +1724,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--258
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf>]
-<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=524, 190.
+<Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf, id=526, 190.
 33508pt x 139.80832pt>
 File: Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf Graphic 
 file (type pdf)
@@ -1745,7 +1742,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--282
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./Figuras/Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf>]
-<Figuras/Methodologie/partie_3/csv_sample.JPG, id=545, 420.82219pt x 332.74312p
+<Figuras/Methodologie/partie_3/csv_sample.JPG, id=547, 420.82219pt x 332.74312p
 t>
 File: Figuras/Methodologie/partie_3/csv_sample.JPG Graphic file (type jpg)
  <use Figuras/Methodologie/partie_3/csv_sample.JPG>
@@ -1788,7 +1785,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--303
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 8056) has occurred while \output is active []
 
  [16 <./Figuras/Methodologie/partie_3/csv_sample.JPG>]
 Underfull \hbox (badness 10000) in paragraph at lines 303--306
@@ -1801,14 +1798,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--306
  []
 
 
-<Figuras/Methodologie/partie_4/regulateur.pdf, id=561, 405.6455pt x 77.32388pt>
+<Figuras/Methodologie/partie_4/regulateur.pdf, id=563, 405.6455pt x 77.32388pt>
 File: Figuras/Methodologie/partie_4/regulateur.pdf Graphic file (type pdf)
 <use Figuras/Methodologie/partie_4/regulateur.pdf>
 Package pdftex.def Info: Figuras/Methodologie/partie_4/regulateur.pdf used on i
 nput line 313.
 (pdftex.def)             Requested size: 405.64449pt x 77.32368pt.
  [17 <./Figuras/Methodologie/partie_4/regulateur.pdf>]
-<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf, id=613, 844.
+<Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf, id=615, 844.
 83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame".pdf Graphic 
 file (type pdf)
@@ -1819,7 +1816,7 @@ frame".pdf used on input line 367.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
 <Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf, id=61
-4, 844.83629pt x 596.95016pt>
+6, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_filtre".pdf G
 raphic file (type pdf)
 
@@ -1829,7 +1826,7 @@ frame_filtre".pdf used on input line 377.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
 <Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf, id=61
-5, 844.83629pt x 596.95016pt>
+7, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_matlab".pdf G
 raphic file (type pdf)
 
@@ -1838,7 +1835,7 @@ Package pdftex.def Info: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_
 frame_matlab".pdf used on input line 387.
 (pdftex.def)             Requested size: 197.99815pt x 139.90074pt.
 
-<Figuras/"./Methodologie/partie_4/simulink".pdf, id=616, 844.83629pt x 596.9501
+<Figuras/"./Methodologie/partie_4/simulink".pdf, id=618, 844.83629pt x 596.9501
 6pt>
 File: Figuras/"./Methodologie/partie_4/simulink".pdf Graphic file (type pdf)
  <use Figuras/"./Methodologie/partie_4/simulink".pdf>
@@ -1852,7 +1849,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 361--404
 
 
 <Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab".pdf
-, id=618, 844.83629pt x 596.95016pt>
+, id=620, 844.83629pt x 596.95016pt>
 File: Figuras/"./Methodologie/partie_4/DIgSILENT_Matlab_AVR_frame_withoutmatlab
 ".pdf Graphic file (type pdf)
 
@@ -1902,7 +1899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--51
 
 
 <Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf, id=6
-81, 227.85126pt x 227.85126pt>
+83, 227.85126pt x 227.85126pt>
 File: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf 
 Graphic file (type pdf)
 
@@ -1911,7 +1908,7 @@ Package pdftex.def Info: Figuras/Resultats/Puissance_Active_et_Reactive_de_la_C
 harge_C2_29_MT.pdf used on input line 58.
 (pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
 
-<Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf, id=682, 227.85126pt x 22
+<Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf, id=684, 227.85126pt x 22
 7.85126pt>
 File: Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf Graphic file (type p
 df)
@@ -1932,7 +1929,7 @@ Overfull \hbox (11.77147pt too wide) in paragraph at lines 52--74
 [20 <./Figuras/Resultats/Puissance_Active_et_Reactive_de_la_Charge_C2_29_MT.pdf
 > <./Figuras/Resultats/Tension_des_Bus_N21_N23_et_N29.pdf>] [21]
 <Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD
-6_a0_4".pdf, id=720, 227.85126pt x 227.85126pt>
+6_a0_4".pdf, id=722, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_
 et_GD6_a0_4".pdf Graphic file (type pdf)
 
@@ -1943,7 +1940,7 @@ Tension_de_GD4_GD5_et_GD6_a0_4".pdf used on input line 120.
 (pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
 
 <Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD
-6_a0_5".pdf, id=721, 227.85126pt x 227.85126pt>
+6_a0_5".pdf, id=723, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_
 et_GD6_a0_5".pdf Graphic file (type pdf)
 
@@ -1954,7 +1951,7 @@ Tension_de_GD4_GD5_et_GD6_a0_5".pdf used on input line 130.
 (pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
 
 <Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_et_GD
-6_a0_6".pdf, id=722, 227.85126pt x 227.85126pt>
+6_a0_6".pdf, id=724, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/sans_perturbation/Tension_de_GD4_GD5_
 et_GD6_a0_6".pdf Graphic file (type pdf)
 
@@ -1968,7 +1965,7 @@ _et_GD6_a0_4.pdf> <./Figuras/Resultats/discrete_control/sans_perturbation/Tensi
 on_de_GD4_GD5_et_GD6_a0_5.pdf> <./Figuras/Resultats/discrete_control/sans_pertu
 rbation/Tension_de_GD4_GD5_et_GD6_a0_6.pdf>]
 <Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
-_de_GD4_P=50_a=0_4".pdf, id=763, 227.85126pt x 227.85126pt>
+_de_GD4_P=50_a=0_4".pdf, id=765, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
 nsion_de_GD4_P=50_a=0_4".pdf Graphic file (type pdf)
 
@@ -1979,7 +1976,7 @@ puissance_charge/Tension_de_GD4_P=50_a=0_4".pdf used on input line 174.
 (pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
 
 <Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
-_de_GD4_P=50_a=0_5".pdf, id=764, 227.85126pt x 227.85126pt>
+_de_GD4_P=50_a=0_5".pdf, id=766, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
 nsion_de_GD4_P=50_a=0_5".pdf Graphic file (type pdf)
 
@@ -1990,7 +1987,7 @@ puissance_charge/Tension_de_GD4_P=50_a=0_5".pdf used on input line 184.
 (pdftex.def)             Requested size: 197.99815pt x 198.00299pt.
 
 <Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
-_de_GD4_P=50_a=0_6".pdf, id=765, 227.85126pt x 227.85126pt>
+_de_GD4_P=50_a=0_6".pdf, id=767, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
 nsion_de_GD4_P=50_a=0_6".pdf Graphic file (type pdf)
 
@@ -2008,7 +2005,7 @@ bation/puissance_charge/Tension_de_GD4_P=50_a=0_5.pdf> <./Figuras/Resultats/dis
 crete_control/avec_perturbation/puissance_charge/Tension_de_GD4_P=50_a=0_6.pdf>
 ]
 <Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
-_de_GD4_Q=50_a=0_4".pdf, id=782, 227.85126pt x 227.85126pt>
+_de_GD4_Q=50_a=0_4".pdf, id=784, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
 nsion_de_GD4_Q=50_a=0_4".pdf Graphic file (type pdf)
 
@@ -2019,7 +2016,7 @@ puissance_charge/Tension_de_GD4_Q=50_a=0_4".pdf used on input line 208.
 (pdftex.def)             Requested size: 189.65971pt x 189.66232pt.
 
 <Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
-_de_GD4_Q=50_a=0_5".pdf, id=783, 227.85126pt x 227.85126pt>
+_de_GD4_Q=50_a=0_5".pdf, id=785, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
 nsion_de_GD4_Q=50_a=0_5".pdf Graphic file (type pdf)
 
@@ -2030,7 +2027,7 @@ puissance_charge/Tension_de_GD4_Q=50_a=0_5".pdf used on input line 218.
 (pdftex.def)             Requested size: 189.65971pt x 189.66232pt.
 
 <Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Tension
-_de_GD4_Q=50_a=0_6".pdf, id=784, 227.85126pt x 227.85126pt>
+_de_GD4_Q=50_a=0_6".pdf, id=786, 227.85126pt x 227.85126pt>
 File: Figuras/"Resultats/discrete_control/avec_perturbation/puissance_charge/Te
 nsion_de_GD4_Q=50_a=0_6".pdf Graphic file (type pdf)
 
@@ -2097,46 +2094,47 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 30353 strings out of 493333
- 562645 string characters out of 3139194
- 711187 words of memory out of 3000000
- 32967 multiletter control sequences out of 15000+200000
- 27094 words of font info for 74 fonts, out of 3000000 for 9000
+ 30355 strings out of 493333
+ 562667 string characters out of 3139194
+ 711165 words of memory out of 3000000
+ 32968 multiletter control sequences out of 15000+200000
+ 27780 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,14n,80p,1997b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,14n,80p,1997b,645s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{cite.cosson\\penalty\040\\@M\040\040:tel-01374469
 } has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
 rm0500.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ectt1200.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecti1200.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\racca\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\racca\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\racca\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\User
-s\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+\dpi600\ecti1000.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ectt1200.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\racca\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\racca\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\racca\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\User
+s\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
 > <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-ccc1440.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/symbols/msam10.pfb>
-Output written on rapport_stage.pdf (29 pages, 1647234 bytes).
+crm1200.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\eccc1440.pk> <C:\Users\racca\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecbx2074.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on rapport_stage.pdf (29 pages, 1650895 bytes).
 PDF statistics:
- 1450 PDF objects out of 1728 (max. 8388607)
+ 1462 PDF objects out of 1728 (max. 8388607)
  210 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 

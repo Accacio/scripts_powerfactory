@@ -1,6 +1,6 @@
 \mysection{Résultats}
 \mysubsection{Scripts}
-En dessous les résultats provenus des scripts crées dans la troisième partie du projet et après une bref discussion. 
+Ci-dessous les résultats issus des scripts crées dans la troisième partie du projet suivis d'une bref discussion. 
 
 \begin{itemize}
 \item $\mathbf{gain\_calc-generator2bus}$\\
@@ -76,7 +76,7 @@ En dessous les résultats provenus des scripts crées dans la troisième partie 
 \begin{sidewaysfigure}
 	\begin{table}[H]\tiny
 		\captionsetup{justification=centering,margin=2cm}
-		\caption{Matrice des Gain entre Puissance Réactive des charges et la tension des Bus ( Valeurs numériques )}
+		\caption{Matrice des Gain entre Puissance Réactive des charges et la tension des Bus}
 		\label{tab:matrice_gain_load2bus}
 		\centering
 		\resizebox{\textwidth}{!}{\begin{tabular}{ccccccccccccccccc}
@@ -103,14 +103,14 @@ En dessous les résultats provenus des scripts crées dans la troisième partie 
 	
 \end{sidewaysfigure}
 \vspace{2em}
-On peut voir a partir de ces données que le réseau est caractérisée pour les équations démontrés en \cite{cosson:tel-01374469}, la tension du bus a un gain positif par rapport a puissance réactive du générateur, correspondant au qu'on espère pour la bonne réponse du régulateur.
+On peut voir a partir de ces données que le réseau est caractérisée pour les équations démontrés en \cite{cosson:tel-01374469}, la tension du bus a un gain positif par rapport à puissance réactive du générateur,  dû à l'injection de puissance et un gain négatif par rapport a puissance réactive des charges, dû à la consommation de puissance réactive. La variation de signal indique la production/consommation de puissance réactive.
 \newpage
 \mysubsection{Simulations avec le régulateur}
 Comme les réponses étaient les mêmes entre les modèles Powerfactory,\\ Powerfactory$ \leftrightarrows $MATLAB et Powerfactory$ \leftrightarrows $MATLAB$ \leftrightarrows $Simulink, on a choisi d'afficher les résultats du modèle Powerfactory$ \leftrightarrows $MATLAB, afin d'avoir encore la communication entre les deux logiciels.
 
  Ici se présentent les réponses des simulations et après une bref discussion sur les résultats.
  
- Les premiers tests étaient pendant une intervalle de $ 50s $ et sans perturbations juste pour voir se le système reste avec sa tension dedans la zone permise, ça veut dire entre $ \pm 5\% $ du valeur de tension nominal, $ 20kV $, donc l'intervalle est entre $ 19kV $ et $ 21kV $. Et on varie le paramètre $ a $ fu filtre a fin de voir la différence qu'il pose au système.
+ Les premiers tests étaient pendant un intervalle de $ 50s $ et sans perturbations juste pour voir se le système reste avec sa tension dans la zone permise, ça veut dire entre $ \pm 5\% $ du valeur de tension nominal, $ 20kV $, donc l'intervalle est entre $ 19kV $ et $ 21kV $. Et on varie le paramètre $ a $ du filtre a fin de voir la différence induite sur le système.
  
  \vspace{2em}
  \begin{minipage}{.475\textwidth}
@@ -142,9 +142,9 @@ Comme les réponses étaient les mêmes entre les modèles Powerfactory,\\ Power
  	\end{center}
  \end{figure}
 \newpage
-On peut voir que le régulateur fonctionne, parce que les valeurs de tension reste dans l'intervalle proposé, et on peut percevoir que quand le paramètre $ a $ est plus proche de $ 0 $ le comportement du système commence a être oscillatoire.
+On peut voir que le régulateur fonctionne, parce que les valeurs de tension restent dans l'intervalle proposé, et on peut percevoir que quand le paramètre $ a $ est plus proche de $ 0 $ le comportement du système commence a être oscillatoire.
 
-Après ces tests, deux autres tests ont été faits, les deux avec perturbations a une charge (C2-29), le premier avec un échelon de puissance réactive et le seconde avec un échelon de puissance active. Les deux les augmentent en $ 50\% $. Comme les réponses des trois générateurs sont semblables, juste les réponses d'un générateur sont montrés dans les figures suivantes a fin de faciliter la visualisation.
+Après ces tests, deux autres tests ont été faits, les deux avec perturbations a une charge (C2-29), le premier avec un échelon de puissance réactive et le seconde avec un échelon de puissance active. Les deux augmentent en $ 50\% $. Comme les réponses des trois générateurs sont semblables, juste les réponses d'un générateur sont montrées dans les figures suivantes afin de faciliter la visualisation.
 
 %\begin{minipage}{.475\textwidth}
 %	\begin{figure}[H]
@@ -230,7 +230,7 @@ Pour le perturbation de puissance réactive:
 	\end{center}
 \end{figure}
 
-On peut voir que le même comportement. Quand $ a $ est plus proche de 0 la réponse commence a avoir oscillations. Mais même ainsi la tension reste dans l'intervalle, utilisant ces valeurs de $ a $ .
+On peut voir, le même comportement. Quand $ a $ est plus proche de 0 la réponse commence à avoir oscillations. Mais même ainsi la tension reste dans l'intervalle, pour ces valeurs de $ a $ .
  														
  														
  

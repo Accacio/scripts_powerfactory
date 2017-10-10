@@ -1,12 +1,12 @@
 \mysection{Méthodologie}
-Cette section a comme but expliquer les méthodes utilisées pour faire chaque tâche des parties 2 a 4 du travail, décrits dans les sections \ref{Deuxième Partie - Mise en Main} a \ref{Quatrième Partie - Intégration}.
+Cette section a pour but d'expliquer les méthodes utilisées pour faire chaque tâche des parties 2 a 4 du travail, décrits dans les sections \ref{Deuxième Partie - Mise en Main} à \ref{Quatrième Partie - Intégration}.
 
 \newcommand{\powerfactory}{DIgSILENT PowerFactory}
 \mysubsection{Deuxième Partie - Mise en Main}
-Comme dit, le logiciel \powerfactory a été utilisé pour faire des simulations du réseau, donc une petit explication du réseau e du logiciel sera fait dans cette section.
+Comme dit, le logiciel \powerfactory\ a été utilisé pour faire des simulations du réseau, donc une petite démonstration du logiciel ainsi et une bref description du réseau seront faites dans cette section.
 
 \mysubsubsection{À propos du \powerfactory}
-Le \powerfactory est un logiciel beaucoup utilisé dans le métier d'Énergie, par entreprises comme \gls{EDF}, \gls{Enedis} pour faire des simulations des réseau électriques, que les permettent de vérifier stabilité en cas de panne et surcharge ou sous-charge de parties du réseau, calculer coûts d'opération et même programmer autres changements futur du réseau. Quelques autres instituts comme L'\gls{IETR} et \gls{Polimi}, par exemple l'utilise pour ses thèmes des thèses et autres recherches.   
+Le \powerfactory\ est un logiciel beaucoup utilisé dans le métier d'Énergie, par entreprises comme \gls{EDF}, \gls{Enedis} pour faire des simulations des réseaux électriques. En particulier, ces simulations permettent de vérifier la stabilité en cas de panne et surcharge ou sous-charge de parties du réseau, de calculer les coûts d'opération et même de programmer autres changements futur du réseau. Quelques autres instituts comme L'\gls{IETR} et \gls{Polimi}, par exemple l'utilisent pour leurs thèmes des thèses et autres recherches.   
 
 \begin{figure}[H]
 	\begin{center}	
@@ -20,7 +20,7 @@ Le \powerfactory est un logiciel beaucoup utilisé dans le métier d'Énergie, p
 En peut voir dans la figure \ref{fig:gui_powerfactory} quelques panneaux basiques importants du \gls{GUI} du \powerfactory
 
 \begin{enumerate}[I]
-	\item Panneau Graphique\\ Où les diagrammes sont affichés, tant réseaux quant graphiques.
+	\item Panneau Graphique\\ Où les diagrammes sont affichés, tant réseaux que graphiques.
 	\item Panneau des Outil\\ Où sont concentrés les outils du programme, pour modifier l'affichage, donnant une couleur différente par chaque bus par exemple; faire des diverses types de simulation,  de Court-circuit, calculs de flux de charge simulation \gls{RMS} et \gls{EMT}, etc.
 	\item Panneau de Dessin\\ Outils pour dessiner des éléments du réseau, comme bus, transformateur, charge etc
 	\item Panneau de Sortie\\ Où sont montrés les résultats des calculs et simulations, les avertissement et les erreurs.
@@ -35,12 +35,12 @@ En peut voir dans la figure \ref{fig:gui_powerfactory} quelques panneaux basique
 \newcommand{\cablei}{ARG7H1RX 185mmq}
 \newcommand{\cableii}{ARG7H1RX 70mmq}
 \newcommand{\cableiii}{Aerea Cu 70mmq}
-Comme était dit, la figure \ref{fig:Diagramme_du_reseaux} démontre le réseau utilisé. Si on compare avec le réseaux utilisé en \cite{cosson:tel-01374469} et \cite{mariani2013controllo}, il est possible de voir que le réseaux de la figure  \ref{fig:Diagramme_du_reseaux} représente juste la moitié du original. Cette choix de prendre une partie du réseaux a comme raison la diminution des éléments et conséquemment la complexité des résolutions des simulations.
+Comme était dit, la figure \ref{fig:Diagramme_du_reseaux} démontre le réseau utilisé. Si on compare avec le réseaux utilisé en \cite{cosson:tel-01374469} et \cite{mariani2013controllo}, il est possible de voir que le réseaux de la figure  \ref{fig:Diagramme_du_reseaux} représente juste la moitié de l'original. Ce choix de prendre une partie du réseaux a comme raison la diminution des éléments et conséquemment la complexité des résolutions des simulations.
 
-Le réseau est formé pour 16 charges et 3 générateurs distribués, 12 transformateurs.
-Dans le réseau original deux des trois générateurs étaient des machines synchrones mais elles ont été remplacé par des panneaux photovoltaïque, a fin de faire les réponses des tests plus vite, en vue de la dynamique des panneaux considérablement plus vite que des machines synchrones, qui dépendent des constants électromécanique. 
+Le réseau est formé de 16 charges, 3 générateurs distribués et 12 transformateurs.
+Dans le réseau original deux des trois générateurs étaient des machines synchrones mais elles ont été remplacées par des panneaux photovoltaïques, afin de faire les réponses des tests plus vite, en vue de la dynamique des panneaux considérablement plus vite que des machines synchrones, qui dépendent des constantes électromécaniques. 
 
-A fin de faire une meilleur description du réseaux les tableaux \ref{tab:generateurs_du_reseaux} à \ref{tab:Charges} ont les caractéristiques des éléments qui la composent.
+Afin de faire une meilleur description du réseau les tableaux \ref{tab:generateurs_du_reseaux} à \ref{tab:Charges} reprennent les caractéristiques des éléments qui le composent.
 
 \hspace{-1.7cm}
 \begin{minipage}{.5\textwidth}
@@ -195,18 +195,18 @@ A fin de faire une meilleur description du réseaux les tableaux \ref{tab:genera
 
 \mysubsection{Troisième Partie - Programmation}
 
-Pendant ce partie diverses scripts ont été crées en utilisant les langages MATLAB et Python, en intégration des bibliothèques Python du \powerfactory, qui pourvoit quelques fonctions pour accéder aux éléments du réseau, changer ses caractéristiques et faire des mesures de courant, tension etc.
+Pendant cette partie, diverses \textit{scripts} ont été créés en utilisant les langages MATLAB et Python, en intégration des bibliothèques Python du \powerfactory, qui fournissent quelques fonctions pour accéder aux éléments du réseau, changer ses caractéristiques et faire des mesures de courant, tension etc.
 
-%Dans cette section chaque script est décrit par son fonctionnement, pour une description minutieuse, les codes sont présents dans l'appendice \ref{Programmes}. En ayant en tête que toutes fichiers utilisés sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
-Dans cette section chaque script est décrit par son fonctionnement, pour une description minutieuse, les codes sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
+%Dans cette section chaque \textit{script} est décrit par son fonctionnement, pour une description minutieuse, les codes sont présents dans l'appendice \ref{Programmes}. En ayant en tête que toutes fichiers utilisés sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
+Dans cette section chaque \textit{script} est décrit par son fonctionnement, pour une description minutieuse, les codes sont disponibles dans le site \url{https://github.com/Accacio/scripts_powerfactory}.
 
 
 \begin{enumerate}[\bfseries 4.3.1]
 	\item $\mathbf{gain\_calc-load2bus.py}$\\
-	\\Ce script change les valeurs de puissance réactive demandé par les charges pendant un intervalle de temps et prend les valeurs de tension du bus auquel la charge est connecté pendant ce temps et calcule le gain entre chaque charge et bus, formant une matrice de dimension $ 16\times16 $, avec le format suivant:
+	\\Ce \textit{script} change les valeurs de puissance réactive demandé par les charges pendant un intervalle de temps et prend les valeurs de tension du bus auquel la charge est connecté pendant ce temps et calcule le gain entre chaque charge et bus, formant une matrice de dimension $ 16\times16 $, avec le format suivant:
 	\\	\begin{table}[H]\tiny
 		\captionsetup{justification=centering,margin=0cm}
-		\caption{Matrice des Gain de sortie du script $gain\_calc-load2bus.py$.}
+		\caption{Matrice des Gain de sortie du \textit{script} $gain\_calc-load2bus.py$.}
 		\centering
 		\resizebox{\textwidth}{!}{\begin{tabular}{cccccc}
 				$\frac{V_{N01}}{Q_{C 2-19}}$& $\frac{V_{N02}}{Q_{C 2-19}}$& $\frac{V_{N19}}{Q_{C 2-19}}$& $\frac{V_{N20}}{Q_{C 2-19}}$&$ \cdots $&$\frac{V_{N32}}{Q_{C 2-19}}$\\
@@ -248,7 +248,7 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 	Où \gls{Vnxx}  et \gls{Qcxx} sont la tension du bus $ Nxx $ e la puissance réactive de la charge $ Cx-xx $.
 	
 	\item $\mathbf{gain\_calc-generator2bus-test\_1.py}$\\
-	\\Ce Script change les valeurs de puissance réactive des générateurs pendant un intervalle de temps e prends les valeurs de tension du bus auquel le générateur est connecté pendant ce temps et calcule le gain entre chaque générateur et bus, formant une matrice de dimension $ 3\times3 $. L'allure de la courbe utilisé peut être vu dans la figure \ref{fig:gaincalcgenerator2bustest1}. Le format de la matric est montré dans le tableau \ref{tab:gaincalcgenerator2bustest1}.
+	\\Ce \textit{script} change les valeurs de puissance réactive des générateurs pendant un intervalle de temps et prend les valeurs de tension du bus auquel le générateur est connecté pendant ce temps et calcule le gain entre chaque générateur et bus, formant une matrice de dimension $ 3\times3 $. L'allure de la courbe utilisé peut être vu dans la figure \ref{fig:gaincalcgenerator2bustest1}. Le format de la matrice est montré dans le tableau \ref{tab:gaincalcgenerator2bustest1}.
 	\begin{figure}[H]
 		\begin{center}	
 			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_1.pdf}
@@ -258,7 +258,7 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 	\end{figure}
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=2cm}
-	\caption{Matrice des Gain de sortie du script $gain\_calc-generator2bus-test\_1.py$.}
+	\caption{Matrice des Gain de sortie du \textit{script} $gain\_calc-generator2bus-test\_1.py$.}
 	\label{tab:gaincalcgenerator2bustest1}
 	\centering
 	\begin{tabular}{ccc}
@@ -272,7 +272,7 @@ Dans cette section chaque script est décrit par son fonctionnement, pour une de
 Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 
 	\item $\mathbf{gain\_calc-generator2bus-test\_2.py}$\\
-	\\Fondamentalement le même que $gain\_calc-generator2bus-test\_1.py$, mais la courbe de changement de puissance suivre l'allure de la figure \ref{fig:gaincalcgenerator2bustest2}. Le format de la matrice est le même montré dans le tableau \ref{tab:gaincalcgenerator2bustest1}.
+	\\Fondamentalement le même que $gain\_calc-generator2bus-test\_1.py$, mais la courbe de changement de puissance suit l'allure de la figure \ref{fig:gaincalcgenerator2bustest2}. Le format de la matrice est le même montré dans le tableau \ref{tab:gaincalcgenerator2bustest1}.
 	\begin{figure}[H]
 		\begin{center}	
 			\includegraphics[width=8cm]{Methodologie/partie_3/gain_calc-generator2bus-test_2.pdf}
@@ -281,7 +281,7 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 		\end{center}
 	\end{figure}\pagebreak
 	\item $\mathbf{import\_generator\_csv.py}$\\
-	\\Ce script prend des fichiers \gls{CSV} qui a données de puissance nominal, active et réactive des générateurs, et les charge en chaque générateur.
+	\\Ce \textit{script} prend des fichiers \gls{CSV} qui a données de puissance nominal, active et réactive des générateurs, et les charge en chaque générateur.
 	\begin{figure}[H]
 		\begin{center}	
 			\includegraphics[width=8cm]{Methodologie/partie_3/csv_sample.JPG}
@@ -289,19 +289,19 @@ Où \gls{Qgdx} est la puissance réactive du générateur $ GDx $.
 			\label{fig:csv_sample}
 		\end{center}
 	\end{figure}
-	La choix d'utiliser fichiers \gls{CSV} a été fait en raison de ce type de fichier est texte sans brut sans formatage, sa taille est très réduite. Et ce type de fichier est très simple pour faire des modifications et création a partir d'un tableau \verb|.xls|, ainsi que la conversion entre ces deux extensions.  
+	La choix d'utiliser fichiers \gls{CSV} a été fait car ce type de fichier est du texte brut sans formatage, sa taille est très réduite. Et ce type de fichier est très simple pour faire des modifications et création a partir d'un tableau \verb|.xls|, ainsi que la conversion entre ces deux extensions.  
 	\\
 	\item $\mathbf{import\_load\_csv.py}$\\
-	\\Ce script prend des fichiers \gls{CSV} qui a données de puissance active et réactive des charges, et les charge en chaque respective charge.
+	\\Ce \textit{script} prend des fichiers \gls{CSV} qui a données de puissance active et réactive des charges, et les charge en chaque respective charge.
 	\\
 	\item $\mathbf{csv2mat.m}$\\
-	\\Ce script fait en MATLAB prend un fichier \gls{CSV} sorti d'une simulation du \powerfactory et le transforme en un fichier .mat. Il crée une structure composés par autres structures qui sont les éléments du circuit et composées par ses données  pendant le temps, a fin de les utiliser pour faire des graphiques.
+	\\Ce \textit{script} fait en MATLAB prend un fichier \gls{CSV} sorti d'une simulation du \powerfactory et le transforme en un fichier .mat. Il crée une structure composé par d'autres structures qui sont les éléments du circuit et composées par ses données  pendant le temps, afin de les utiliser pour faire des graphiques.
 	\\
 	\item $\mathbf{printpdf.m}$\\
-	\\Ce script a été créé pour faire les plots des graphiques et les sauvegarder en fichier \verb|.pdf| pour un futur use dans les rapports (ce rapport par exemple). 
+	\\Ce \textit{script} a été créé pour faire les plots des graphiques et les sauvegarder en fichier \verb|.pdf| pour une utilisation future dans les rapports (ce rapport par exemple). 
 	\\\pagebreak
 	\item $\mathbf{teste\_simul.py}$\\
-	\\Ce script crée un événement des changement de valeur de puissance active de la charge C 2-29 MT ind en augmentant sa valeur en 100\% par un période de temps et après prend les valeurs de puissance active et réactive des cette même charge et la tension des bus N21 N23 et N29 ( où les générateurs sont connectés ) pendant le temps de la simulation et en exportant en un fichier $ \verb|.csv| $.
+	\\Ce \textit{script} crée un événement de changement de valeur de puissance active de la charge C 2-29 MT ind en augmentant sa valeur de 100\% pour une période de temps et après prend les valeurs de puissance active et réactive de cette même charge et la tension des bus N21 N23 et N29 ( où les générateurs sont connectés ) pendant le temps de la simulation et en exportant en un fichier $ \verb|.csv| $.
 	\\ 
 \end{enumerate}
 
@@ -315,10 +315,10 @@ Le but de cette partie était reproduire les simulations du réseau (figure \ref
 	\label{fig:regulateur}
 \end{figure}
 
-Les valeurs utilisés pour la loi de commande sont dans le tableau suivante:
+Les valeurs utilisées pour la loi de commande sont dans le tableau suivant:
 \begin{table}[H]
 	\captionsetup{justification=centering,margin=0cm}
-\caption{Matrice des Gain de sortie du script}
+\caption{Paramètres de la loi de commande.}
 \centering
 \label{tab:valeurs_loicommande}
 \begin{tabular}{|c|c|}
@@ -337,26 +337,26 @@ $ U_4 $&21 $kV$\\
 	\hline
 $ U_M $&21 $kV$\\
 	\hline
-$ Q_m $&-0,4 $ P_max $\\
+$ Q_m $&-0,4 $ P_{max} $\\
 	\hline
-$ Q_M $&0,4 $ P_max $\\
+$ Q_M $&0,4 $ P_{max} $\\
 	\hline
 \end{tabular}
 \end{table}
 
 
-Pour construire le modèle du régulateur dans le \powerfactory, il y a deux façons, faire toute la construction dedans PowerFactory en usilisant sa langage propriétaire de description des systèmes, \gls{DSL},  ou faire une intégration avec MATLAB et utiliser les outils des \textit{ToolBox} déjà créés.
+Pour construire le modèle du régulateur dans le \powerfactory, il y a deux façons, faire toute la construction dans PowerFactory en usilisant son langage propriétaire de description des systèmes, \gls{DSL},  ou faire une intégration avec MATLAB et utiliser les outils des \textit{ToolBox} déjà créés.
 
-A fin de faire l'intégration entre MATLAB et \powerfactory, au minimum deux choses sont nécessaires :
+Afin de faire l'intégration entre MATLAB et \powerfactory, au minimum deux choses sont nécessaires :
 \begin{enumerate}
-	\item Un Bloc générique défini au PowerFactory qui fait l'appel a un fichier \verb|.m|
+	\item Un Bloc générique défini dans PowerFactory qui fait l'appel a un fichier \verb|.m|
 	\item Un fichier \verb|.m| qui décrit le fonctionnement du bloc
 	
 \end{enumerate}
 
-Comme ont voulait faire un régulateur dans le Simulink, un autre fichier, \verb|.mdl|, était nécessaire. Ce fichier est appelé par le fichier \verb|.m| et le donne les sorties de simulation.
+Comme ont voulait faire un régulateur dans le Simulink, un autre fichier, \verb|.mdl|, était nécessaire. Ce fichier est appelé par le fichier \verb|.m| et donne les sorties de simulation.
 
-La période d'échantillonnage du filtre númerique est de $ 1s $ et le pas de la simulation au PowerFactory est de $ 10ms $. Comme une façon de régler la fréquence d'appel au MATLAB n'était pas trouvé, la solution plus simple était l'implémentation du filtre dehors le MATLAB, donc un échantillonneur e le propre filtre ont était construits dans l'interface du PowerFactory, comme un peut voir dans les figures \ref{fig:DIgSILENT_Matlab_AVR_frame} a \ref{fig:DIgSILENT_Matlab_AVR_frame_matlab} et dans le simulink la loi de commande \ref{fig:simulink}.
+La période d'échantillonnage du filtre númerique est de $ 1s $ et le pas de la simulation au PowerFactory est de $ 10ms $. Comme une façon de régler la fréquence d'appel au MATLAB n'a pas été trouvée, la solution la plus simple était l'implémentation du filtre en dehors de MATLAB, donc un échantillonneur et le filtre ont était construits dans l'interface du PowerFactory, comme un peut voir dans les figures \ref{fig:DIgSILENT_Matlab_AVR_frame} a \ref{fig:DIgSILENT_Matlab_AVR_frame_matlab} et dans le simulink la loi de commande \ref{fig:simulink}.
 
 \begin{minipage}{\textwidth}
 	\centering
@@ -402,7 +402,7 @@ La période d'échantillonnage du filtre númerique est de $ 1s $ et le pas de l
 \end{minipage}
 \end{minipage}
 
-Le diagramme du modèle est dans la figure \ref{fig:DIgSILENT_Matlab_AVR_frame_withoutmatlab}, et comme on peut voir, c'est  essentiellement la même chose, le code dedans le bloc générique qui a été changé. 
+Le diagramme du modèle sans interaction avec MATLAB et Simulink est dans la figure \ref{fig:DIgSILENT_Matlab_AVR_frame_withoutmatlab}, et comme on peut voir, c'est  essentiellement la même chose, le code dedans le bloc générique qui a été changé.
 
 %Les codes utilisés pour les modèles pourront être trouvé dans \todo{APENDICE DE CODIGO}
 
@@ -415,7 +415,7 @@ Le diagramme du modèle est dans la figure \ref{fig:DIgSILENT_Matlab_AVR_frame_w
 \end{figure}
 
 \mysubsubsection{À propos des temps de simulation}
-Après faites toutes connexions et quelques tests avec le régulateur, ont a vu qu'une simulation de $ 50s $ a duré approximativement $ 5min $. Donc deux autres modèles ont été créés a fin de comparaison. Un avec toute le régulateur dans le PowerFactory et un autre avec la loi de commande fait dans le MATLAB ( le seule changement était le code \verb|.m|). Avec ces deux modèles une simulation de $50s$ a duré approximativement $ 50s $.
+Après faites toutes connexions et quelques tests avec le régulateur, ont a vu qu'une simulation de $ 50s $ a duré approximativement $ 5$ $min $ si on utilise le MATLAB. Donc deux autres modèles ont été créés a fin de comparaison. Un avec tout le régulateur dans le PowerFactory et un autre avec la loi de commande fait dans le MATLAB ( le seule changement était le code \verb|.m|). Avec ces deux modèles une simulation de $50s$ a duré approximativement $ 50s $.
 On peut voir dans le tableau \ref{tab:comparaisontempssimul} la comparaison entre les temps de simulation:
 
 \begin{table}[H]
@@ -431,7 +431,7 @@ On peut voir dans le tableau \ref{tab:comparaisontempssimul} la comparaison entr
 		Powerfactory$ \leftrightarrows $MATLAB$ \leftrightarrows $Simulink&57&140\\
 	\end{tabular}
 \end{table}
-On peut vérifier que il ne vaut pas la peine utiliser le Simulink pour faire ce genre de simulation cas il soit appelé  a chaque $ 0.01s $. Nouveaux tests doivent être faits a fin de confirmer si même faisant appels a chaque seconde si les temps se maintiennent.
+On peut vérifier que il ne vaut pas la peine utiliser le Simulink pour faire ce genre de simulation. Des nouveaux tests doivent être faits afin d'étudier la possibilité de faire appel à Matlab avec une horloge différente du pas de simulation PowerFactory.
 
 
 
