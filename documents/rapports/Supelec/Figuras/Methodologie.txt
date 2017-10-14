@@ -1,8 +1,0 @@
-\begin{figure}[H]
-	\begin{center}	
-		\includegraphics[width=8cm]{"C:/Users/nogueira_raf/Documents/GitHub/scripts_powerfactory/documents/rapports/Supelec/Figuras/Methodologie/DIgSILENT_Matlab_AVR_frame_matlab"}
-		\caption{\todo{escrevaaquiseucaption}}
-		\label{fig:DIgSILENT_Matlab_AVR_frame_matlab}
-	\end{center}
-\end{figure}
-

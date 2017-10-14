@@ -1,8 +1,0 @@
-\begin{figure}[H]
-	\begin{center}	
-		\includegraphics[width=8cm]{Division_du_travail/Diagramme_du_reseaux.jpg}
-		\caption{\todo{escrevaaquiseucaption}}
-		\label{fig:Diagramme_du_reseaux}
-	\end{center}
-\end{figure}
-
