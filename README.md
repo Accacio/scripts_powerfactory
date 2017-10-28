@@ -1,5 +1,7 @@
 # scripts_powerfactory
 Repository of tests in net model using DIgSILENT PowerFactory
+
+Documents moved to repository scripts_powerfactory_docs
 ## Folder Tree:
 
 
@@ -32,46 +34,6 @@ Repository of tests in net model using DIgSILENT PowerFactory
 |                   +---avec_perturbation
 |                   |   \---puissance_charge
 |                   \---sans_perturbation
-+---documents
-|   +---presentations
-|   |   +---apresentacao
-|   |   |   \---figures
-|   |   |       \---Resultats
-|   |   |           \---Cosson
-|   |   \---presentation-2016_09_13
-|   |       +---dir
-|   |       \---figures
-|   |           +---logos
-|   |           +---Methodologie
-|   |           |   +---partie_2
-|   |           |   +---partie_3
-|   |           |   \---partie_4
-|   |           \---Resultats
-|   |               +---Cosson
-|   |               \---meus_resultados
-|   \---rapports
-|       +---IETR
-|       |   \---Figuras
-|       |       \---logos
-|       +---resultats_jusq_20170828
-|       |   \---Figuras
-|       |       +---Division_du_travail
-|       |       +---logos
-|       |       \---Resultats
-|       \---Supelec
-|           +---Appendices
-|           \---Figuras
-|               +---Division_du_travail
-|               +---logos
-|               +---Methodologie
-|               |   +---partie_2
-|               |   +---partie_3
-|               |   \---partie_4
-|               \---Resultats
-|                   \---discrete_control
-|                       +---avec_perturbation
-|                       |   \---puissance_charge
-|                       \---sans_perturbation
 +---power_factory
 |   \---networks
 |       +---model_with_continous_control
@@ -92,9 +54,6 @@ Repository of tests in net model using DIgSILENT PowerFactory
 ## Contents:
 ### data:
 I/O Data of net model
-
-### documents:
-Presentations and Reports
 
 ### power_factory:
 Net models
