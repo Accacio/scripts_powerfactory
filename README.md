@@ -1,7 +1,7 @@
 # scripts_powerfactory
 Repository of tests in net model using DIgSILENT PowerFactory
 
-Documents moved to repository [scripts_powerfactory_docs](https://github.com/Accacio/scripts_powerfactory_docs)
+Documents in [scripts_powerfactory_docs](https://github.com/Accacio/scripts_powerfactory/tree/docs)
 ## Folder Tree:
 
 
